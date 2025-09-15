@@ -1,0 +1,64 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/measure-report-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MeasureReportStatus",
+      "title" : "MeasureReportStatus",
+      "description" : "The status of the measure report.",
+      "oids" : ["2.16.840.1.113883.4.642.4.777"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-measure-report-status.html" : "MeasureReportStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/measure-report-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MeasureReportType",
+      "title" : "MeasureReportType",
+      "description" : "The type of the measure report.",
+      "oids" : ["2.16.840.1.113883.4.642.4.779"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-measure-report-type.html" : "MeasureReportType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "MeasureImprovementNotation",
+      "title" : "MeasureImprovementNotation",
+      "description" : "Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1395"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-measure-improvement-notation.html" : "MeasureImprovementNotation"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/measure-population",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "MeasurePopulationType",
+      "title" : "Measure Population Type",
+      "description" : "The type of population.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1231"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-measure-population.html" : "MeasurePopulationType"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    }
+  ]
+}

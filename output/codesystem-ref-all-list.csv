@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/measure-report-status,4.0.1,draft,"2.16.840.1.113883.4.642.4.777",MeasureReportStatus,MeasureReportStatus,"The status of the measure report.","ValueSet/measure-report-status"
+http://hl7.org/fhir/measure-report-type,4.0.1,draft,"2.16.840.1.113883.4.642.4.779",MeasureReportType,MeasureReportType,"The type of the measure report.","ValueSet/measure-report-type"
+http://terminology.hl7.org/CodeSystem/measure-improvement-notation,1.0.1,active,"2.16.840.1.113883.4.642.1.1395",MeasureImprovementNotation,MeasureImprovementNotation,"Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.","ValueSet/measure-improvement-notation"
+http://terminology.hl7.org/CodeSystem/measure-population,2.0.0,active,"2.16.840.1.113883.4.642.1.1231",MeasurePopulationType,Measure Population Type,"The type of population.","ValueSet/measure-population"
+urn:ietf:bcp:47,2.0.1,active,"2.16.840.1.113883.6.121",Ietf3066,Tags for the Identification of Languages,"Older value from OID registry.  Superceded; see recommendations in BCP-47.","ValueSet/languages"

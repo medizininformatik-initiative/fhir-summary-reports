@@ -1,0 +1,7 @@
+Output File                                                      Name                                    Type        FSH File                                               Lines
+CodeSystem-summary-report-codes.json                             SummaryReportCodes                      CodeSystem  summary-report-codesystem.fsh                          1 - 9
+CodeSystem-summary-report-group-codes.json                       SummaryReportGroupCodes                 CodeSystem  measure-report-R4.fsh                                  40 - 46
+MeasureReport-summary-report-measure-example.json                summary-report-measure-example          Instance    measure-report-R4.fsh                                  61 - 105
+StructureDefinition-SummaryReportMeasure.json                    SummaryReportMeasure                    Profile     measure-report-R4.fsh                                  1 - 31
+StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.json  ext_R5_MeasureReport_gr_st_st_co_value  Extension   extensions/ext_R5_MeasureReport_gr_st_st_co_value.fsh  4 - 42
+StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.json     ext_R5_MeasureReport_gr_st_st_value     Extension   extensions/ext_R5_MeasureReport_gr_st_st_value.fsh     4 - 42

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="summary-report-group-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem summary-report-group-codes</b></p><a name="summary-report-group-codes"> </a><a name="hcsummary-report-group-codes"> </a><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">nominalVerteilung<a name="summary-report-group-codes-nominalVerteilung"> </a></td></tr><tr><td style="white-space:nowrap">categorialVerteilung<a name="summary-report-group-codes-categorialVerteilung"> </a></td></tr><tr><td style="white-space:nowrap">outlier<a name="summary-report-group-codes-outlier"> </a></td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes"/>
+  <version value="0.1.0"/>
+  <name value="SummaryReportGroupCodes"/>
+  <title value="Summary Report Group Codes"/>
+  <status value="draft"/>
+  <date value="2025-09-05T12:50:49+02:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Codes used in summary report groups"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="nominalVerteilung"/>
+  </concept>
+  <concept>
+    <code value="categorialVerteilung"/>
+  </concept>
+  <concept>
+    <code value="outlier"/>
+  </concept>
+</CodeSystem>

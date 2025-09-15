@@ -1,0 +1,143 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/summary-report-measure-example> a fhir:MeasureReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "summary-report-measure-example"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure"^^xsd:anyURI ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MeasureReport summary-report-measure-example</b></p><a name=\"summary-report-measure-example\"> </a><a name=\"hcsummary-report-measure-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SummaryReportMeasure.html\">SummaryReportMeasure</a></p></div><p><b>status</b>: active</p><p><b>type</b>: Summary</p><p><b>measure</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.uv.extensions.r4@5.2.0&amp;canonical=http://hl7.org/fhir/extensions/\"></a></p><p><b>period</b>: 2025-01-01 --&gt; 2025-12-31</p><blockquote><p><b>group</b></p><p><b>code</b>: <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes categorialVerteilung}\">categorialVerteilung</span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">initial-population</span></td><td>100</td></tr></table><blockquote><p><b>stratifier</b></p><p><b>code</b>: <span title=\"Codes:\">gender</span></p><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title=\"Codes:{http://hl7.org/fhir/administrative-gender male}\">Male</span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td>49</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title=\"Codes:{http://hl7.org/fhir/administrative-gender female}\">Female</span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td>49</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title=\"Codes:{http://hl7.org/fhir/administrative-gender other}\">Other</span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title=\"Codes:{http://hl7.org/fhir/administrative-gender unknown}\">Unknown</span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></blockquote></blockquote></blockquote><blockquote><p><b>group</b></p><p><b>code</b>: <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes diskreteVerteilung}\">diskreteVerteilung</span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">initial-population</span></td><td>100</td></tr></table><blockquote><p><b>stratifier</b></p><p><b>code</b>: <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes altersverteilung}\">altersverteilung</span></p><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title=\"Codes:\"></span></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td>7</td></tr></table></blockquote></blockquote></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type [ fhir:v "summary"] ; # 
+  fhir:measure [ fhir:v ""^^xsd:anyURI] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2025-01-01"^^xsd:date ] ;
+     fhir:end [ fhir:v "2025-12-31"^^xsd:date ]
+  ] ; # 
+  fhir:group ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "categorialVerteilung" ]
+       ] )
+     ] ;
+     fhir:population ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:code [ fhir:v "initial-population" ]
+         ] )
+       ] ;
+       fhir:count [ fhir:v 100 ]
+     ] ) ;
+     fhir:stratifier ( [
+       fhir:code ( [
+         fhir:coding ( [
+           fhir:code [ fhir:v "gender" ]
+         ] )
+       ] ) ;
+       fhir:stratum ( [
+         fhir:value [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "male" ]
+           ] )
+         ] ;
+         fhir:population ( [
+           fhir:count [ fhir:v 49 ]
+         ] )
+       ] [
+         fhir:value [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "female" ]
+           ] )
+         ] ;
+         fhir:population ( [
+           fhir:count [ fhir:v 49 ]
+         ] )
+       ] [
+         fhir:value [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "other" ]
+           ] )
+         ] ;
+         fhir:population ( [
+           fhir:count [ fhir:v 1 ]
+         ] )
+       ] [
+         fhir:value [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://hl7.org/fhir/administrative-gender"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "unknown" ]
+           ] )
+         ] ;
+         fhir:population ( [
+           fhir:count [ fhir:v 1 ]
+         ] )
+       ] )
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "diskreteVerteilung" ]
+       ] )
+     ] ;
+     fhir:population ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:code [ fhir:v "initial-population" ]
+         ] )
+       ] ;
+       fhir:count [ fhir:v 100 ]
+     ] ) ;
+     fhir:stratifier ( [
+       fhir:code ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "altersverteilung" ]
+         ] )
+       ] ) ;
+       fhir:stratum ( [
+         fhir:value [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:Range ;
+               fhir:low [
+                 fhir:value [ fhir:v "5"^^xsd:decimal ] ;
+                 fhir:unit [ fhir:v "years" ] ;
+                 fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+                 fhir:code [ fhir:v "a" ]
+               ] ;
+               fhir:high [
+                 fhir:value [ fhir:v "18"^^xsd:decimal ] ;
+                 fhir:unit [ fhir:v "years" ] ;
+                 fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+                 fhir:code [ fhir:v "a" ]
+               ]
+             ]
+           ] )
+         ] ;
+         fhir:population ( [
+           fhir:count [ fhir:v 7 ]
+         ] )
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

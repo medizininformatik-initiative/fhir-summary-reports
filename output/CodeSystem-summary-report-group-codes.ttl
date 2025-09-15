@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "summary-report-group-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem summary-report-group-codes</b></p><a name=\"summary-report-group-codes\"> </a><a name=\"hcsummary-report-group-codes\"> </a><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">nominalVerteilung<a name=\"summary-report-group-codes-nominalVerteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">categorialVerteilung<a name=\"summary-report-group-codes-categorialVerteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">outlier<a name=\"summary-report-group-codes-outlier\"> </a></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SummaryReportGroupCodes"] ; # 
+  fhir:title [ fhir:v "Summary Report Group Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-09-05T12:50:49+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.medizininformatik-initiative.de/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes used in summary report groups"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "nominalVerteilung" ]
+  ] [
+     fhir:code [ fhir:v "categorialVerteilung" ]
+  ] [
+     fhir:code [ fhir:v "outlier" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

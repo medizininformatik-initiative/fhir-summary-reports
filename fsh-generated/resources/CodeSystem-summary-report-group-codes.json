@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "SummaryReportGroupCodes",
+  "id": "summary-report-group-codes",
+  "title": "Summary Report Group Codes",
+  "description": "Codes used in summary report groups",
+  "url": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes",
+  "concept": [
+    {
+      "code": "nominalVerteilung"
+    },
+    {
+      "code": "categorialVerteilung"
+    },
+    {
+      "code": "outlier"
+    }
+  ],
+  "count": 3
+}

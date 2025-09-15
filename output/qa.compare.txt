@@ -1,0 +1,76 @@
+SummaryReports : Validation Results
+=========================================
+
+err = 17, warn = 19, info = 17
+$--
+Generated $--. FHIR version $-- for summary-reports#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
+ Build Errors : 2 / 5 / 0
+ /Users/julian/git/SummaryReports/fsh-generated/resources/CodeSystem-summary-report-codes : 0 / 2 / 2
+ /Users/julian/git/SummaryReports/fsh-generated/resources/CodeSystem-summary-report-group-codes : 0 / 2 / 2
+ /Users/julian/git/SummaryReports/fsh-generated/resources/ImplementationGuide-summary-reports : 0 / 0 / 1
+ /Users/julian/git/SummaryReports/fsh-generated/resources/MeasureReport-summary-report-measure-example : 4 / 3 / 5
+ /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-SummaryReportMeasure : 1 / 0 / 8
+ /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value : 5 / 4 / 3
+ /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.value : 5 / 3 / 3
+</table>
+== n/a ==
+ERROR: MeasureReport.group.stratifier.stratum.value.extension: The reference http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example could not be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/summary-report-measure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/MeasureReport-summary-report-measure-example.json: Unknown MeasureReportStatus code 'active'
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-summary-report-codes.json ==
+INFORMATION: CodeSystem/summary-report-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/summary-report-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/summary-report-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-summary-report-group-codes.json ==
+INFORMATION: CodeSystem/summary-report-group-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/summary-report-group-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/summary-report-group-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-summary-reports.json ==
+== fsh-generated/resources/MeasureReport-summary-report-measure-example.json ==
+ERROR: MeasureReport/summary-report-measure-example: MeasureReport.status: The System URI could not be determined for the code 'active' in the ValueSet 'http://hl7.org/fhir/ValueSet/measure-report-status|4.0.1'
+ERROR: MeasureReport/summary-report-measure-example: MeasureReport.status: The value provided ('active') was not found in the value set 'MeasureReportStatus' (http://hl7.org/fhir/ValueSet/measure-report-status|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'active' in the ValueSet 'http://hl7.org/fhir/ValueSet/measure-report-status|4.0.1'; The provided code '#active' was not found in the value set 'http://hl7.org/fhir/ValueSet/measure-report-status|4.0.1')
+ERROR: MeasureReport/summary-report-measure-example: MeasureReport.measure: Constraint failed: ele-1: 'All FHIR elements must have a @value or children' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+ERROR: MeasureReport/summary-report-measure-example: MeasureReport.measure: value cannot be empty
+INFORMATION: MeasureReport/summary-report-measure-example: MeasureReport.group[0].code: Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+WARNING: MeasureReport/summary-report-measure-example: MeasureReport.group[0].population[0].code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: MeasureReport/summary-report-measure-example: MeasureReport.group[0].stratifier[0].code[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: MeasureReport/summary-report-measure-example: MeasureReport.group[1].code: Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+WARNING: MeasureReport/summary-report-measure-example: MeasureReport.group[1].population[0].code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: MeasureReport/summary-report-measure-example: MeasureReport.group[1].stratifier[0].code[0]: Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+INFORMATION: MeasureReport/summary-report-measure-example: MeasureReport: No Measure is identified, so no validation can be performed against the Measure
+== fsh-generated/resources/StructureDefinition-SummaryReportMeasure.json ==
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.snapshot.element[69].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+ERROR: StructureDefinition/SummaryReportMeasure: StructureDefinition.snapshot.element[94].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example'
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.snapshot.element[120].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.differential.element[12].pattern.ofType(CodeableConcept): Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes|0.1.0
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/SummaryReportMeasure: StructureDefinition.snapshot.element[18].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value'): Conformance resource /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.json - the canonical URL (https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value)
+ERROR: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition.extension[1].value.ofType(code).extension[0].value.ofType(canonical): A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver'
+ERROR: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition.snapshot.element[4].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example'
+ERROR: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition.differential.element[3].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example'
+WARNING: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition: The nominated WG 'fhir' means that the publisher should be 'HL7 International / FHIR Infrastructure' but 'Medizininformatik Initiative' was found
+WARNING: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition: The nominated WG 'fhir' means that the contact url should be 'http://www.hl7.org/Special/committees/fiwg' but it was not found
+INFORMATION: StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value: StructureDefinition.differential.element[3].binding: The element Extension.value[x] has a binding, and has multiple types subject to bindings ([boolean, Reference, Quantity, Range, CodeableConcept]). The binding will apply to all the types
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value'): The Implementation Guide contains no examples for this extension
+ERROR: /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value: URL Mismatch https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value vs http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value
+== fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value'): Conformance resource /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.json - the canonical URL (https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.st.st.value) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value)
+ERROR: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition.extension[1].value.ofType(code).extension[0].value.ofType(canonical): A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver'
+ERROR: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition.snapshot.element[4].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example'
+ERROR: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition.differential.element[3].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/measurereport-stratifier-value-example'
+WARNING: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition: The nominated WG 'fhir' means that the publisher should be 'HL7 International / FHIR Infrastructure' but 'Medizininformatik Initiative' was found
+WARNING: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition: The nominated WG 'fhir' means that the contact url should be 'http://www.hl7.org/Special/committees/fiwg' but it was not found
+INFORMATION: StructureDefinition/ext-R5-MeasureReport.gr.st.st.value: StructureDefinition.differential.element[3].binding: The element Extension.value[x] has a binding, and has multiple types subject to bindings ([boolean, Reference, Quantity, Range, CodeableConcept]). The binding will apply to all the types
+ERROR: /Users/julian/git/SummaryReports/fsh-generated/resources/StructureDefinition-ext-R5-MeasureReport.gr.st.st.value: URL Mismatch https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.st.st.value vs http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value

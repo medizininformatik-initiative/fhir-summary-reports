@@ -1,0 +1,50 @@
+[
+  {
+    "outputFile": "CodeSystem-summary-report-codes.json",
+    "fshName": "SummaryReportCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "summary-report-codesystem.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "CodeSystem-summary-report-group-codes.json",
+    "fshName": "SummaryReportGroupCodes",
+    "fshType": "CodeSystem",
+    "fshFile": "measure-report-R4.fsh",
+    "startLine": 40,
+    "endLine": 46
+  },
+  {
+    "outputFile": "MeasureReport-summary-report-measure-example.json",
+    "fshName": "summary-report-measure-example",
+    "fshType": "Instance",
+    "fshFile": "measure-report-R4.fsh",
+    "startLine": 61,
+    "endLine": 105
+  },
+  {
+    "outputFile": "StructureDefinition-SummaryReportMeasure.json",
+    "fshName": "SummaryReportMeasure",
+    "fshType": "Profile",
+    "fshFile": "measure-report-R4.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.json",
+    "fshName": "ext_R5_MeasureReport_gr_st_st_co_value",
+    "fshType": "Extension",
+    "fshFile": "extensions/ext_R5_MeasureReport_gr_st_st_co_value.fsh",
+    "startLine": 4,
+    "endLine": 42
+  },
+  {
+    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.json",
+    "fshName": "ext_R5_MeasureReport_gr_st_st_value",
+    "fshType": "Extension",
+    "fshFile": "extensions/ext_R5_MeasureReport_gr_st_st_value.fsh",
+    "startLine": 4,
+    "endLine": 42
+  }
+]
