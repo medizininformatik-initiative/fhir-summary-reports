@@ -1,0 +1,181 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "summary-report-measure-example",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure"
+    ]
+  },
+  "period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "coding": [
+              {
+                "code": "initial-population"
+              }
+            ]
+          },
+          "count": 100
+        }
+      ],
+      "stratifier": [
+        {
+          "code": [
+            {
+              "coding": [
+                {
+                  "code": "gender"
+                }
+              ]
+            }
+          ],
+          "stratum": [
+            {
+              "population": [
+                {
+                  "count": 49
+                }
+              ],
+              "value": {
+                "coding": [
+                  {
+                    "code": "male",
+                    "system": "http://hl7.org/fhir/administrative-gender"
+                  }
+                ]
+              }
+            },
+            {
+              "population": [
+                {
+                  "count": 49
+                }
+              ],
+              "value": {
+                "coding": [
+                  {
+                    "code": "female",
+                    "system": "http://hl7.org/fhir/administrative-gender"
+                  }
+                ]
+              }
+            },
+            {
+              "population": [
+                {
+                  "count": 1
+                }
+              ],
+              "value": {
+                "coding": [
+                  {
+                    "code": "other",
+                    "system": "http://hl7.org/fhir/administrative-gender"
+                  }
+                ]
+              }
+            },
+            {
+              "population": [
+                {
+                  "count": 1
+                }
+              ],
+              "value": {
+                "coding": [
+                  {
+                    "code": "unknown",
+                    "system": "http://hl7.org/fhir/administrative-gender"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "code": "categorialVerteilung",
+            "system": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"
+          }
+        ]
+      }
+    },
+    {
+      "population": [
+        {
+          "code": {
+            "coding": [
+              {
+                "code": "initial-population"
+              }
+            ]
+          },
+          "count": 100
+        }
+      ],
+      "stratifier": [
+        {
+          "code": [
+            {
+              "coding": [
+                {
+                  "code": "altersverteilung",
+                  "system": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"
+                }
+              ]
+            }
+          ],
+          "stratum": [
+            {
+              "value": {
+                "extension": [
+                  {
+                    "valueRange": {
+                      "low": {
+                        "value": 5,
+                        "unit": "years",
+                        "code": "a",
+                        "system": "http://unitsofmeasure.org"
+                      },
+                      "high": {
+                        "value": 18,
+                        "unit": "years",
+                        "code": "a",
+                        "system": "http://unitsofmeasure.org"
+                      }
+                    },
+                    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value"
+                  }
+                ]
+              },
+              "population": [
+                {
+                  "count": 7
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "code": "diskreteVerteilung",
+            "system": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "active",
+  "measure": "",
+  "type": "summary"
+}

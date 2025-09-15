@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="summary-report-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem summary-report-codes</b></p><a name="summary-report-codes"> </a><a name="hcsummary-report-codes"> </a><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">summary-report<a name="summary-report-codes-summary-report"> </a></td></tr><tr><td style="white-space:nowrap">geschlechterverteilung<a name="summary-report-codes-geschlechterverteilung"> </a></td></tr><tr><td style="white-space:nowrap">altersverteilung<a name="summary-report-codes-altersverteilung"> </a></td></tr><tr><td style="white-space:nowrap">diskreteVerteilung<a name="summary-report-codes-diskreteVerteilung"> </a></td></tr><tr><td style="white-space:nowrap">categorialVerteilung<a name="summary-report-codes-categorialVerteilung"> </a></td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes"/>
+  <version value="0.1.0"/>
+  <name value="SummaryReportCodes"/>
+  <title value="Summary Report Codes"/>
+  <status value="draft"/>
+  <date value="2025-09-05T12:50:49+02:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Codes used in summary reports"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="summary-report"/>
+  </concept>
+  <concept>
+    <code value="geschlechterverteilung"/>
+  </concept>
+  <concept>
+    <code value="altersverteilung"/>
+  </concept>
+  <concept>
+    <code value="diskreteVerteilung"/>
+  </concept>
+  <concept>
+    <code value="categorialVerteilung"/>
+  </concept>
+</CodeSystem>

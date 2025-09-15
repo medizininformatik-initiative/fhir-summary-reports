@@ -1,0 +1,97 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "summary-reports",
+  "url": "https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports",
+  "version": "0.1.0",
+  "name": "SummaryReports",
+  "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "name": "Medizininformatik Initiative",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de/"
+        }
+      ]
+    }
+  ],
+  "packageId": "summary-reports",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value"
+        },
+        "name": "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4",
+        "description": "This cross-version extension represents MeasureReport.group.stratifier.stratum.component.value[x] from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ext-R5-MeasureReport.gr.st.st.value"
+        },
+        "name": "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.value[x] for use in FHIR R4",
+        "description": "This cross-version extension represents MeasureReport.group.stratifier.stratum.value[x] from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/summary-report-codes"
+        },
+        "name": "Summary Report Codes",
+        "description": "Codes used in summary reports",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/summary-report-group-codes"
+        },
+        "name": "Summary Report Group Codes",
+        "description": "Codes used in summary report groups",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MeasureReport/summary-report-measure-example"
+        },
+        "name": "summary-report-measure-example",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/SummaryReportMeasure"
+        },
+        "name": "SummaryReportMeasure",
+        "description": "Summary report profile of the Measure resource.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2025+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
