@@ -1,0 +1,32 @@
+{
+  "name": "de.medizininformatikinitiative.summaryreports",
+  "version": "0.1.0",
+  "description": "Medizininformatik Initiative - Summary Reports",
+  "author": "juliansass",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "keywords": [
+    "MII",
+    "Summary",
+    "Reports"
+  ],
+  "license": "CC-BY-4.0",
+  "homepage": "https://www.medizininformatik-initiative.de/",
+  "directories" : {
+    "lib" : "package",
+    "example" : "examples"
+  },
+  "title": "MII IG Summary Reports",
+  "maintainers" : [
+    {
+      "name" : "Medizininformatik Initiative",
+      "url" : "https://www.medizininformatik-initiative.de/"
+    }
+  ],
+  "canonicals": "https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports",
+  "jurisdiction": "http://unstats.un.org/unsd/methods/m49/m49.htm#276",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1"
+  }
+}
