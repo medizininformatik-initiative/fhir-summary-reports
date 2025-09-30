@@ -25,6 +25,30 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/ext-R5-MeasureReport.gr.linkId"
+        },
+        "name": "Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4",
+        "description": "This cross-version extension represents MeasureReport.group.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ext-R5-MeasureReport.gr.po.linkId"
+        },
+        "name": "Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4",
+        "description": "This cross-version extension represents MeasureReport.group.population.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ext-R5-MeasureReport.gr.st.linkId"
+        },
+        "name": "Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4",
+        "description": "This cross-version extension represents MeasureReport.group.stratifier.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value"
         },
         "name": "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4",
@@ -41,6 +65,37 @@
       },
       {
         "reference": {
+          "reference": "Bundle/mii-bdl-measure-library-transaction-bundle"
+        },
+        "name": "mii-bdl-measure-library-transaction-bundle",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Library/mii-lib-stratifier-age-gender"
+        },
+        "name": "Patient Age and Gender Stratification Library",
+        "description": "CQL library for calculating patient ages and gender-based stratifications",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Measure/mii-msr-summary-report-fhir-data-evaluator"
+        },
+        "name": "Summary Report",
+        "description": "Summary Report that uses FHIRPath and works with the FHIR Data Evaluator",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Measure/mii-msr-summary-report-age-gender-cql"
+        },
+        "name": "Summary Report Age Gender CQL",
+        "description": "Summary Report with gender and age decade stratification using CQL",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/summary-report-codes"
         },
         "name": "Summary Report Codes",
@@ -49,26 +104,11 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/summary-report-group-codes"
+          "reference": "Measure/mii-msr-summary-report-composite-gender-age-cql"
         },
-        "name": "Summary Report Group Codes",
-        "description": "Codes used in summary report groups",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "MeasureReport/summary-report-measure-example"
-        },
-        "name": "summary-report-measure-example",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure"
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/SummaryReportMeasure"
-        },
-        "name": "SummaryReportMeasure",
-        "description": "Summary report profile of the Measure resource.",
-        "exampleBoolean": false
+        "name": "Summary Report Composite Age Gender CQL",
+        "description": "Summary Report with gender and age decade stratification using CQL in a composite stratifier",
+        "exampleBoolean": true
       }
     ],
     "page": {

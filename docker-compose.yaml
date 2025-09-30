@@ -1,0 +1,56 @@
+version: '3.9'
+services:
+  blaze:
+    image: "samply/blaze:latest"
+    container_name: blaze
+    environment:
+      DB_SEARCH_PARAM_BUNDLE: "/app/custom-search-parameters.json"
+      LOG_LEVEL: "debug"
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./resources/Bundle-mii-meta-searchparam-collection-bundle.json:/app/custom-search-parameters.json:ro"
+      - "blaze-data:/app/data"
+    networks:
+      - fhir-net
+
+  blaze-init:
+    image: ubuntu:22.04
+    container_name: blaze-init
+    depends_on:
+      - blaze
+    networks:
+      - fhir-net
+    volumes:
+      - ./resources/testdata:/app/testdata
+    entrypoint: /bin/bash
+    command: >
+      -c "
+      apt-get update && apt-get install -y curl &&
+      curl -sSfL https://raw.githubusercontent.com/samply/blazectl/main/install.sh | sh &&
+      chmod +x blazectl &&
+      ./blazectl upload --server http://blaze:8080/fhir /app/testdata
+      "
+
+  #fhir-data-evaluator:
+  #  image: ghcr.io/medizininformatik-initiative/fhir-data-evaluator:1.3.1
+  #  container_name: fhir-data-evaluator
+  #  depends_on:
+  #    - blaze
+  #  environment:
+  #    - FHIR_SOURCE_SERVER=http://blaze:8080/fhir
+  #    - TZ=Europe/Berlin
+  #  volumes:
+  #    - ./fsh-generated/resources/Measure-mii-msr-summary-report-2.json:/app/measure.json
+  #    - ./output:/app/output
+  #  networks:
+  #    - fhir-net
+  #  stdin_open: true
+  #  tty: true
+
+volumes:
+  blaze-data:
+
+networks:
+  fhir-net:
+    driver: bridge

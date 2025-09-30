@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "Bundle-mii-bdl-measure-library-transaction-bundle.json",
+    "fshName": "mii-bdl-measure-library-transaction-bundle",
+    "fshType": "Instance",
+    "fshFile": "mii-bdl-measure-library.fsh",
+    "startLine": 7,
+    "endLine": 13
+  },
+  {
     "outputFile": "CodeSystem-summary-report-codes.json",
     "fshName": "SummaryReportCodes",
     "fshType": "CodeSystem",
@@ -8,28 +16,60 @@
     "endLine": 9
   },
   {
-    "outputFile": "CodeSystem-summary-report-group-codes.json",
-    "fshName": "SummaryReportGroupCodes",
-    "fshType": "CodeSystem",
-    "fshFile": "measure-report-R4.fsh",
-    "startLine": 40,
-    "endLine": 46
-  },
-  {
-    "outputFile": "MeasureReport-summary-report-measure-example.json",
-    "fshName": "summary-report-measure-example",
+    "outputFile": "Library-mii-lib-stratifier-age-gender.json",
+    "fshName": "mii-lib-stratifier-age-gender",
     "fshType": "Instance",
-    "fshFile": "measure-report-R4.fsh",
-    "startLine": 61,
-    "endLine": 105
+    "fshFile": "mii-lib-stratifier-age-gender.fsh",
+    "startLine": 3,
+    "endLine": 24
   },
   {
-    "outputFile": "StructureDefinition-SummaryReportMeasure.json",
-    "fshName": "SummaryReportMeasure",
-    "fshType": "Profile",
-    "fshFile": "measure-report-R4.fsh",
+    "outputFile": "Measure-mii-msr-summary-report-age-gender-cql.json",
+    "fshName": "mii-msr-summary-report-age-gender-cql",
+    "fshType": "Instance",
+    "fshFile": "mii-msr-summary-report-age-gender-cql.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 35
+  },
+  {
+    "outputFile": "Measure-mii-msr-summary-report-composite-gender-age-cql.json",
+    "fshName": "mii-msr-summary-report-composite-gender-age-cql",
+    "fshType": "Instance",
+    "fshFile": "mii-msr-summary-report-composite-gender-age-cql.fsh",
+    "startLine": 2,
+    "endLine": 40
+  },
+  {
+    "outputFile": "Measure-mii-msr-summary-report-fhir-data-evaluator.json",
+    "fshName": "mii-msr-summary-report-fhir-data-evaluator",
+    "fshType": "Instance",
+    "fshFile": "mii-msr-summary-report-fhir-data-evaluator.fsh",
+    "startLine": 5,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.linkId.json",
+    "fshName": "ext_R5_MeasureReport_gr_linkId",
+    "fshType": "Extension",
+    "fshFile": "extensions/ext_R5_MeasureReport_gr_linkId.fsh",
+    "startLine": 3,
+    "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.po.linkId.json",
+    "fshName": "ext_R5_MeasureReport_gr_po_linkId",
+    "fshType": "Extension",
+    "fshFile": "extensions/ext_R5_MeasureReport_gr_po_linkId.fsh",
+    "startLine": 3,
+    "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.linkId.json",
+    "fshName": "ext_R5_MeasureReport_gr_st_linkId",
+    "fshType": "Extension",
+    "fshFile": "extensions/ext_R5_MeasureReport_gr_st_linkId.fsh",
+    "startLine": 3,
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.json",

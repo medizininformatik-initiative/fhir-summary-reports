@@ -1,0 +1,367 @@
+{
+  "resourceType": "MeasureReport",
+  "extension": [
+    {
+      "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
+      "valueQuantity": {
+        "value": 0.003828,
+        "unit": "s",
+        "system": "http://unitsofmeasure.org",
+        "code": "s"
+      }
+    },
+    {
+      "url": "https://samply.github.io/blaze/fhir/StructureDefinition/bloom-filter-ratio",
+      "valueRatio": {
+        "numerator": {
+          "value": 0
+        },
+        "denominator": {
+          "value": 0
+        }
+      }
+    }
+  ],
+  "status": "complete",
+  "type": "summary",
+  "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0",
+  "date": "2025-09-30T15:42:37.551900715Z",
+  "period": {
+    "start": "1900",
+    "end": "2025"
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "initial-population"
+              }
+            ]
+          },
+          "count": 33
+        }
+      ],
+      "stratifier": [
+        {
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir-evaluator/strat/system",
+                  "code": "gender-age-composite"
+                }
+              ]
+            }
+          ],
+          "stratum": [
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "50-59"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "40-49"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 9
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "blaze.fhir.spec.type.ExtendedCode@5e4b9e7b"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "20-29"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "50-59"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "40-49"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 6
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "60-69"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 6
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://fhir-evaluator/strat/system",
+                        "code": "age-decade"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "30-39"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
