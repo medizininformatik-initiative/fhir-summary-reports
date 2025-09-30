@@ -1,9 +1,14 @@
+/*
+
 Profile: SummaryReportMeasure
 Parent: MeasureReport
 Description: "Summary report profile of the Measure resource."
 * status = #active
 * measure = ""
 
+* group.extension contains ext_R5_MeasureReport_gr_linkId named linkId 0..1
+* group.population.extension contains ext_R5_MeasureReport_gr_po_linkId named linkId 0..1
+* group.stratifier.extension contains ext_R5_MeasureReport_gr_st_linkId named linkId 0..1
 * group.stratifier.stratum.value.extension contains ext_R5_MeasureReport_gr_st_st_value named stratum-value 0..1
 * group.stratifier.stratum.component.value.extension contains ext_R5_MeasureReport_gr_st_st_co_value named stratum-component-value 0..1
 * group ^slicing.discriminator.type = #pattern
@@ -52,9 +57,6 @@ Description: "Codes used in summary report groups"
 // * #geschlechterverteilung
 // * #altersverteilung
 // * #laborwertverteilung
-
-Alias: $summary-report-category = https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-category
-Alias: $summary-report-group-codes = https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes
 
 // Examples for MeasureReport
 // https://github.com/medizininformatik-initiative/fhir-data-evaluator/tree/main/Documentation/example-measure-reports
@@ -107,3 +109,29 @@ Usage: #example
 // ValueSet and CodeSystem for stratifier codes from Core. Maybe only R5+ 
 // https://hl7.org/fhir/R5/valueset-measure-stratifier-example.html
 
+
+
+
+// Diskrete Verteilung als Beispiel für Problem in R4 
+// Altersverteilung einer gruppiert je unter Berücksichtigung des Kohorte 5 Jahre Geschlechts.
+Instance: summary-report-measure-example-1
+InstanceOf: SummaryReportMeasure
+Usage: #example
+* status = #active
+* type = #summary
+* period.start = "2025-09-16"
+* period.end = "2025-09-16"
+* group[diskreteVerteilung].code = $summary-report-codes#diskreteVerteilung
+* group[diskreteVerteilung].population[+].code = #initial-population
+* group[diskreteVerteilung].population[=].count = 100
+* group[diskreteVerteilung].stratifier[+].code[+] = $summary-report-codes#altersverteilung
+* group[diskreteVerteilung].stratifier[=].stratum[+].value.extension[stratum-value].valueRange.low.value = 0
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.low.unit = "years"
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.low.code = #a
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.low.system = "http://unitsofmeasure.org"
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.high.value = 5
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.high.unit = "years"
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.high.code = #a
+* group[diskreteVerteilung].stratifier[=].stratum[=].value.extension[stratum-value].valueRange.high.system = "http://unitsofmeasure.org"
+
+*/
