@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Measure xmlns="http://hl7.org/fhir">
+  <id value="mii-msr-summary-report-age-gender-cql"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">
+  <table class="narrative-table">
+    <tbody>
+<tr>
+
+<th colspan="2" scope="row" class="row-header">Knowledge Artifact Metadata</th>
+
+</tr>
+
+<tr>
+
+<th scope="row" class="row-header">Name (machine-readable)</th>
+
+<td class="content-container">SummaryReportAgeGenderCQL</td>
+</tr>
+
+
+<tr>
+
+<th scope="row" class="row-header">Title (human-readable)</th>
+
+<td class="content-container">Summary Report Age Gender CQL</td>
+</tr>
+
+
+
+<tr>
+
+<th scope="row" class="row-header">Status</th>
+
+<td class="content-container">Active</td>
+</tr>
+
+
+<tr>
+
+<th scope="row" class="row-header">Experimental</th>
+
+<td class="content-container">false</td>
+</tr>
+
+
+<tr>
+
+<th scope="row" class="row-header">Description</th>
+
+<td class="content-container"><div><p>Summary Report with gender and age decade stratification using CQL</p>
+</div></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+
+<th scope="row" class="row-header">Measure Steward</th>
+
+<td class="content-container">Medizininformatik Initiative</td>
+</tr>
+
+
+<tr>
+
+<th scope="row" class="row-header">Steward Contact Details</th>
+
+<td class="content-container">Medizininformatik Initiative: <a href="https://www.medizininformatik-initiative.de/">https://www.medizininformatik-initiative.de/</a></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+
+<th colspan="2" scope="row" class="row-header">Measure Metadata</th>
+
+</tr>
+
+
+
+
+
+
+<tr>
+
+<th scope="row" class="row-header">Version Number</th>
+
+<td class="content-container">0.1.0</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <tr>
+
+<th colspan="2" scope="row" class="row-header">Measure Population Criteria</th>
+
+</tr>
+  
+  
+    
+<tr>
+
+<th scope="row" class="row-header">Summary</th>
+
+<td class="content-container">Patient stratification by gender and age decade</td>
+</tr>
+
+  
+  
+  
+    <tr>
+      
+        
+          
+            
+<th scope="row" class="row-header">Initial Population</th>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+      <td class="content-container">
+        
+        <em>ID</em>: initial-population-identifier
+        <br/>
+        
+        
+          <em>Description</em>: No description provided
+        
+        
+          
+            
+            <em>Logic Definition</em>: <a href="#stratifieragegender-ininitialpopulation">InInitialPopulation</a> 
+          
+        
+      </td>
+    </tr>
+  
+
+  
+<tr>
+  
+<th scope="row" class="row-header">Stratifier</th>
+
+  <td class="content-container">
+    
+      <em>ID</em>: strat-gender
+      
+        <br/>
+      
+    
+    
+      
+        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender}">gender</span>
+      
+      
+    
+    
+  </td>
+</tr>
+
+<tr>
+  
+<th scope="row" class="row-header">Stratifier</th>
+
+  <td class="content-container">
+    
+      <em>ID</em>: strat-age-decade
+      
+        <br/>
+      
+    
+    
+      
+        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system age-decade}">age-decade</span>
+      
+      
+    
+    
+  </td>
+</tr>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+
+<th colspan="2" scope="row" class="row-header">Measure Logic</th>
+
+</tr>
+
+<tr>
+
+<th scope="row" class="row-header">Primary Library</th>
+
+<td class="content-container"><a href="Bundle-mii-bdl-measure-library-transaction-bundle.html">Patient Age and Gender Stratification Library</a></td>
+</tr>
+
+
+
+
+<tr>
+  <th colspan="2" scope="row" class="row-header">Generated using version 0.4.6 of the sample-content-ig Liquid templates</th>
+</tr>
+    </tbody>
+  </table>
+</div>
+  </text>
+  <url value="https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL"/>
+  <version value="0.1.0"/>
+  <name value="SummaryReportAgeGenderCQL"/>
+  <title value="Summary Report Age Gender CQL"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-09-30"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Summary Report with gender and age decade stratification using CQL"/>
+  <library value="https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender"/>
+  <group>
+    <description value="Patient stratification by gender and age decade"/>
+    <population id="initial-population-identifier">
+      <code>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+          <code value="initial-population"/>
+        </coding>
+      </code>
+      <criteria>
+        <language value="text/cql-identifier"/>
+        <expression value="InInitialPopulation"/>
+      </criteria>
+    </population>
+    <stratifier id="strat-gender">
+      <code>
+        <coding>
+          <system value="http://fhir-evaluator/strat/system"/>
+          <code value="gender"/>
+        </coding>
+      </code>
+      <criteria>
+        <language value="text/cql-identifier"/>
+        <expression value="Gender"/>
+      </criteria>
+    </stratifier>
+    <stratifier id="strat-age-decade">
+      <code>
+        <coding>
+          <system value="http://fhir-evaluator/strat/system"/>
+          <code value="age-decade"/>
+        </coding>
+      </code>
+      <criteria>
+        <language value="text/cql-identifier"/>
+        <expression value="AgeDecade"/>
+      </criteria>
+    </stratifier>
+  </group>
+</Measure>

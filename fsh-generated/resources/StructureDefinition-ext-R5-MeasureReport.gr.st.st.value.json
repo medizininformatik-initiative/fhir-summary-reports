@@ -79,8 +79,7 @@
         "short": "The stratum value, e.g. male",
         "definition": "The value for this stratum, expressed as a CodeableConcept. When defining stratifiers on complex values, the value must be rendered such that the value for each stratum within the stratifier is unique.",
         "comment": "`MeasureReport.group.stratifier.stratum.value` maps to R4 `MeasureReport.group.stratifier.stratum.value`. So is mapped as Equivalent.",
-        "max": "1",
-        "isModifier": false
+        "max": "1"
       },
       {
         "id": "Extension.extension",

@@ -1,6 +1,1 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://hl7.org/fhir/ValueSet/languages,4.0.1,draft,"2.16.840.1.113883.4.642.3.20",CommonLanguages,Common Languages,"This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)","StructureDefinition/SummaryReportMeasure","hl7.terminology.r4"
-http://hl7.org/fhir/ValueSet/measure-improvement-notation,4.0.1,draft,"2.16.840.1.113883.4.642.3.1236",MeasureImprovementNotation,MeasureImprovementNotation,"Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.","StructureDefinition/SummaryReportMeasure","THO"
-http://hl7.org/fhir/ValueSet/measure-population,4.0.1,draft,"2.16.840.1.113883.4.642.3.765",MeasurePopulationType,MeasurePopulationType,"The type of population.","StructureDefinition/SummaryReportMeasure","THO"
-http://hl7.org/fhir/ValueSet/measure-report-status,4.0.1,draft,"2.16.840.1.113883.4.642.3.776",MeasureReportStatus,MeasureReportStatus,"The status of the measure report.","StructureDefinition/SummaryReportMeasure","hl7.fhir.r4.core"
-http://hl7.org/fhir/ValueSet/measure-report-type,4.0.1,draft,"2.16.840.1.113883.4.642.3.778",MeasureReportType,MeasureReportType,"The type of the measure report.","StructureDefinition/SummaryReportMeasure","hl7.fhir.r4.core"

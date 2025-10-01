@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="SummaryReports"/>
    <status value="draft"/>
-   <date value="2025-09-05T12:50:49+02:00"/>
+   <date value="2025-10-01T12:03:45+02:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -247,7 +247,7 @@
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-         <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
+         <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
       </extension>
       <grouping id="-req-actordefinition">
          <name value="Requirements: Actor Definitions"/>
@@ -369,6 +369,60 @@
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.linkId.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.linkId"/>
+         </reference>
+         <name value="Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4"/>
+         <description value="This cross-version extension represents MeasureReport.group.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.po.linkId.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.po.linkId"/>
+         </reference>
+         <name value="Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4"/>
+         <description value="This cross-version extension represents MeasureReport.group.population.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.st.linkId.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.st.linkId"/>
+         </reference>
+         <name value="Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4"/>
+         <description value="This cross-version extension represents MeasureReport.group.stratifier.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.html"/>
          </extension>
          <reference>
@@ -402,6 +456,77 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Bundle"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Bundle-mii-bdl-measure-library-transaction-bundle.html"/>
+         </extension>
+         <reference>
+            <reference value="Bundle/mii-bdl-measure-library-transaction-bundle"/>
+         </reference>
+         <name value="mii-bdl-measure-library-transaction-bundle"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Library"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Library-mii-lib-stratifier-age-gender.html"/>
+         </extension>
+         <reference>
+            <reference value="Library/mii-lib-stratifier-age-gender"/>
+         </reference>
+         <name value="Patient Age and Gender Stratification Library"/>
+         <description value="CQL library for calculating patient ages and gender-based stratifications"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Measure"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Measure-mii-msr-summary-report-fhir-data-evaluator.html"/>
+         </extension>
+         <reference>
+            <reference value="Measure/mii-msr-summary-report-fhir-data-evaluator"/>
+         </reference>
+         <name value="Summary Report"/>
+         <description value="Summary Report that uses FHIRPath and works with the FHIR Data Evaluator"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Measure"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Measure-mii-msr-summary-report-age-gender-cql.html"/>
+         </extension>
+         <reference>
+            <reference value="Measure/mii-msr-summary-report-age-gender-cql"/>
+         </reference>
+         <name value="Summary Report Age Gender CQL"/>
+         <description value="Summary Report with gender and age decade stratification using CQL"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -420,53 +545,18 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
+            <valueString value="Measure"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-summary-report-group-codes.html"/>
+            <valueUri value="Measure-mii-msr-summary-report-composite-gender-age-cql.html"/>
          </extension>
          <reference>
-            <reference value="CodeSystem/summary-report-group-codes"/>
+            <reference value="Measure/mii-msr-summary-report-composite-gender-age-cql"/>
          </reference>
-         <name value="Summary Report Group Codes"/>
-         <description value="Codes used in summary report groups"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="MeasureReport"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-summary-report-measure-example.html"/>
-         </extension>
-         <reference>
-            <reference value="MeasureReport/summary-report-measure-example"/>
-         </reference>
-         <name value="summary-report-measure-example"/>
-         <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure"/>
+         <name value="Summary Report Composite Age Gender CQL"/>
+         <description value="Summary Report with gender and age decade stratification using CQL in a composite stratifier"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-SummaryReportMeasure.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/SummaryReportMeasure"/>
-         </reference>
-         <name value="SummaryReportMeasure"/>
-         <description value="Summary report profile of the Measure resource."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
       </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

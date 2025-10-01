@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SummaryReports"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-05T12:50:49+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-01T12:03:45+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
@@ -440,7 +440,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
+         fhir:v "hl7.fhir.uv.tools.r4#0.8.0"
        ]
      ] [
        fhir:extension ( [
@@ -827,6 +827,60 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.linkId> ;
+         fhir:reference [ fhir:v "StructureDefinition/ext-R5-MeasureReport.gr.linkId" ]
+       ] ;
+       fhir:name [ fhir:v "Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4" ] ;
+       fhir:description [ fhir:v "This cross-version extension represents MeasureReport.group.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.po.linkId> ;
+         fhir:reference [ fhir:v "StructureDefinition/ext-R5-MeasureReport.gr.po.linkId" ]
+       ] ;
+       fhir:name [ fhir:v "Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4" ] ;
+       fhir:description [ fhir:v "This cross-version extension represents MeasureReport.group.population.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.st.linkId> ;
+         fhir:reference [ fhir:v "StructureDefinition/ext-R5-MeasureReport.gr.st.linkId" ]
+       ] ;
+       fhir:name [ fhir:v "Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4" ] ;
+       fhir:description [ fhir:v "This cross-version extension represents MeasureReport.group.stratifier.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value> ;
          fhir:reference [ fhir:v "StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value" ]
        ] ;
@@ -859,6 +913,77 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/Bundle/mii-bdl-measure-library-transaction-bundle> ;
+         fhir:reference [ fhir:v "Bundle/mii-bdl-measure-library-transaction-bundle" ]
+       ] ;
+       fhir:name [ fhir:v "mii-bdl-measure-library-transaction-bundle" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Library"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/Library/mii-lib-stratifier-age-gender> ;
+         fhir:reference [ fhir:v "Library/mii-lib-stratifier-age-gender" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Age and Gender Stratification Library" ] ;
+       fhir:description [ fhir:v "CQL library for calculating patient ages and gender-based stratifications" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Measure"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/Measure/mii-msr-summary-report-fhir-data-evaluator> ;
+         fhir:reference [ fhir:v "Measure/mii-msr-summary-report-fhir-data-evaluator" ]
+       ] ;
+       fhir:name [ fhir:v "Summary Report" ] ;
+       fhir:description [ fhir:v "Summary Report that uses FHIRPath and works with the FHIR Data Evaluator" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Measure"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/Measure/mii-msr-summary-report-age-gender-cql> ;
+         fhir:reference [ fhir:v "Measure/mii-msr-summary-report-age-gender-cql" ]
+       ] ;
+       fhir:name [ fhir:v "Summary Report Age Gender CQL" ] ;
+       fhir:description [ fhir:v "Summary Report with gender and age decade stratification using CQL" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -877,54 +1002,18 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "CodeSystem"
+           fhir:v "Measure"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes> ;
-         fhir:reference [ fhir:v "CodeSystem/summary-report-group-codes" ]
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/Measure/mii-msr-summary-report-composite-gender-age-cql> ;
+         fhir:reference [ fhir:v "Measure/mii-msr-summary-report-composite-gender-age-cql" ]
        ] ;
-       fhir:name [ fhir:v "Summary Report Group Codes" ] ;
-       fhir:description [ fhir:v "Codes used in summary report groups" ] ;
+       fhir:name [ fhir:v "Summary Report Composite Age Gender CQL" ] ;
+       fhir:description [ fhir:v "Summary Report with gender and age decade stratification using CQL in a composite stratifier" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "MeasureReport"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/summary-report-measure-example> ;
-         fhir:reference [ fhir:v "MeasureReport/summary-report-measure-example" ]
-       ] ;
-       fhir:name [ fhir:v "summary-report-measure-example" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure"^^xsd:anyURI ;
-         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure> ;
-         fhir:reference [ fhir:v "StructureDefinition/SummaryReportMeasure" ]
-       ] ;
-       fhir:name [ fhir:v "SummaryReportMeasure" ] ;
-       fhir:description [ fhir:v "Summary report profile of the Measure resource." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] ) ;
      fhir:page [

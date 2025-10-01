@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "summary-reports",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 05 Sep, 2025 12:51:30 +0200",
-  "dateISO8601" : "2025-09-05T12:51:30+02:00",
-  "errs" : 17,
-  "warnings" : 19,
-  "hints" : 17,
+  "date" : "Wed, 01 Oct, 2025 12:04:04 +0200",
+  "dateISO8601" : "2025-10-01T12:04:04+02:00",
+  "errs" : 26,
+  "warnings" : 49,
+  "hints" : 12,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1028229992
+  "maxMemory" : 1120211544
 }
