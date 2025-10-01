@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "SummaryReportCodes"] ; # 
   fhir:title [ fhir:v "Summary Report Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-05T12:50:49+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-01T12:03:45+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;

@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.003828,
+        "value": 0.004580959,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -25,7 +25,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0",
-  "date": "2025-09-30T15:42:37.551900715Z",
+  "date": "2025-09-30T15:53:58.309146419Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -42,7 +42,7 @@
               }
             ]
           },
-          "count": 33
+          "count": 44
         }
       ],
       "stratifier": [
@@ -97,7 +97,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             },
@@ -140,7 +140,7 @@
                       }
                     ]
                   },
-                  "count": 9
+                  "count": 12
                 }
               ]
             },
@@ -183,7 +183,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             },
@@ -226,7 +226,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             },
@@ -269,7 +269,7 @@
                       }
                     ]
                   },
-                  "count": 6
+                  "count": 8
                 }
               ]
             },
@@ -312,7 +312,7 @@
                       }
                     ]
                   },
-                  "count": 6
+                  "count": 8
                 }
               ]
             },
@@ -355,7 +355,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             }

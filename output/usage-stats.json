@@ -4,6 +4,27 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
+      "title": "Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
+      "title": "Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId",
+      "title": "Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value",
       "title": "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4",
       "types": [
@@ -26,36 +47,8 @@
       ]
     }
   ],
-  "profiles": {
-    "MeasureReport": [
-      {
-        "url": "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure",
-        "title": "SummaryReportMeasure"
-      }
-    ]
-  },
+  "profiles": {},
   "usage": {
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value": [
-      "MeasureReport.group.stratifier.stratum.component.value"
-    ],
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value": [
-      "MeasureReport.group.stratifier.stratum.value"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
-      "StructureDefinition.snapshot.element.constraint"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
-      "StructureDefinition.snapshot.element.constraint"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],

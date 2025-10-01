@@ -7,14 +7,6 @@
       "name" : "SummaryReportCodes",
       "title" : "Summary Report Codes",
       "description" : "Codes used in summary reports"
-    },
-    {
-      "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "SummaryReportGroupCodes",
-      "title" : "Summary Report Group Codes",
-      "description" : "Codes used in summary report groups"
     }
   ]
 }

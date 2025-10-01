@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.016770416,
+        "value": 0.022589333,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -25,7 +25,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL|1.0",
-  "date": "2025-09-30T15:42:37.120564881Z",
+  "date": "2025-09-30T15:53:57.871290627Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -42,7 +42,7 @@
               }
             ]
           },
-          "count": 33
+          "count": 44
         }
       ],
       "stratifier": [
@@ -72,7 +72,7 @@
                       }
                     ]
                   },
-                  "count": 18
+                  "count": 24
                 }
               ]
             },
@@ -90,7 +90,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             },
@@ -108,7 +108,7 @@
                       }
                     ]
                   },
-                  "count": 12
+                  "count": 16
                 }
               ]
             }
@@ -140,7 +140,7 @@
                       }
                     ]
                   },
-                  "count": 6
+                  "count": 8
                 }
               ]
             },
@@ -158,7 +158,7 @@
                       }
                     ]
                   },
-                  "count": 15
+                  "count": 20
                 }
               ]
             },
@@ -176,7 +176,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             },
@@ -194,7 +194,7 @@
                       }
                     ]
                   },
-                  "count": 6
+                  "count": 8
                 }
               ]
             },
@@ -212,7 +212,7 @@
                       }
                     ]
                   },
-                  "count": 3
+                  "count": 4
                 }
               ]
             }

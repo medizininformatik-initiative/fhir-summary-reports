@@ -1,5 +1,26 @@
 [
   {
+    "id" : "ext-R5-MeasureReport.gr.linkId",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
+    "version" : "0.1.0",
+    "name" : "ext_R5_MeasureReport_gr_linkId"
+  },
+  {
+    "id" : "ext-R5-MeasureReport.gr.po.linkId",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
+    "version" : "0.1.0",
+    "name" : "ext_R5_MeasureReport_gr_po_linkId"
+  },
+  {
+    "id" : "ext-R5-MeasureReport.gr.st.linkId",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId",
+    "version" : "0.1.0",
+    "name" : "ext_R5_MeasureReport_gr_st_linkId"
+  },
+  {
     "id" : "ext-R5-MeasureReport.gr.st.st.co.value",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value",
@@ -14,6 +35,34 @@
     "name" : "ext_R5_MeasureReport_gr_st_st_value"
   },
   {
+    "id" : "mii-msr-summary-report-fhir-data-evaluator",
+    "type" : "Measure",
+    "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReport",
+    "version" : "0.1.0",
+    "name" : "SummaryReport"
+  },
+  {
+    "id" : "mii-msr-summary-report-age-gender-cql",
+    "type" : "Measure",
+    "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL",
+    "version" : "0.1.0",
+    "name" : "SummaryReportAgeGenderCQL"
+  },
+  {
+    "id" : "mii-msr-summary-report-composite-gender-age-cql",
+    "type" : "Measure",
+    "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
+    "version" : "0.1.0",
+    "name" : "SummaryReportCompositeAgeGenderCQL"
+  },
+  {
+    "id" : "mii-lib-stratifier-age-gender",
+    "type" : "Library",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender",
+    "version" : "0.1.0",
+    "name" : "StratifierAgeGender"
+  },
+  {
     "id" : "summary-report-codes",
     "type" : "CodeSystem",
     "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes",
@@ -21,24 +70,10 @@
     "name" : "SummaryReportCodes"
   },
   {
-    "id" : "summary-report-group-codes",
-    "type" : "CodeSystem",
-    "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-group-codes",
-    "version" : "0.1.0",
-    "name" : "SummaryReportGroupCodes"
-  },
-  {
     "id" : "summary-reports",
     "type" : "ImplementationGuide",
     "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports",
     "version" : "0.1.0",
     "name" : "SummaryReports"
-  },
-  {
-    "id" : "SummaryReportMeasure",
-    "type" : "StructureDefinition",
-    "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/StructureDefinition/SummaryReportMeasure",
-    "version" : "0.1.0",
-    "name" : "SummaryReportMeasure"
   }
 ]

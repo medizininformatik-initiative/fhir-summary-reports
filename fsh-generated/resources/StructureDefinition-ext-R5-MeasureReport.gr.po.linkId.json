@@ -78,7 +78,8 @@
         "path": "Extension",
         "short": "Pointer to specific population from Measure",
         "definition": "The population from the Measure that corresponds to this population in the MeasureReport resource.",
-        "max": "1"
+        "max": "1",
+        "isModifier": false
       },
       {
         "id": "Extension.extension",
