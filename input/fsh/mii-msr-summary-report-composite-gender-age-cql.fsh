@@ -23,18 +23,18 @@ Usage: #example
 * group.population.id = "initial-population"
 
 // Composite stratifier combining gender and age decade
-* group.stratifier[0].code = $system#gender-age-composite
+* group.stratifier[0].code = $summary-report-codes#gender-age-composite
 * group.stratifier[0].id = "strat-gender-age"
-* group.stratifier[0].description = "Combined gender and age decade stratification"
+* group.stratifier[0].description = "Combined gender and age group stratification"
+
+// Age group component  
+* group.stratifier[0].component[0].code = $loinc#46251-5 "Age group"
+* group.stratifier[0].component[0].criteria.language = #text/cql-identifier
+* group.stratifier[0].component[0].criteria.expression = "AgeFiveYearGroups"
+* group.stratifier[0].component[0].description = "Patient age five year group"
 
 // Gender component
-* group.stratifier[0].component[0].code = $system#gender
-* group.stratifier[0].component[0].criteria.language = #text/cql-identifier
-* group.stratifier[0].component[0].criteria.expression = "Gender"
-* group.stratifier[0].component[0].description = "Patient gender"
-
-// Age decade component  
-* group.stratifier[0].component[1].code = $system#age-decade
+* group.stratifier[0].component[1].code = $loinc#107454-1 "Administrative gender"
 * group.stratifier[0].component[1].criteria.language = #text/cql-identifier
-* group.stratifier[0].component[1].criteria.expression = "AgeDecade"
-* group.stratifier[0].component[1].description = "Patient age decade"
+* group.stratifier[0].component[1].criteria.expression = "Gender"
+* group.stratifier[0].component[1].description = "Patient gender"

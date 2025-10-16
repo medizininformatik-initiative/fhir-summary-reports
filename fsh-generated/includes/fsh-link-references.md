@@ -1,11 +1,6 @@
-[ext_R5_MeasureReport_gr_linkId]: StructureDefinition-ext-R5-MeasureReport.gr.linkId.html
-[ext_R5_MeasureReport_gr_po_linkId]: StructureDefinition-ext-R5-MeasureReport.gr.po.linkId.html
-[ext_R5_MeasureReport_gr_st_linkId]: StructureDefinition-ext-R5-MeasureReport.gr.st.linkId.html
-[ext_R5_MeasureReport_gr_st_st_co_value]: StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.html
-[ext_R5_MeasureReport_gr_st_st_value]: StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.html
 [mii-bdl-measure-library-transaction-bundle]: Bundle-mii-bdl-measure-library-transaction-bundle.html
 [mii-lib-stratifier-age-gender]: Library-mii-lib-stratifier-age-gender.html
 [mii-msr-summary-report-fhir-data-evaluator]: Measure-mii-msr-summary-report-fhir-data-evaluator.html
 [mii-msr-summary-report-age-gender-cql]: Measure-mii-msr-summary-report-age-gender-cql.html
-[SummaryReportCodes]: CodeSystem-summary-report-codes.html
+[MII_CS_Summary_Report_Codes]: CodeSystem-mii-cs-summary-report-codes.html
 [mii-msr-summary-report-composite-gender-age-cql]: Measure-mii-msr-summary-report-composite-gender-age-cql.html

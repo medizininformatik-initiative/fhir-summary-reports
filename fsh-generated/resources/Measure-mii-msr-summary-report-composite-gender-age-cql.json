@@ -29,44 +29,46 @@
             {
               "criteria": {
                 "language": "text/cql-identifier",
+                "expression": "AgeFiveYearGroups"
+              },
+              "code": {
+                "coding": [
+                  {
+                    "code": "46251-5",
+                    "system": "http://loinc.org",
+                    "display": "Age group"
+                  }
+                ]
+              },
+              "description": "Patient age five year group"
+            },
+            {
+              "criteria": {
+                "language": "text/cql-identifier",
                 "expression": "Gender"
               },
               "code": {
                 "coding": [
                   {
-                    "code": "gender",
-                    "system": "http://fhir-evaluator/strat/system"
+                    "code": "107454-1",
+                    "system": "http://loinc.org",
+                    "display": "Administrative gender"
                   }
                 ]
               },
               "description": "Patient gender"
-            },
-            {
-              "criteria": {
-                "language": "text/cql-identifier",
-                "expression": "AgeDecade"
-              },
-              "code": {
-                "coding": [
-                  {
-                    "code": "age-decade",
-                    "system": "http://fhir-evaluator/strat/system"
-                  }
-                ]
-              },
-              "description": "Patient age decade"
             }
           ],
           "code": {
             "coding": [
               {
                 "code": "gender-age-composite",
-                "system": "http://fhir-evaluator/strat/system"
+                "system": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"
               }
             ]
           },
           "id": "strat-gender-age",
-          "description": "Combined gender and age decade stratification"
+          "description": "Combined gender and age group stratification"
         }
       ],
       "description": "Composite stratification by gender and age decade"

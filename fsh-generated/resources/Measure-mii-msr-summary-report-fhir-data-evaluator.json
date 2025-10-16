@@ -29,8 +29,9 @@
           "code": {
             "coding": [
               {
-                "code": "gender",
-                "system": "http://fhir-evaluator/strat/system"
+                "code": "107454-1",
+                "system": "http://loinc.org",
+                "display": "Administrative gender"
               }
             ]
           },
