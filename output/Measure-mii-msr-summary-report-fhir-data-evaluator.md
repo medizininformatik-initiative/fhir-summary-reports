@@ -37,7 +37,7 @@ Summary Report that uses FHIRPath and works with the FHIR Data Evaluator
 * Knowledge Artifact Metadata: Initial Population
   * ?: **ID**: initial-population-identifier**Description**: No description provided
 * Knowledge Artifact Metadata: Stratifier
-  * ?: **ID**: strat-1**Code**: Administrative gender
+  * ?: **ID**: strat-1**Code**: Recorded sex or gender
 * Knowledge Artifact Metadata: Generated using version 0.4.6 of the sample-content-ig Liquid templates
 
 
@@ -95,8 +95,8 @@ Summary Report that uses FHIRPath and works with the FHIR Data Evaluator
             "coding" : [
               {
                 "system" : "http://loinc.org",
-                "code" : "107454-1",
-                "display" : "Administrative gender"
+                "code" : "99502-7",
+                "display" : "Recorded sex or gender"
               }
             ]
           },

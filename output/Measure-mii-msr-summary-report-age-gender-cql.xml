@@ -194,7 +194,7 @@
     
     
       
-        <em>Code</em>: Administrative gender
+        <em>Code</em>: Recorded sex or gender
       
       
     
@@ -295,8 +295,8 @@
       <code>
         <coding>
           <system value="http://loinc.org"/>
-          <code value="107454-1"/>
-          <display value="Administrative gender"/>
+          <code value="99502-7"/>
+          <display value="Recorded sex or gender"/>
         </coding>
       </code>
       <criteria>

@@ -25,7 +25,7 @@ Usage: #example
 // First stratifier: Gender
 * group.stratifier[0].criteria.language = #text/cql-identifier
 * group.stratifier[0].criteria.expression = "Gender"
-* group.stratifier[0].code = $loinc#107454-1 "Administrative gender"
+* group.stratifier[0].code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier[0].id = "stratifier-gender"
 
 // Second stratifier: Age Group (5-year ranges matching census data)

@@ -34,7 +34,7 @@ Usage: #example
 * group.stratifier[0].component[0].description = "Patient age five year group"
 
 // Gender component
-* group.stratifier[0].component[1].code = $loinc#107454-1 "Administrative gender"
+* group.stratifier[0].component[1].code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier[0].component[1].criteria.language = #text/cql-identifier
 * group.stratifier[0].component[1].criteria.expression = "Gender"
 * group.stratifier[0].component[1].description = "Patient gender"

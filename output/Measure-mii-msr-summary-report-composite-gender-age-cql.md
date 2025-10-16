@@ -118,8 +118,8 @@ Summary Report with gender and age decade stratification using CQL in a composit
                 "coding" : [
                   {
                     "system" : "http://loinc.org",
-                    "code" : "107454-1",
-                    "display" : "Administrative gender"
+                    "code" : "99502-7",
+                    "display" : "Recorded sex or gender"
                   }
                 ]
               },

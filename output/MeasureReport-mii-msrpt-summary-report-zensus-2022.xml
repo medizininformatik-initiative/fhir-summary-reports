@@ -3,7 +3,7 @@
 <MeasureReport xmlns="http://hl7.org/fhir">
   <id value="mii-msrpt-summary-report-zensus-2022"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MeasureReport mii-msrpt-summary-report-zensus-2022</b></p><a name="mii-msrpt-summary-report-zensus-2022"> </a><a name="hcmii-msrpt-summary-report-zensus-2022"> </a><p><b>status</b>: Complete</p><p><b>type</b>: Summary</p><p><b>measure</b>: <a href="Bundle-mii-bdl-measure-library-transaction-bundle.html">Summary Report Composite Age Gender CQLversion: null1.0)</a></p><p><b>date</b>: 2025-10-16</p><p><b>period</b>: 2022 --&gt; 2022</p><blockquote><p><b>group</b></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>83237124</td></tr></table><blockquote><p><b>stratifier</b></p><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">0-4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1987683</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">0-4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1890251</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">5-9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1988215</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">5-9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1892512</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">10-14</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1937288</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">10-14</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1840217</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">15-19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1952159</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">15-19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1850504</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">20-24</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2279369</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">20-24</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2120264</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">25-29</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2462150</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">25-29</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2296544</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">30-34</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2799966</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">30-34</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2670725</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">35-39</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2724799</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">35-39</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2660018</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">40-44</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2600204</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">40-44</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2590255</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">45-49</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2407595</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">45-49</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2402447</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">50-54</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3078434</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">50-54</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3052753</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">55-59</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3403909</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">55-59</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3391338</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">60-64</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2973862</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">60-64</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3075856</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">65-69</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2403223</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">65-69</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2606851</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">70-74</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1965144</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">70-74</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2251558</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">75-79</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1397042</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">75-79</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1725208</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">80-84</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1410180</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">80-84</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1985426</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">85-89</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>666342</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">85-89</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1137755</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">90-94</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>236467</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">90-94</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org #99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>605005</td></tr></table></blockquote></blockquote></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MeasureReport mii-msrpt-summary-report-zensus-2022</b></p><a name="mii-msrpt-summary-report-zensus-2022"> </a><a name="hcmii-msrpt-summary-report-zensus-2022"> </a><p><b>status</b>: Complete</p><p><b>type</b>: Summary</p><p><b>measure</b>: <a href="Bundle-mii-bdl-measure-library-transaction-bundle.html">Summary Report Composite Age Gender CQLversion: null1.0)</a></p><p><b>date</b>: 2025-10-16</p><p><b>period</b>: 2022 --&gt; 2022</p><blockquote><p><b>group</b></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>83237124</td></tr></table><blockquote><p><b>stratifier</b></p><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">0-4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1987683</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">0-4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1890251</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">5-9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1988215</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">5-9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1892512</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">10-14</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1937288</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">10-14</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1840217</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">15-19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1952159</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">15-19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1850504</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">20-24</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2279369</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">20-24</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2120264</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">25-29</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2462150</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">25-29</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2296544</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">30-34</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2799966</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">30-34</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2670725</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">35-39</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2724799</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">35-39</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2660018</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">40-44</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2600204</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">40-44</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2590255</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">45-49</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2407595</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">45-49</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2402447</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">50-54</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3078434</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">50-54</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3052753</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">55-59</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3403909</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">55-59</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3391338</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">60-64</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2973862</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">60-64</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3075856</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">65-69</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2403223</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">65-69</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2606851</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">70-74</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1965144</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">70-74</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>2251558</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">75-79</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1397042</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">75-79</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1725208</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">80-84</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1410180</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">80-84</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1985426</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">85-89</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>666342</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">85-89</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1137755</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">90-94</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">male</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>236467</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 46251-5}">Age group</span></p><p><b>value</b>: <span title="Codes:">90-94</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><p><b>value</b>: <span title="Codes:">female</span></p></blockquote><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>605005</td></tr></table></blockquote></blockquote></blockquote></div>
   </text>
   <status value="complete"/>
   <type value="summary"/>
@@ -41,7 +41,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -76,7 +76,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -111,7 +111,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -146,7 +146,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -181,7 +181,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -216,7 +216,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -251,7 +251,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -286,7 +286,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -321,7 +321,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -356,7 +356,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -391,7 +391,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -426,7 +426,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -461,7 +461,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -496,7 +496,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -531,7 +531,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -566,7 +566,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -601,7 +601,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -636,7 +636,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -671,7 +671,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -706,7 +706,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -741,7 +741,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -776,7 +776,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -811,7 +811,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -846,7 +846,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -881,7 +881,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -916,7 +916,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -951,7 +951,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -986,7 +986,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1021,7 +1021,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1056,7 +1056,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1091,7 +1091,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1126,7 +1126,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1161,7 +1161,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1196,7 +1196,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1231,7 +1231,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1266,7 +1266,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1301,7 +1301,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>
@@ -1336,7 +1336,7 @@
           <code>
             <coding>
               <system value="http://loinc.org"/>
-              <code value="#99502-7"/>
+              <code value="99502-7"/>
               <display value="Recorded sex or gender"/>
             </coding>
           </code>

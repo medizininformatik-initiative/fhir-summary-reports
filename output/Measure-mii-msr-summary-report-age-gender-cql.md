@@ -37,7 +37,7 @@ Summary Report with gender and 5-year age group stratification using CQL matchin
 * Knowledge Artifact Metadata: Initial Population
   * ?: **ID**: initial-population-identifier**Description**: No description provided**Logic Definition**:[InInitialPopulation](#stratifieragegender-ininitialpopulation)
 * Knowledge Artifact Metadata: Stratifier
-  * ?: **ID**: stratifier-gender**Code**: Administrative gender
+  * ?: **ID**: stratifier-gender**Code**: Recorded sex or gender
 * Knowledge Artifact Metadata: Stratifier
   * ?: **ID**: stratifier-age-five-year-groups**Code**: Age group
 * Knowledge Artifact Metadata: Measure Logic
@@ -108,8 +108,8 @@ Summary Report with gender and 5-year age group stratification using CQL matchin
             "coding" : [
               {
                 "system" : "http://loinc.org",
-                "code" : "107454-1",
-                "display" : "Administrative gender"
+                "code" : "99502-7",
+                "display" : "Recorded sex or gender"
               }
             ]
           },

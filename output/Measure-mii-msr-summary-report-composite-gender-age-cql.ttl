@@ -67,10 +67,10 @@
        ] [
          fhir:code [
            fhir:coding ( [
-             a loinc:107454-1 ;
+             a loinc:99502-7 ;
              fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-             fhir:code [ fhir:v "107454-1" ] ;
-             fhir:display [ fhir:v "Administrative gender" ]
+             fhir:code [ fhir:v "99502-7" ] ;
+             fhir:display [ fhir:v "Recorded sex or gender" ]
            ] )
          ] ;
          fhir:description [ fhir:v "Patient gender" ] ;

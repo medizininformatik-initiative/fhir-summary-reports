@@ -31,7 +31,7 @@ Codes used in summary reports
   "name" : "MII_CS_Summary_Report_Codes",
   "title" : "Summary Report Codes",
   "status" : "draft",
-  "date" : "2025-10-16T14:55:17+02:00",
+  "date" : "2025-10-16T15:00:46+02:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {

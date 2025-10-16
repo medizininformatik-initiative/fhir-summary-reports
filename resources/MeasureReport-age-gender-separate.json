@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.010355792,
+        "value": 0.016062208,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -25,7 +25,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL|1.0",
-  "date": "2025-10-16T12:55:00.397863845Z",
+  "date": "2025-10-16T13:01:18.918063965Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -130,7 +130,7 @@
           "stratum": [
             {
               "value": {
-                "text": "45-49"
+                "text": "55-59"
               },
               "population": [
                 {
@@ -148,7 +148,7 @@
             },
             {
               "value": {
-                "text": "55-59"
+                "text": "45-49"
               },
               "population": [
                 {

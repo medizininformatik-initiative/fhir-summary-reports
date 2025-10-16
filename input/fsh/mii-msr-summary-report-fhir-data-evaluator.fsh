@@ -22,6 +22,6 @@ Usage: #example
 * group.population.id = "initial-population-identifier"
 * group.stratifier.criteria.language = #text/fhirpath
 * group.stratifier.criteria.expression = "Patient.gender"
-* group.stratifier.code = $loinc#107454-1 "Administrative gender"
+* group.stratifier.code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier.id = "strat-1"
 

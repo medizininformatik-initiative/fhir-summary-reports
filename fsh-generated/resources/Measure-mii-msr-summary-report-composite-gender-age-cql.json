@@ -50,9 +50,9 @@
               "code": {
                 "coding": [
                   {
-                    "code": "107454-1",
+                    "code": "99502-7",
                     "system": "http://loinc.org",
-                    "display": "Administrative gender"
+                    "display": "Recorded sex or gender"
                   }
                 ]
               },

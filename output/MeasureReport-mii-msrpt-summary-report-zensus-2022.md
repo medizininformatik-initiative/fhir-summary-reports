@@ -577,7 +577,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -622,7 +622,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -667,7 +667,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -712,7 +712,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -757,7 +757,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -802,7 +802,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -847,7 +847,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -892,7 +892,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -937,7 +937,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -982,7 +982,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1027,7 +1027,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1072,7 +1072,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1117,7 +1117,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1162,7 +1162,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1207,7 +1207,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1252,7 +1252,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1297,7 +1297,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1342,7 +1342,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1387,7 +1387,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1432,7 +1432,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1477,7 +1477,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1522,7 +1522,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1567,7 +1567,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1612,7 +1612,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1657,7 +1657,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1702,7 +1702,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1747,7 +1747,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1792,7 +1792,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1837,7 +1837,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1882,7 +1882,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1927,7 +1927,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -1972,7 +1972,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -2017,7 +2017,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -2062,7 +2062,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -2107,7 +2107,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -2152,7 +2152,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -2197,7 +2197,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]
@@ -2242,7 +2242,7 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "#99502-7",
+                        "code" : "99502-7",
                         "display" : "Recorded sex or gender"
                       }
                     ]

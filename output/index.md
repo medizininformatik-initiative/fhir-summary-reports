@@ -26,7 +26,7 @@ Feel free to modify this index page with your own awesome content!
   "version" : "0.1.0",
   "name" : "SummaryReports",
   "status" : "draft",
-  "date" : "2025-10-16T14:55:17+02:00",
+  "date" : "2025-10-16T15:00:46+02:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {
