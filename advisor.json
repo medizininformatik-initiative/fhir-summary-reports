@@ -5,6 +5,14 @@
     "TERMINOLOGY_TX_WARNING@StructureDefinition.*",
     "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
     "UNABLE_TO_INFER_CODESYSTEM@Measure.*",
-    "Terminology_TX_NoValid_11@Measure.*"
+    "Terminology_TX_NoValid_11@Measure.*",
+    "Terminology_TX_NoValid_16@Measure.*",
+    "UNABLE_TO_INFER_CODESYSTEM@Bundle.entry.*",
+    "Terminology_TX_NoValid_11@Bundle.entry.*",
+    "Terminology_TX_NoValid_16@Bundle.entry.*",
+    "UNABLE_TO_INFER_CODESYSTEM@Library.*",
+    "Terminology_TX_NoValid_11@Library.*",
+    "Terminology_TX_NoValid_16@Library.*",
+    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.*"
   ]
 }

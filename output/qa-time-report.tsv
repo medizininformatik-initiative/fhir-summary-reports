@@ -1,9 +1,9 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-summary-reports.json	3422	-	0	0	0	0	0	0	8	47	0	0	0	0	0	0	0	0	0	0	58	38	0	0	0	2	0	0
-fsh-generated/resources/Bundle-mii-bdl-measure-library-transaction-bundle.json	12931	13	25	0	0	0	0	0	1	51	0	0	0	0	0	0	0	0	0	0	64	51	0	0	1	0	0	0
-fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes.json	685	5	0	0	1	0	0	0	1	9	0	0	1	0	0	0	0	0	0	0	17	269	0	0	0	0	0	0
-fsh-generated/resources/Library-mii-lib-stratifier-age-gender.json	6421	5	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	42	15	0	0	0	1	0	0
-fsh-generated/resources/Measure-mii-msr-summary-report-age-gender-cql.json	2159	6	0	0	0	0	0	0	1	12	0	0	0	0	0	0	0	0	0	0	24	13	0	0	0	0	0	0
-fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql.json	2241	4	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	72	13	0	0	0	0	0	0
-fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator.json	1392	6	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	1	0	0	34	12	0	0	0	0	0	0
-fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022.json	51505	9	0	0	0	0	0	0	4	44	0	0	0	0	0	0	0	0	0	0	104	33	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-summary-reports.json	3422	-	0	0	0	0	0	0	8	47	0	0	0	0	0	0	0	1	0	0	55	42	0	0	0	1	0	1
+fsh-generated/resources/Bundle-mii-bdl-measure-library-transaction-bundle.json	12931	12	22	0	0	0	0	0	0	47	0	0	0	0	0	0	0	0	0	0	62	52	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes.json	685	5	0	0	0	0	0	0	1	8	0	0	0	0	0	0	0	0	0	0	17	257	0	0	0	1	0	0
+fsh-generated/resources/Library-mii-lib-stratifier-age-gender.json	6421	5	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	40	14	0	0	0	0	0	0
+fsh-generated/resources/Measure-mii-msr-summary-report-age-gender-cql.json	2159	6	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	24	12	0	0	0	0	0	0
+fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql.json	2241	5	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	22	13	0	0	0	0	0	0
+fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator.json	1392	4	0	0	1	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	21	12	0	0	0	1	0	0
+fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022.json	51543	8	0	0	0	0	0	0	3	44	0	0	0	0	0	0	0	0	0	0	97	31	0	0	0	0	0	0

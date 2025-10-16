@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.0273595,
+        "value": 0.010355792,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -25,7 +25,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL|1.0",
-  "date": "2025-10-16T12:20:54.891279468Z",
+  "date": "2025-10-16T12:55:00.397863845Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -79,24 +79,6 @@
             },
             {
               "value": {
-                "text": "female"
-              },
-              "population": [
-                {
-                  "code": {
-                    "coding": [
-                      {
-                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
-                        "code": "initial-population"
-                      }
-                    ]
-                  },
-                  "count": 4
-                }
-              ]
-            },
-            {
-              "value": {
                 "text": "blaze.fhir.spec.type.ExtendedCode@5e4b9e7b"
               },
               "population": [
@@ -110,6 +92,24 @@
                     ]
                   },
                   "count": 1
+                }
+              ]
+            },
+            {
+              "value": {
+                "text": "female"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 4
                 }
               ]
             }
@@ -128,42 +128,6 @@
             }
           ],
           "stratum": [
-            {
-              "value": {
-                "text": "65-69"
-              },
-              "population": [
-                {
-                  "code": {
-                    "coding": [
-                      {
-                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
-                        "code": "initial-population"
-                      }
-                    ]
-                  },
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "value": {
-                "text": "40-44"
-              },
-              "population": [
-                {
-                  "code": {
-                    "coding": [
-                      {
-                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
-                        "code": "initial-population"
-                      }
-                    ]
-                  },
-                  "count": 3
-                }
-              ]
-            },
             {
               "value": {
                 "text": "45-49"
@@ -238,7 +202,43 @@
             },
             {
               "value": {
+                "text": "40-44"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "value": {
                 "text": "30-34"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "value": {
+                "text": "65-69"
               },
               "population": [
                 {

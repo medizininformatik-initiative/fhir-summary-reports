@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SummaryReports"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T14:42:59+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T14:55:17+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;

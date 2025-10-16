@@ -29,7 +29,7 @@
 > **stratum**
 > **component****code**:Age group**value**:0-4
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -42,7 +42,7 @@
 > **stratum**
 > **component****code**:Age group**value**:0-4
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -55,7 +55,7 @@
 > **stratum**
 > **component****code**:Age group**value**:5-9
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -68,7 +68,7 @@
 > **stratum**
 > **component****code**:Age group**value**:5-9
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -81,7 +81,7 @@
 > **stratum**
 > **component****code**:Age group**value**:10-14
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -94,7 +94,7 @@
 > **stratum**
 > **component****code**:Age group**value**:10-14
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -107,7 +107,7 @@
 > **stratum**
 > **component****code**:Age group**value**:15-19
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -120,7 +120,7 @@
 > **stratum**
 > **component****code**:Age group**value**:15-19
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -133,7 +133,7 @@
 > **stratum**
 > **component****code**:Age group**value**:20-24
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -146,7 +146,7 @@
 > **stratum**
 > **component****code**:Age group**value**:20-24
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -159,7 +159,7 @@
 > **stratum**
 > **component****code**:Age group**value**:25-29
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -172,7 +172,7 @@
 > **stratum**
 > **component****code**:Age group**value**:25-29
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -185,7 +185,7 @@
 > **stratum**
 > **component****code**:Age group**value**:30-34
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -198,7 +198,7 @@
 > **stratum**
 > **component****code**:Age group**value**:30-34
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -211,7 +211,7 @@
 > **stratum**
 > **component****code**:Age group**value**:35-39
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -224,7 +224,7 @@
 > **stratum**
 > **component****code**:Age group**value**:35-39
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -237,7 +237,7 @@
 > **stratum**
 > **component****code**:Age group**value**:40-44
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -250,7 +250,7 @@
 > **stratum**
 > **component****code**:Age group**value**:40-44
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -263,7 +263,7 @@
 > **stratum**
 > **component****code**:Age group**value**:45-49
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -276,7 +276,7 @@
 > **stratum**
 > **component****code**:Age group**value**:45-49
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -289,7 +289,7 @@
 > **stratum**
 > **component****code**:Age group**value**:50-54
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -302,7 +302,7 @@
 > **stratum**
 > **component****code**:Age group**value**:50-54
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -315,7 +315,7 @@
 > **stratum**
 > **component****code**:Age group**value**:55-59
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -328,7 +328,7 @@
 > **stratum**
 > **component****code**:Age group**value**:55-59
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -341,7 +341,7 @@
 > **stratum**
 > **component****code**:Age group**value**:60-64
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -354,7 +354,7 @@
 > **stratum**
 > **component****code**:Age group**value**:60-64
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -367,7 +367,7 @@
 > **stratum**
 > **component****code**:Age group**value**:65-69
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -380,7 +380,7 @@
 > **stratum**
 > **component****code**:Age group**value**:65-69
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -393,7 +393,7 @@
 > **stratum**
 > **component****code**:Age group**value**:70-74
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -406,7 +406,7 @@
 > **stratum**
 > **component****code**:Age group**value**:70-74
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -419,7 +419,7 @@
 > **stratum**
 > **component****code**:Age group**value**:75-79
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -432,7 +432,7 @@
 > **stratum**
 > **component****code**:Age group**value**:75-79
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -445,7 +445,7 @@
 > **stratum**
 > **component****code**:Age group**value**:80-84
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -458,7 +458,7 @@
 > **stratum**
 > **component****code**:Age group**value**:80-84
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -471,7 +471,7 @@
 > **stratum**
 > **component****code**:Age group**value**:85-89
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -484,7 +484,7 @@
 > **stratum**
 > **component****code**:Age group**value**:85-89
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -497,7 +497,7 @@
 > **stratum**
 > **component****code**:Age group**value**:90-94
 
-> **component****code**:Administrative gender**value**:male
+> **component****code**:Recorded sex or gender**value**:male
 
 ### Populations
 
@@ -510,7 +510,7 @@
 > **stratum**
 > **component****code**:Age group**value**:90-94
 
-> **component****code**:Administrative gender**value**:female
+> **component****code**:Recorded sex or gender**value**:female
 
 ### Populations
 
@@ -577,8 +577,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -622,8 +622,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -667,8 +667,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -712,8 +712,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -757,8 +757,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -802,8 +802,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -847,8 +847,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -892,8 +892,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -937,8 +937,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -982,8 +982,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1027,8 +1027,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1072,8 +1072,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1117,8 +1117,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1162,8 +1162,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1207,8 +1207,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1252,8 +1252,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1297,8 +1297,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1342,8 +1342,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1387,8 +1387,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1432,8 +1432,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1477,8 +1477,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1522,8 +1522,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1567,8 +1567,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1612,8 +1612,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1657,8 +1657,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1702,8 +1702,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1747,8 +1747,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1792,8 +1792,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1837,8 +1837,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1882,8 +1882,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1927,8 +1927,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -1972,8 +1972,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -2017,8 +2017,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -2062,8 +2062,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -2107,8 +2107,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -2152,8 +2152,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -2197,8 +2197,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },
@@ -2242,8 +2242,8 @@
                     "coding" : [
                       {
                         "system" : "http://loinc.org",
-                        "code" : "107454-1",
-                        "display" : "Administrative gender"
+                        "code" : "#99502-7",
+                        "display" : "Recorded sex or gender"
                       }
                     ]
                   },

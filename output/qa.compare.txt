@@ -1,7 +1,7 @@
 SummaryReports : Validation Results
 =========================================
 
-err = 6, warn = 19, info = 6
+err = 44, warn = 19, info = 6
 $--
 Generated $--. FHIR version $-- for summary-reports#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
  Build Errors : 4 / 6 / 0
@@ -12,7 +12,7 @@ Generated $--. FHIR version $-- for summary-reports#$-- (canonical = https://www
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-age-gender-cql : 1 / 3 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql : 1 / 1 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator : 0 / 1 / 2
- /Users/julian/git/fhir-summary-reports/fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022 : 2 / 0 / 2
+ /Users/julian/git/fhir-summary-reports/fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022 : 40 / 0 / 2
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/mii-bdl-measure-library-transaction-bundle.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -55,6 +55,44 @@ INFORMATION: Resource: The resource Measure/mii-msr-summary-report-composite-gen
 WARNING: Measure/mii-msr-summary-report-fhir-data-evaluator: Measure.group[0].stratifier[0].criteria: The expression language text/fhirpath is not supported, so can't be validated
 INFORMATION: Resource: The resource Measure/mii-msr-summary-report-fhir-data-evaluator could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022.json ==
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[0].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[1].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[2].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[3].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[4].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[5].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[6].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[7].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[8].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[9].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[10].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[11].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[12].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[13].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[14].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[15].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[16].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[17].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[18].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[19].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[20].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[21].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[22].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[23].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[24].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[25].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[26].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[27].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[28].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[29].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[30].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[31].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[32].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[33].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[34].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[35].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[36].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
+ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0].stratum[37].component[1].code.coding[0].code: Unknown code '#99502-7' in the CodeSystem 'http://loinc.org' version '2.81'
 INFORMATION: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.measure: The scoring system in this measure is unknown, so the measureScore values cannot be checked
 ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0].stratifier[0]: Group should have a code that matches the group stratifier definition in the measure
 ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2022: MeasureReport.group[0]: The MeasureReport does not include a stratifier for the stratifier with code '' (id = '')
