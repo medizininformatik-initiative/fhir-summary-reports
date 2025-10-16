@@ -5,3 +5,4 @@ Library-mii-lib-stratifier-age-gender.json                    mii-lib-stratifier
 Measure-mii-msr-summary-report-age-gender-cql.json            mii-msr-summary-report-age-gender-cql            Instance    mii-msr-summary-report-age-gender-cql.fsh            1 - 35
 Measure-mii-msr-summary-report-composite-gender-age-cql.json  mii-msr-summary-report-composite-gender-age-cql  Instance    mii-msr-summary-report-composite-gender-age-cql.fsh  2 - 40
 Measure-mii-msr-summary-report-fhir-data-evaluator.json       mii-msr-summary-report-fhir-data-evaluator       Instance    mii-msr-summary-report-fhir-data-evaluator.fsh       5 - 26
+MeasureReport-mii-msrpt-summary-report-zensus-2022.json       mii-msrpt-summary-report-zensus-2022             Instance    mii-msrpt-summary-report-zensus-de-2022.fsh          3 - 279

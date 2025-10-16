@@ -46,5 +46,13 @@
     "fshFile": "mii-msr-summary-report-fhir-data-evaluator.fsh",
     "startLine": 5,
     "endLine": 26
+  },
+  {
+    "outputFile": "MeasureReport-mii-msrpt-summary-report-zensus-2022.json",
+    "fshName": "mii-msrpt-summary-report-zensus-2022",
+    "fshType": "Instance",
+    "fshFile": "mii-msrpt-summary-report-zensus-de-2022.fsh",
+    "startLine": 3,
+    "endLine": 279
   }
 ]

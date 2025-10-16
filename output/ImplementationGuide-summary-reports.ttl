@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SummaryReports"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-16T14:22:49+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-16T14:42:59+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
@@ -847,6 +847,23 @@
          fhir:reference [ fhir:v "Bundle/mii-bdl-measure-library-transaction-bundle" ]
        ] ;
        fhir:name [ fhir:v "mii-bdl-measure-library-transaction-bundle" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-zensus-2022> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-zensus-2022" ]
+       ] ;
+       fhir:name [ fhir:v "mii-msrpt-summary-report-zensus-2022" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true

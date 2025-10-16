@@ -26,7 +26,7 @@ Feel free to modify this index page with your own awesome content!
   "version" : "0.1.0",
   "name" : "SummaryReports",
   "status" : "draft",
-  "date" : "2025-10-16T14:22:49+02:00",
+  "date" : "2025-10-16T14:42:59+02:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {
@@ -749,6 +749,19 @@ Feel free to modify this index page with your own awesome content!
           "reference" : "Bundle/mii-bdl-measure-library-transaction-bundle"
         },
         "name" : "mii-bdl-measure-library-transaction-bundle",
+        "exampleBoolean" : true
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "MeasureReport"
+          }
+        ],
+        "reference" : {
+          "reference" : "MeasureReport/mii-msrpt-summary-report-zensus-2022"
+        },
+        "name" : "mii-msrpt-summary-report-zensus-2022",
         "exampleBoolean" : true
       },
       {

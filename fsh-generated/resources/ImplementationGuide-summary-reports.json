@@ -46,6 +46,13 @@
       },
       {
         "reference": {
+          "reference": "MeasureReport/mii-msrpt-summary-report-zensus-2022"
+        },
+        "name": "mii-msrpt-summary-report-zensus-2022",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Library/mii-lib-stratifier-age-gender"
         },
         "name": "Patient Age and Gender Stratification Library",

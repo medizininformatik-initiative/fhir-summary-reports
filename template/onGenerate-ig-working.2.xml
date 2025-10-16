@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="SummaryReports"/>
    <status value="draft"/>
-   <date value="2025-10-16T14:22:49+02:00"/>
+   <date value="2025-10-16T14:42:59+02:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -385,6 +385,23 @@
             <reference value="Bundle/mii-bdl-measure-library-transaction-bundle"/>
          </reference>
          <name value="mii-bdl-measure-library-transaction-bundle"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/mii-msrpt-summary-report-zensus-2022"/>
+         </reference>
+         <name value="mii-msrpt-summary-report-zensus-2022"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
