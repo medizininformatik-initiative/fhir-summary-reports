@@ -4,7 +4,7 @@
     "MSG_DRAFT",
     "TERMINOLOGY_TX_WARNING@StructureDefinition.*",
     "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
-    "UNABLE_TO_INFER_CODESYSTEM@Measure*",
-    "Terminology_TX_NoValid_11@Measure*"
+    "UNABLE_TO_INFER_CODESYSTEM@Measure.*",
+    "Terminology_TX_NoValid_11@Measure.*"
   ]
 }
