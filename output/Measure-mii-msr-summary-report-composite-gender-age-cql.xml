@@ -184,21 +184,7 @@
 
   <td class="content-container">
     
-      <em>ID</em>: strat-gender-age
-      
-        <br/>
-      
     
-    
-      
-        <em>Code</em>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes gender-age-composite}">gender-age-composite</span>
-      
-      
-        <br/>
-      
-    
-    
-      <em>Description</em>: Combined gender and age group stratification
     
   </td>
 </tr>
@@ -271,14 +257,7 @@
         <expression value="InInitialPopulation"/>
       </criteria>
     </population>
-    <stratifier id="strat-gender-age">
-      <code>
-        <coding>
-          <system value="https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"/>
-          <code value="gender-age-composite"/>
-        </coding>
-      </code>
-      <description value="Combined gender and age group stratification"/>
+    <stratifier>
       <component>
         <code>
           <coding>

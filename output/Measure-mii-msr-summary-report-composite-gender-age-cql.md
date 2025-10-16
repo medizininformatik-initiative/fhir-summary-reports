@@ -37,7 +37,7 @@ Summary Report with gender and age decade stratification using CQL in a composit
 * Knowledge Artifact Metadata: Initial Population
   * ?: **ID**: initial-population**Description**: No description provided**Logic Definition**:[InInitialPopulation](#stratifieragegender-ininitialpopulation)
 * Knowledge Artifact Metadata: Stratifier
-  * ?: **ID**: strat-gender-age**Code**:gender-age-composite**Description**: Combined gender and age group stratification
+  * ?: 
 * Knowledge Artifact Metadata: Measure Logic
 * Knowledge Artifact Metadata: Primary Library
   * ?: [Patient Age and Gender Stratification Library](Bundle-mii-bdl-measure-library-transaction-bundle.md)
@@ -96,16 +96,6 @@ Summary Report with gender and age decade stratification using CQL in a composit
       ],
       "stratifier" : [
         {
-          "id" : "strat-gender-age",
-          "code" : {
-            "coding" : [
-              {
-                "system" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes",
-                "code" : "gender-age-composite"
-              }
-            ]
-          },
-          "description" : "Combined gender and age group stratification",
           "component" : [
             {
               "code" : {

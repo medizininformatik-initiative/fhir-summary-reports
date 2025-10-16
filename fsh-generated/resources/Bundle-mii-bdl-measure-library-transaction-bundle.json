@@ -203,17 +203,7 @@
                     },
                     "description": "Patient gender"
                   }
-                ],
-                "code": {
-                  "coding": [
-                    {
-                      "code": "gender-age-composite",
-                      "system": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"
-                    }
-                  ]
-                },
-                "id": "strat-gender-age",
-                "description": "Combined gender and age group stratification"
+                ]
               }
             ],
             "description": "Composite stratification by gender and age decade"

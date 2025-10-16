@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.003313083,
+        "value": 0.004143625,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -25,7 +25,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0",
-  "date": "2025-10-16T09:34:42.307686222Z",
+  "date": "2025-10-16T12:20:55.427942052Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -47,16 +47,6 @@
       ],
       "stratifier": [
         {
-          "code": [
-            {
-              "coding": [
-                {
-                  "system": "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes",
-                  "code": "gender-age-composite"
-                }
-              ]
-            }
-          ],
           "stratum": [
             {
               "component": [

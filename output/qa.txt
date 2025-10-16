@@ -1,16 +1,16 @@
 SummaryReports : Validation Results
 =========================================
 
-err = 6, warn = 18, info = 7
+err = 4, warn = 18, info = 5
 IG Publisher Version: 2.0.21
-Generated Thu Oct 16 11:48:05 CEST 2025. FHIR version 4.0.1 for summary-reports#0.1.0 (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
+Generated Thu Oct 16 14:23:31 CEST 2025. FHIR version 4.0.1 for summary-reports#0.1.0 (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
  Build Errors : 4 / 5 / 0
- /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Bundle-mii-bdl-measure-library-transaction-bundle : 3 / 6 / 6
+ /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Bundle-mii-bdl-measure-library-transaction-bundle : 2 / 6 / 5
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes : 0 / 2 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/ImplementationGuide-summary-reports : 0 / 0 / 1
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Library-mii-lib-stratifier-age-gender : 0 / 0 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-age-gender-cql : 1 / 3 / 2
- /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql : 2 / 1 / 3
+ /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql : 1 / 1 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator : 0 / 1 / 2
 </table>
 == n/a ==
@@ -30,8 +30,6 @@ ERROR: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[1].resour
 WARNING: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[1].resource/*Measure/mii-msr-summary-report-age-gender-cql*/.library[0]: There are multiple different potential matches for the url 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.0', found versions: 0.1.0, 1.0.0. Suggested fix: change the canonical reference from 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender' to 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender|1.0.0'
 ERROR: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[2].resource/*Measure/mii-msr-summary-report-composite-gender-age-cql*/.text.div: Hyperlink '#stratifieragegender-ininitialpopulation' at 'div/table/tbody/tr/td/a' for 'InInitialPopulation' does not resolve
 WARNING: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[2].resource/*Measure/mii-msr-summary-report-composite-gender-age-cql*/.library[0]: There are multiple different potential matches for the url 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.0', found versions: 0.1.0, 1.0.0. Suggested fix: change the canonical reference from 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender' to 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender|1.0.0'
-INFORMATION: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[2].resource/*Measure/mii-msr-summary-report-composite-gender-age-cql*/.group[0].stratifier[0].code: Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes|0.1.0
-ERROR: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[2].resource/*Measure/mii-msr-summary-report-composite-gender-age-cql*/: Constraint failed: mea-1: 'Stratifier SHALL be either a single criteria or a set of criteria components (group.stratifier.all((code | description | criteria).exists() xor component.exists()))'
 WARNING: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[1].resource.group[0].stratifier[0].criteria: The expression language text/cql-identifier is not supported, so can't be validated
 WARNING: Bundle/mii-bdl-measure-library-transaction-bundle: Bundle.entry[1].resource.group[0].stratifier[1].criteria: The expression language text/cql-identifier is not supported, so can't be validated
 == fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes.json ==
@@ -50,8 +48,6 @@ INFORMATION: Resource: The resource Measure/mii-msr-summary-report-age-gender-cq
 == fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql.json ==
 ERROR: Measure/mii-msr-summary-report-composite-gender-age-cql: Measure.text.div: Hyperlink '#stratifieragegender-ininitialpopulation' at 'div/table/tbody/tr/td/a' for 'InInitialPopulation' does not resolve
 WARNING: Measure/mii-msr-summary-report-composite-gender-age-cql: Measure.library[0]: There are multiple different potential matches for the url 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.0', found versions: 0.1.0, 1.0.0. Suggested fix: change the canonical reference from 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender' to 'https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender|1.0.0'
-INFORMATION: Measure/mii-msr-summary-report-composite-gender-age-cql: Measure.group[0].stratifier[0].code: Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes|0.1.0
-ERROR: Measure/mii-msr-summary-report-composite-gender-age-cql: Measure: Constraint failed: mea-1: 'Stratifier SHALL be either a single criteria or a set of criteria components (group.stratifier.all((code | description | criteria).exists() xor component.exists()))'
 INFORMATION: Resource: The resource Measure/mii-msr-summary-report-composite-gender-age-cql could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator.json ==
 WARNING: Measure/mii-msr-summary-report-fhir-data-evaluator: Measure.group[0].stratifier[0].criteria: The expression language text/fhirpath is not supported, so can't be validated

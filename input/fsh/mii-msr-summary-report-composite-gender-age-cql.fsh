@@ -23,9 +23,9 @@ Usage: #example
 * group.population.id = "initial-population"
 
 // Composite stratifier combining gender and age decade
-* group.stratifier[0].code = $summary-report-codes#gender-age-composite
-* group.stratifier[0].id = "strat-gender-age"
-* group.stratifier[0].description = "Combined gender and age group stratification"
+// * group.stratifier[0].code = $summary-report-codes#gender-age-composite
+// * group.stratifier[0].id = "strat-gender-age"
+// * group.stratifier[0].description = "Combined gender and age group stratification"
 
 // Age group component  
 * group.stratifier[0].component[0].code = $loinc#46251-5 "Age group"
