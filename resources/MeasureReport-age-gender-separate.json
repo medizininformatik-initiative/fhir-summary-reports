@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.022589333,
+        "value": 0.016062208,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -25,7 +25,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL|1.0",
-  "date": "2025-09-30T15:53:57.871290627Z",
+  "date": "2025-10-16T13:01:18.918063965Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -42,7 +42,7 @@
               }
             ]
           },
-          "count": 44
+          "count": 11
         }
       ],
       "stratifier": [
@@ -51,8 +51,9 @@
             {
               "coding": [
                 {
-                  "system": "http://fhir-evaluator/strat/system",
-                  "code": "gender"
+                  "system": "http://loinc.org",
+                  "code": "107454-1",
+                  "display": "Administrative gender"
                 }
               ]
             }
@@ -72,7 +73,7 @@
                       }
                     ]
                   },
-                  "count": 24
+                  "count": 6
                 }
               ]
             },
@@ -90,7 +91,7 @@
                       }
                     ]
                   },
-                  "count": 4
+                  "count": 1
                 }
               ]
             },
@@ -108,7 +109,7 @@
                       }
                     ]
                   },
-                  "count": 16
+                  "count": 4
                 }
               ]
             }
@@ -119,8 +120,9 @@
             {
               "coding": [
                 {
-                  "system": "http://fhir-evaluator/strat/system",
-                  "code": "age-decade"
+                  "system": "http://loinc.org",
+                  "code": "46251-5",
+                  "display": "Age group"
                 }
               ]
             }
@@ -128,7 +130,7 @@
           "stratum": [
             {
               "value": {
-                "text": "50-59"
+                "text": "55-59"
               },
               "population": [
                 {
@@ -140,13 +142,13 @@
                       }
                     ]
                   },
-                  "count": 8
+                  "count": 2
                 }
               ]
             },
             {
               "value": {
-                "text": "40-49"
+                "text": "45-49"
               },
               "population": [
                 {
@@ -158,13 +160,13 @@
                       }
                     ]
                   },
-                  "count": 20
+                  "count": 2
                 }
               ]
             },
             {
               "value": {
-                "text": "20-29"
+                "text": "25-29"
               },
               "population": [
                 {
@@ -176,13 +178,13 @@
                       }
                     ]
                   },
-                  "count": 4
+                  "count": 1
                 }
               ]
             },
             {
               "value": {
-                "text": "60-69"
+                "text": "60-64"
               },
               "population": [
                 {
@@ -194,13 +196,13 @@
                       }
                     ]
                   },
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
             {
               "value": {
-                "text": "30-39"
+                "text": "40-44"
               },
               "population": [
                 {
@@ -212,7 +214,43 @@
                       }
                     ]
                   },
-                  "count": 4
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "value": {
+                "text": "30-34"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "value": {
+                "text": "65-69"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 1
                 }
               ]
             }

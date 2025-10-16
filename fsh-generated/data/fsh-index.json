@@ -8,12 +8,12 @@
     "endLine": 13
   },
   {
-    "outputFile": "CodeSystem-summary-report-codes.json",
-    "fshName": "SummaryReportCodes",
+    "outputFile": "CodeSystem-mii-cs-summary-report-codes.json",
+    "fshName": "MII_CS_Summary_Report_Codes",
     "fshType": "CodeSystem",
-    "fshFile": "summary-report-codesystem.fsh",
+    "fshFile": "mii-cs-summary-report-codesystem.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 10
   },
   {
     "outputFile": "Library-mii-lib-stratifier-age-gender.json",
@@ -48,43 +48,11 @@
     "endLine": 26
   },
   {
-    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.linkId.json",
-    "fshName": "ext_R5_MeasureReport_gr_linkId",
-    "fshType": "Extension",
-    "fshFile": "extensions/ext_R5_MeasureReport_gr_linkId.fsh",
+    "outputFile": "MeasureReport-mii-msrpt-summary-report-zensus-2022.json",
+    "fshName": "mii-msrpt-summary-report-zensus-2022",
+    "fshType": "Instance",
+    "fshFile": "mii-msrpt-summary-report-zensus-de-2022.fsh",
     "startLine": 3,
-    "endLine": 38
-  },
-  {
-    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.po.linkId.json",
-    "fshName": "ext_R5_MeasureReport_gr_po_linkId",
-    "fshType": "Extension",
-    "fshFile": "extensions/ext_R5_MeasureReport_gr_po_linkId.fsh",
-    "startLine": 3,
-    "endLine": 38
-  },
-  {
-    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.linkId.json",
-    "fshName": "ext_R5_MeasureReport_gr_st_linkId",
-    "fshType": "Extension",
-    "fshFile": "extensions/ext_R5_MeasureReport_gr_st_linkId.fsh",
-    "startLine": 3,
-    "endLine": 38
-  },
-  {
-    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.json",
-    "fshName": "ext_R5_MeasureReport_gr_st_st_co_value",
-    "fshType": "Extension",
-    "fshFile": "extensions/ext_R5_MeasureReport_gr_st_st_co_value.fsh",
-    "startLine": 4,
-    "endLine": 42
-  },
-  {
-    "outputFile": "StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.json",
-    "fshName": "ext_R5_MeasureReport_gr_st_st_value",
-    "fshType": "Extension",
-    "fshFile": "extensions/ext_R5_MeasureReport_gr_st_st_value.fsh",
-    "startLine": 4,
-    "endLine": 42
+    "endLine": 279
   }
 ]

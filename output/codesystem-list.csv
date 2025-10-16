@@ -1,2 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/summary-report-codes,0.1.0,draft,,SummaryReportCodes,Summary Report Codes,"Codes used in summary reports",
+https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes,0.1.0,draft,,MII_CS_Summary_Report_Codes,Summary Report Codes,"Codes used in summary reports",

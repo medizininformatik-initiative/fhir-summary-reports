@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.10"}
-    h3,h4,h5,h6{--heading-prefix:"2.10"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.6"}
+    h3,h4,h5,h6{--heading-prefix:"2.6"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -167,7 +167,7 @@
         
           Active
           
-            as of 2025-09-30
+            as of 2025-10-16
           
         
       </td>
@@ -186,6 +186,10 @@
   <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure">Measure</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;mii-msr-summary-report-age-gender-cql&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.meta">meta</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
@@ -234,7 +238,7 @@
 
 &lt;th scope=&quot;row&quot; class=&quot;row-header&quot;&gt;Description&lt;/th&gt;
 
-&lt;td class=&quot;content-container&quot;&gt;&lt;div&gt;&lt;p&gt;Summary Report with gender and age decade stratification using CQL&lt;/p&gt;
+&lt;td class=&quot;content-container&quot;&gt;&lt;div&gt;&lt;p&gt;Summary Report with gender and 5-year age group stratification using CQL matching German census data structure&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -320,7 +324,7 @@
 
 &lt;th scope=&quot;row&quot; class=&quot;row-header&quot;&gt;Summary&lt;/th&gt;
 
-&lt;td class=&quot;content-container&quot;&gt;Patient stratification by gender and age decade&lt;/td&gt;
+&lt;td class=&quot;content-container&quot;&gt;Patient stratification by gender and 5-year age groups&lt;/td&gt;
 &lt;/tr&gt;
 
   
@@ -369,14 +373,14 @@
 
   &lt;td class=&quot;content-container&quot;&gt;
     
-      &lt;em&gt;ID&lt;/em&gt;: strat-gender
+      &lt;em&gt;ID&lt;/em&gt;: stratifier-gender
       
         &lt;br/&gt;
       
     
     
       
-        &lt;em&gt;Code&lt;/em&gt;: &lt;span title=&quot;Codes:{http://fhir-evaluator/strat/system gender}&quot;&gt;gender&lt;/span&gt;
+        &lt;em&gt;Code&lt;/em&gt;: Recorded sex or gender
       
       
     
@@ -390,14 +394,14 @@
 
   &lt;td class=&quot;content-container&quot;&gt;
     
-      &lt;em&gt;ID&lt;/em&gt;: strat-age-decade
+      &lt;em&gt;ID&lt;/em&gt;: stratifier-age-five-year-groups
       
         &lt;br/&gt;
       
     
     
       
-        &lt;em&gt;Code&lt;/em&gt;: &lt;span title=&quot;Codes:{http://fhir-evaluator/strat/system age-decade}&quot;&gt;age-decade&lt;/span&gt;
+        &lt;em&gt;Code&lt;/em&gt;: Age group
       
       
     
@@ -449,7 +453,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Summary Report Age Gender CQL&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-09-30&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-10-16&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medizininformatik Initiative&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medizininformatik Initiative&quot;/&gt;
@@ -459,11 +463,12 @@
     &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.contact">contact</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.description">description</a>
-               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Summary Report with gender and age decade stratification using CQL&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Summary Report with gender and 5-year age group stratification using CQL matching German census data structure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.library">library</a>
            <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group">group</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient stratification by gender and age decade&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.description">description</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient stratification by gender and 5-year age groups&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population">population</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>=&quot;initial-population-identifier&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -477,11 +482,12 @@
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;InInitialPopulation&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population">population</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier">stratifier</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>=&quot;strat-gender&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier">stratifier</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>=&quot;stratifier-gender&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.code">code</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir-evaluator/strat/system&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;gender&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;99502-7&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Recorded sex or gender&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.code">code</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.criteria">criteria</a>&gt;
@@ -489,16 +495,17 @@
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Gender&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.criteria">criteria</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier">stratifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier">stratifier</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>=&quot;strat-age-decade&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier">stratifier</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>=&quot;stratifier-age-five-year-groups&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.code">code</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir-evaluator/strat/system&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;age-decade&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;46251-5&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Age group&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.code">code</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.criteria">criteria</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;text/cql-identifier&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AgeDecade&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AgeFiveYearGroups&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier.criteria">criteria</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.stratifier">stratifier</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/measure.html#Measure.group">group</a>&gt;
@@ -526,7 +533,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 1, 2025 12:04+0200">2025-10-01</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 16, 2025 15:01+0200">2025-10-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

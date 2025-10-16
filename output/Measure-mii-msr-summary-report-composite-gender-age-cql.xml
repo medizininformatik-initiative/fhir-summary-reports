@@ -184,21 +184,7 @@
 
   <td class="content-container">
     
-      <em>ID</em>: strat-gender-age
-      
-        <br/>
-      
     
-    
-      
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender-age-composite}">gender-age-composite</span>
-      
-      
-        <br/>
-      
-    
-    
-      <em>Description</em>: Combined gender and age decade stratification
     
   </td>
 </tr>
@@ -271,38 +257,33 @@
         <expression value="InInitialPopulation"/>
       </criteria>
     </population>
-    <stratifier id="strat-gender-age">
-      <code>
-        <coding>
-          <system value="http://fhir-evaluator/strat/system"/>
-          <code value="gender-age-composite"/>
-        </coding>
-      </code>
-      <description value="Combined gender and age decade stratification"/>
+    <stratifier>
       <component>
         <code>
           <coding>
-            <system value="http://fhir-evaluator/strat/system"/>
-            <code value="gender"/>
+            <system value="http://loinc.org"/>
+            <code value="46251-5"/>
+            <display value="Age group"/>
+          </coding>
+        </code>
+        <description value="Patient age five year group"/>
+        <criteria>
+          <language value="text/cql-identifier"/>
+          <expression value="AgeFiveYearGroups"/>
+        </criteria>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="99502-7"/>
+            <display value="Recorded sex or gender"/>
           </coding>
         </code>
         <description value="Patient gender"/>
         <criteria>
           <language value="text/cql-identifier"/>
           <expression value="Gender"/>
-        </criteria>
-      </component>
-      <component>
-        <code>
-          <coding>
-            <system value="http://fhir-evaluator/strat/system"/>
-            <code value="age-decade"/>
-          </coding>
-        </code>
-        <description value="Patient age decade"/>
-        <criteria>
-          <language value="text/cql-identifier"/>
-          <expression value="AgeDecade"/>
         </criteria>
       </component>
     </stratifier>

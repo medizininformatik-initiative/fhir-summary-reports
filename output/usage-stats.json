@@ -2,62 +2,9 @@
   "package": "summary-reports",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [
-    {
-      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
-      "title": "Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
-      "title": "Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId",
-      "title": "Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4",
-      "types": [
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value",
-      "title": "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4",
-      "types": [
-        "boolean",
-        "CodeableConcept",
-        "Quantity",
-        "Range",
-        "Reference"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value",
-      "title": "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.value[x] for use in FHIR R4",
-      "types": [
-        "boolean",
-        "CodeableConcept",
-        "Quantity",
-        "Range",
-        "Reference"
-      ]
-    }
-  ],
+  "extensions": [],
   "profiles": {},
   "usage": {
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
-      "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
-      "StructureDefinition"
-    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
     ],
@@ -73,9 +20,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
-      "StructureDefinition.snapshot"
     ]
   }
 }

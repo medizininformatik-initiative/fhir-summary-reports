@@ -1,6 +1,11 @@
 {
   "resourceType": "Measure",
   "id": "mii-msr-summary-report-age-gender-cql",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"
+    ]
+  },
   "library": [
     "https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender"
   ],
@@ -32,30 +37,32 @@
           "code": {
             "coding": [
               {
-                "code": "gender",
-                "system": "http://fhir-evaluator/strat/system"
+                "code": "99502-7",
+                "system": "http://loinc.org",
+                "display": "Recorded sex or gender"
               }
             ]
           },
-          "id": "strat-gender"
+          "id": "stratifier-gender"
         },
         {
           "criteria": {
             "language": "text/cql-identifier",
-            "expression": "AgeDecade"
+            "expression": "AgeFiveYearGroups"
           },
           "code": {
             "coding": [
               {
-                "code": "age-decade",
-                "system": "http://fhir-evaluator/strat/system"
+                "code": "46251-5",
+                "system": "http://loinc.org",
+                "display": "Age group"
               }
             ]
           },
-          "id": "strat-age-decade"
+          "id": "stratifier-age-five-year-groups"
         }
       ],
-      "description": "Patient stratification by gender and age decade"
+      "description": "Patient stratification by gender and 5-year age groups"
     }
   ],
   "version": "1.0",
@@ -65,6 +72,6 @@
   "publisher": "MII",
   "name": "SummaryReportAgeGenderCQL",
   "title": "Summary Report Age Gender CQL",
-  "description": "Summary Report with gender and age decade stratification using CQL",
-  "date": "2025-09-30"
+  "description": "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure",
+  "date": "2025-10-16"
 }

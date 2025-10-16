@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mii-cs-summary-report-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-summary-report-codes</b></p><a name=\"mii-cs-summary-report-codes\"> </a><a name=\"hcmii-cs-summary-report-codes\"> </a><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">summary-report<a name=\"mii-cs-summary-report-codes-summary-report\"> </a></td></tr><tr><td style=\"white-space:nowrap\">gender-age-composite<a name=\"mii-cs-summary-report-codes-gender-age-composite\"> </a></td></tr><tr><td style=\"white-space:nowrap\">geschlechterverteilung<a name=\"mii-cs-summary-report-codes-geschlechterverteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">altersverteilung<a name=\"mii-cs-summary-report-codes-altersverteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">diskreteVerteilung<a name=\"mii-cs-summary-report-codes-diskreteVerteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">categorialVerteilung<a name=\"mii-cs-summary-report-codes-categorialVerteilung\"> </a></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MII_CS_Summary_Report_Codes"] ; # 
+  fhir:title [ fhir:v "Summary Report Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-10-16T15:00:46+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.medizininformatik-initiative.de/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes used in summary reports"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "summary-report" ]
+  ] [
+     fhir:code [ fhir:v "gender-age-composite" ]
+  ] [
+     fhir:code [ fhir:v "geschlechterverteilung" ]
+  ] [
+     fhir:code [ fhir:v "altersverteilung" ]
+  ] [
+     fhir:code [ fhir:v "diskreteVerteilung" ]
+  ] [
+     fhir:code [ fhir:v "categorialVerteilung" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

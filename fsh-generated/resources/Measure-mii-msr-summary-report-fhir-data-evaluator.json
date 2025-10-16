@@ -29,8 +29,9 @@
           "code": {
             "coding": [
               {
-                "code": "gender",
-                "system": "http://fhir-evaluator/strat/system"
+                "code": "99502-7",
+                "system": "http://loinc.org",
+                "display": "Recorded sex or gender"
               }
             ]
           },
