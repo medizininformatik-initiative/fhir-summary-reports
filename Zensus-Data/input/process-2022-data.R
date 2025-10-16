@@ -6,7 +6,7 @@ output <- data.frame("Alter von" = character(), "Alter Bis" = character(), "Gesa
 for(land in 0:15){
   for (n in 1:19) {
     output[n, 1] <- (n-1)*5
-    output[n, 2] <- n*5
+    output[n, 2] <- (n-1)*5 + 4 
     output[n, 3] <- df[n*27+5, land*2+4]
     output[n, 4] <- df[n*27+6, land*2+4]
     output[n, 5] <- df[n*27+7, land*2+4]
