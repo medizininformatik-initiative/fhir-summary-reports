@@ -188,7 +188,7 @@
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender}">gender</span>
+        <em>Code</em>: Administrative gender
       
       
     
@@ -252,8 +252,9 @@
     <stratifier id="strat-1">
       <code>
         <coding>
-          <system value="http://fhir-evaluator/strat/system"/>
-          <code value="gender"/>
+          <system value="http://loinc.org"/>
+          <code value="107454-1"/>
+          <display value="Administrative gender"/>
         </coding>
       </code>
       <criteria>

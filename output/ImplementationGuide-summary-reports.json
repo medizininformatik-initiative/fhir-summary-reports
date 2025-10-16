@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "SummaryReports",
   "status" : "draft",
-  "date" : "2025-10-01T12:03:45+02:00",
+  "date" : "2025-10-16T11:47:02+02:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -40,6 +40,18 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.2.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_cqm",
+    "uri" : "http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm",
+    "packageId" : "hl7.fhir.uv.cqm",
+    "version" : "1.0.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_crmi",
+    "uri" : "http://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi",
+    "packageId" : "hl7.fhir.uv.crmi",
+    "version" : "1.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -599,66 +611,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ext-R5-MeasureReport.gr.linkId"
-      },
-      "name" : "Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4",
-      "description" : "This cross-version extension represents MeasureReport.group.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ext-R5-MeasureReport.gr.po.linkId"
-      },
-      "name" : "Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4",
-      "description" : "This cross-version extension represents MeasureReport.group.population.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ext-R5-MeasureReport.gr.st.linkId"
-      },
-      "name" : "Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4",
-      "description" : "This cross-version extension represents MeasureReport.group.stratifier.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value"
-      },
-      "name" : "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4",
-      "description" : "This cross-version extension represents MeasureReport.group.stratifier.stratum.component.value[x] from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ext-R5-MeasureReport.gr.st.st.value"
-      },
-      "name" : "Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.value[x] for use in FHIR R4",
-      "description" : "This cross-version extension represents MeasureReport.group.stratifier.stratum.value[x] from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -700,7 +652,7 @@
         "reference" : "Measure/mii-msr-summary-report-age-gender-cql"
       },
       "name" : "Summary Report Age Gender CQL",
-      "description" : "Summary Report with gender and age decade stratification using CQL",
+      "description" : "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure",
       "exampleBoolean" : true
     },
     {
@@ -709,7 +661,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/summary-report-codes"
+        "reference" : "CodeSystem/mii-cs-summary-report-codes"
       },
       "name" : "Summary Report Codes",
       "description" : "Codes used in summary reports",

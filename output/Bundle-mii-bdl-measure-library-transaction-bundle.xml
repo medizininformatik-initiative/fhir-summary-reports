@@ -81,7 +81,7 @@
         
         <tr>
             <th scope="row"><b>Date: </b></th>
-            <td style="padding-left: 4px;">2025-09-30</td>
+            <td style="padding-left: 4px;">2025-10-16</td>
         </tr>
         
 
@@ -233,6 +233,41 @@ define AgeDecade:
     else null
   end
 
+// 5-year age groups matching German census data structure
+define AgeFiveYearGroups:
+  case
+    when AgeInYears is null then null
+    when AgeInYears &gt;= 0 and AgeInYears &lt; 5 then '0-4'
+    when AgeInYears &gt;= 5 and AgeInYears &lt; 10 then '5-9'
+    when AgeInYears &gt;= 10 and AgeInYears &lt; 15 then '10-14'
+    when AgeInYears &gt;= 15 and AgeInYears &lt; 20 then '15-19'
+    when AgeInYears &gt;= 20 and AgeInYears &lt; 25 then '20-24'
+    when AgeInYears &gt;= 25 and AgeInYears &lt; 30 then '25-29'
+    when AgeInYears &gt;= 30 and AgeInYears &lt; 35 then '30-34'
+    when AgeInYears &gt;= 35 and AgeInYears &lt; 40 then '35-39'
+    when AgeInYears &gt;= 40 and AgeInYears &lt; 45 then '40-44'
+    when AgeInYears &gt;= 45 and AgeInYears &lt; 50 then '45-49'
+    when AgeInYears &gt;= 50 and AgeInYears &lt; 55 then '50-54'
+    when AgeInYears &gt;= 55 and AgeInYears &lt; 60 then '55-59'
+    when AgeInYears &gt;= 60 and AgeInYears &lt; 65 then '60-64'
+    when AgeInYears &gt;= 65 and AgeInYears &lt; 70 then '65-69'
+    when AgeInYears &gt;= 70 and AgeInYears &lt; 75 then '70-74'
+    when AgeInYears &gt;= 75 and AgeInYears &lt; 80 then '75-79'
+    when AgeInYears &gt;= 80 and AgeInYears &lt; 85 then '80-84'
+    when AgeInYears &gt;= 85 and AgeInYears &lt; 90 then '85-89'
+    when AgeInYears &gt;= 90 and AgeInYears &lt; 95 then '90-94'
+    when AgeInYears &gt;= 95 then '95+'
+    else null
+  end
+
+// Alternative shorter expression using mathematical approach
+define AgeFiveYearGroupsMath:
+  case
+    when AgeInYears is null then null
+    when AgeInYears &gt;= 95 then '95+'
+    else ToString((AgeInYears div 5) * 5) + '-' + ToString(((AgeInYears div 5) * 5) + 4)
+  end
+
 // Check if patient is an adult (18 or older)
 define IsAdult:
   AgeInYears &gt;= 18
@@ -271,7 +306,7 @@ define Gender:
             <code value="logic-library"/>
           </coding>
         </type>
-        <date value="2025-09-30"/>
+        <date value="2025-10-16"/>
         <publisher value="MII"/>
         <description value="CQL library for calculating patient ages and gender-based stratifications"/>
         <parameter>
@@ -287,7 +322,7 @@ define Gender:
         </dataRequirement>
         <content>
           <contentType value="text/cql"/>
-          <data value="bGlicmFyeSAic3RyYXRpZmllci1hZ2UtZ2VuZGVyIgp1c2luZyBGSElSIHZlcnNpb24gJzQuMC4wJwppbmNsdWRlIEZISVJIZWxwZXJzIHZlcnNpb24gJzQuMC4wJwoKY29udGV4dCBQYXRpZW50CgpkZWZpbmUgSW5Jbml0aWFsUG9wdWxhdGlvbjoKICB0cnVlCgpkZWZpbmUgQmlydGhZZWFyOgogIHllYXIgZnJvbSBQYXRpZW50LmJpcnRoRGF0ZQoKLy8gQ2FsY3VsYXRlIHRoZSBwYXRpZW50J3MgYWdlIGluIHllYXJzIGFzIG9mIHRvZGF5CmRlZmluZSBBZ2VJblllYXJzOgogIEFnZUluWWVhcnNBdChUb2RheSgpKQoKLy8gQ2FsY3VsYXRlIHRoZSBwYXRpZW50J3MgYWdlIGluIHllYXJzIGF0IGEgc3BlY2lmaWMgZGF0ZQpkZWZpbmUgZnVuY3Rpb24gQWdlSW5ZZWFyc0F0KGFzT2YgRGF0ZVRpbWUpOgogIGlmIFBhdGllbnQuYmlydGhEYXRlIGlzIG51bGwgdGhlbiBudWxsCiAgZWxzZSB5ZWFycyBiZXR3ZWVuIEZISVJIZWxwZXJzLlRvRGF0ZShQYXRpZW50LmJpcnRoRGF0ZSkgYW5kIGFzT2YKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBtb250aHMKZGVmaW5lIEFnZUluTW9udGhzOgogIEFnZUluTW9udGhzQXQoVG9kYXkoKSkKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBtb250aHMgYXQgYSBzcGVjaWZpYyBkYXRlICAKZGVmaW5lIGZ1bmN0aW9uIEFnZUluTW9udGhzQXQoYXNPZiBEYXRlVGltZSk6CiAgaWYgUGF0aWVudC5iaXJ0aERhdGUgaXMgbnVsbCB0aGVuIG51bGwKICBlbHNlIG1vbnRocyBiZXR3ZWVuIEZISVJIZWxwZXJzLlRvRGF0ZShQYXRpZW50LmJpcnRoRGF0ZSkgYW5kIGFzT2YKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBkYXlzCmRlZmluZSBBZ2VJbkRheXM6CiAgQWdlSW5EYXlzQXQoVG9kYXkoKSkKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBkYXlzIGF0IGEgc3BlY2lmaWMgZGF0ZQpkZWZpbmUgZnVuY3Rpb24gQWdlSW5EYXlzQXQoYXNPZiBEYXRlVGltZSk6CiAgaWYgUGF0aWVudC5iaXJ0aERhdGUgaXMgbnVsbCB0aGVuIG51bGwKICBlbHNlIGRheXMgYmV0d2VlbiBGSElSSGVscGVycy5Ub0RhdGUoUGF0aWVudC5iaXJ0aERhdGUpIGFuZCBhc09mCgovLyBBbHRlcm5hdGl2ZSBhZ2UgY2FsY3VsYXRpb24gdXNpbmcgZGF0ZSBhcml0aG1ldGljCmRlZmluZSBBZ2VJblllYXJzU2ltcGxlOgogIGlmIFBhdGllbnQuYmlydGhEYXRlIGlzIG51bGwgdGhlbiBudWxsCiAgZWxzZSB5ZWFyIGZyb20gVG9kYXkoKSAtIHllYXIgZnJvbSBGSElSSGVscGVycy5Ub0RhdGUoUGF0aWVudC5iaXJ0aERhdGUpCgovLyBBZ2Ugc3RyYXRpZmljYXRpb24gZXhhbXBsZXMKZGVmaW5lIEFnZUdyb3VwOgogIGNhc2UKICAgIHdoZW4gQWdlSW5ZZWFycyBpcyBudWxsIHRoZW4gbnVsbAogICAgd2hlbiBBZ2VJblllYXJzIDwgMTggdGhlbiAnUGVkaWF0cmljJwogICAgd2hlbiBBZ2VJblllYXJzID49IDE4IGFuZCBBZ2VJblllYXJzIDwgNjUgdGhlbiAnQWR1bHQnCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNjUgdGhlbiAnR2VyaWF0cmljJwogICAgZWxzZSBudWxsCiAgZW5kCgpkZWZpbmUgQWdlRGVjYWRlOgogIGNhc2UKICAgIHdoZW4gQWdlSW5ZZWFycyBpcyBudWxsIHRoZW4gbnVsbAogICAgd2hlbiBBZ2VJblllYXJzIDwgMTAgdGhlbiAnMC05JwogICAgd2hlbiBBZ2VJblllYXJzID49IDEwIGFuZCBBZ2VJblllYXJzIDwgMjAgdGhlbiAnMTAtMTknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gMjAgYW5kIEFnZUluWWVhcnMgPCAzMCB0aGVuICcyMC0yOScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSAzMCBhbmQgQWdlSW5ZZWFycyA8IDQwIHRoZW4gJzMwLTM5JwogICAgd2hlbiBBZ2VJblllYXJzID49IDQwIGFuZCBBZ2VJblllYXJzIDwgNTAgdGhlbiAnNDAtNDknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNTAgYW5kIEFnZUluWWVhcnMgPCA2MCB0aGVuICc1MC01OScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA2MCBhbmQgQWdlSW5ZZWFycyA8IDcwIHRoZW4gJzYwLTY5JwogICAgd2hlbiBBZ2VJblllYXJzID49IDcwIGFuZCBBZ2VJblllYXJzIDwgODAgdGhlbiAnNzAtNzknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gODAgYW5kIEFnZUluWWVhcnMgPCA5MCB0aGVuICc4MC04OScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA5MCB0aGVuICc5MCsnCiAgICBlbHNlIG51bGwKICBlbmQKCi8vIENoZWNrIGlmIHBhdGllbnQgaXMgYW4gYWR1bHQgKDE4IG9yIG9sZGVyKQpkZWZpbmUgSXNBZHVsdDoKICBBZ2VJblllYXJzID49IDE4CgovLyBDaGVjayBpZiBwYXRpZW50IGlzIGEgbWlub3IgKHVuZGVyIDE4KQpkZWZpbmUgSXNNaW5vcjoKICBBZ2VJblllYXJzIDwgMTgKCi8vIENoZWNrIGlmIHBhdGllbnQgaXMgZWxkZXJseSAoNjUgb3Igb2xkZXIpCmRlZmluZSBJc0VsZGVybHk6CiAgQWdlSW5ZZWFycyA+PSA2NQoKLy8gR2VuZGVyIGZvciBzdHJhdGlmaWNhdGlvbgpkZWZpbmUgR2VuZGVyOgogIFBhdGllbnQuZ2VuZGVyCg=="/>
+          <data value="bGlicmFyeSAic3RyYXRpZmllci1hZ2UtZ2VuZGVyIgp1c2luZyBGSElSIHZlcnNpb24gJzQuMC4wJwppbmNsdWRlIEZISVJIZWxwZXJzIHZlcnNpb24gJzQuMC4wJwoKY29udGV4dCBQYXRpZW50CgpkZWZpbmUgSW5Jbml0aWFsUG9wdWxhdGlvbjoKICB0cnVlCgpkZWZpbmUgQmlydGhZZWFyOgogIHllYXIgZnJvbSBQYXRpZW50LmJpcnRoRGF0ZQoKLy8gQ2FsY3VsYXRlIHRoZSBwYXRpZW50J3MgYWdlIGluIHllYXJzIGFzIG9mIHRvZGF5CmRlZmluZSBBZ2VJblllYXJzOgogIEFnZUluWWVhcnNBdChUb2RheSgpKQoKLy8gQ2FsY3VsYXRlIHRoZSBwYXRpZW50J3MgYWdlIGluIHllYXJzIGF0IGEgc3BlY2lmaWMgZGF0ZQpkZWZpbmUgZnVuY3Rpb24gQWdlSW5ZZWFyc0F0KGFzT2YgRGF0ZVRpbWUpOgogIGlmIFBhdGllbnQuYmlydGhEYXRlIGlzIG51bGwgdGhlbiBudWxsCiAgZWxzZSB5ZWFycyBiZXR3ZWVuIEZISVJIZWxwZXJzLlRvRGF0ZShQYXRpZW50LmJpcnRoRGF0ZSkgYW5kIGFzT2YKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBtb250aHMKZGVmaW5lIEFnZUluTW9udGhzOgogIEFnZUluTW9udGhzQXQoVG9kYXkoKSkKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBtb250aHMgYXQgYSBzcGVjaWZpYyBkYXRlICAKZGVmaW5lIGZ1bmN0aW9uIEFnZUluTW9udGhzQXQoYXNPZiBEYXRlVGltZSk6CiAgaWYgUGF0aWVudC5iaXJ0aERhdGUgaXMgbnVsbCB0aGVuIG51bGwKICBlbHNlIG1vbnRocyBiZXR3ZWVuIEZISVJIZWxwZXJzLlRvRGF0ZShQYXRpZW50LmJpcnRoRGF0ZSkgYW5kIGFzT2YKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBkYXlzCmRlZmluZSBBZ2VJbkRheXM6CiAgQWdlSW5EYXlzQXQoVG9kYXkoKSkKCi8vIENhbGN1bGF0ZSB0aGUgcGF0aWVudCdzIGFnZSBpbiBkYXlzIGF0IGEgc3BlY2lmaWMgZGF0ZQpkZWZpbmUgZnVuY3Rpb24gQWdlSW5EYXlzQXQoYXNPZiBEYXRlVGltZSk6CiAgaWYgUGF0aWVudC5iaXJ0aERhdGUgaXMgbnVsbCB0aGVuIG51bGwKICBlbHNlIGRheXMgYmV0d2VlbiBGSElSSGVscGVycy5Ub0RhdGUoUGF0aWVudC5iaXJ0aERhdGUpIGFuZCBhc09mCgovLyBBbHRlcm5hdGl2ZSBhZ2UgY2FsY3VsYXRpb24gdXNpbmcgZGF0ZSBhcml0aG1ldGljCmRlZmluZSBBZ2VJblllYXJzU2ltcGxlOgogIGlmIFBhdGllbnQuYmlydGhEYXRlIGlzIG51bGwgdGhlbiBudWxsCiAgZWxzZSB5ZWFyIGZyb20gVG9kYXkoKSAtIHllYXIgZnJvbSBGSElSSGVscGVycy5Ub0RhdGUoUGF0aWVudC5iaXJ0aERhdGUpCgovLyBBZ2Ugc3RyYXRpZmljYXRpb24gZXhhbXBsZXMKZGVmaW5lIEFnZUdyb3VwOgogIGNhc2UKICAgIHdoZW4gQWdlSW5ZZWFycyBpcyBudWxsIHRoZW4gbnVsbAogICAgd2hlbiBBZ2VJblllYXJzIDwgMTggdGhlbiAnUGVkaWF0cmljJwogICAgd2hlbiBBZ2VJblllYXJzID49IDE4IGFuZCBBZ2VJblllYXJzIDwgNjUgdGhlbiAnQWR1bHQnCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNjUgdGhlbiAnR2VyaWF0cmljJwogICAgZWxzZSBudWxsCiAgZW5kCgpkZWZpbmUgQWdlRGVjYWRlOgogIGNhc2UKICAgIHdoZW4gQWdlSW5ZZWFycyBpcyBudWxsIHRoZW4gbnVsbAogICAgd2hlbiBBZ2VJblllYXJzIDwgMTAgdGhlbiAnMC05JwogICAgd2hlbiBBZ2VJblllYXJzID49IDEwIGFuZCBBZ2VJblllYXJzIDwgMjAgdGhlbiAnMTAtMTknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gMjAgYW5kIEFnZUluWWVhcnMgPCAzMCB0aGVuICcyMC0yOScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSAzMCBhbmQgQWdlSW5ZZWFycyA8IDQwIHRoZW4gJzMwLTM5JwogICAgd2hlbiBBZ2VJblllYXJzID49IDQwIGFuZCBBZ2VJblllYXJzIDwgNTAgdGhlbiAnNDAtNDknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNTAgYW5kIEFnZUluWWVhcnMgPCA2MCB0aGVuICc1MC01OScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA2MCBhbmQgQWdlSW5ZZWFycyA8IDcwIHRoZW4gJzYwLTY5JwogICAgd2hlbiBBZ2VJblllYXJzID49IDcwIGFuZCBBZ2VJblllYXJzIDwgODAgdGhlbiAnNzAtNzknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gODAgYW5kIEFnZUluWWVhcnMgPCA5MCB0aGVuICc4MC04OScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA5MCB0aGVuICc5MCsnCiAgICBlbHNlIG51bGwKICBlbmQKCi8vIDUteWVhciBhZ2UgZ3JvdXBzIG1hdGNoaW5nIEdlcm1hbiBjZW5zdXMgZGF0YSBzdHJ1Y3R1cmUKZGVmaW5lIEFnZUZpdmVZZWFyR3JvdXBzOgogIGNhc2UKICAgIHdoZW4gQWdlSW5ZZWFycyBpcyBudWxsIHRoZW4gbnVsbAogICAgd2hlbiBBZ2VJblllYXJzID49IDAgYW5kIEFnZUluWWVhcnMgPCA1IHRoZW4gJzAtNCcKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA1IGFuZCBBZ2VJblllYXJzIDwgMTAgdGhlbiAnNS05JwogICAgd2hlbiBBZ2VJblllYXJzID49IDEwIGFuZCBBZ2VJblllYXJzIDwgMTUgdGhlbiAnMTAtMTQnCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gMTUgYW5kIEFnZUluWWVhcnMgPCAyMCB0aGVuICcxNS0xOScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSAyMCBhbmQgQWdlSW5ZZWFycyA8IDI1IHRoZW4gJzIwLTI0JwogICAgd2hlbiBBZ2VJblllYXJzID49IDI1IGFuZCBBZ2VJblllYXJzIDwgMzAgdGhlbiAnMjUtMjknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gMzAgYW5kIEFnZUluWWVhcnMgPCAzNSB0aGVuICczMC0zNCcKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSAzNSBhbmQgQWdlSW5ZZWFycyA8IDQwIHRoZW4gJzM1LTM5JwogICAgd2hlbiBBZ2VJblllYXJzID49IDQwIGFuZCBBZ2VJblllYXJzIDwgNDUgdGhlbiAnNDAtNDQnCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNDUgYW5kIEFnZUluWWVhcnMgPCA1MCB0aGVuICc0NS00OScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA1MCBhbmQgQWdlSW5ZZWFycyA8IDU1IHRoZW4gJzUwLTU0JwogICAgd2hlbiBBZ2VJblllYXJzID49IDU1IGFuZCBBZ2VJblllYXJzIDwgNjAgdGhlbiAnNTUtNTknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNjAgYW5kIEFnZUluWWVhcnMgPCA2NSB0aGVuICc2MC02NCcKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA2NSBhbmQgQWdlSW5ZZWFycyA8IDcwIHRoZW4gJzY1LTY5JwogICAgd2hlbiBBZ2VJblllYXJzID49IDcwIGFuZCBBZ2VJblllYXJzIDwgNzUgdGhlbiAnNzAtNzQnCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gNzUgYW5kIEFnZUluWWVhcnMgPCA4MCB0aGVuICc3NS03OScKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA4MCBhbmQgQWdlSW5ZZWFycyA8IDg1IHRoZW4gJzgwLTg0JwogICAgd2hlbiBBZ2VJblllYXJzID49IDg1IGFuZCBBZ2VJblllYXJzIDwgOTAgdGhlbiAnODUtODknCiAgICB3aGVuIEFnZUluWWVhcnMgPj0gOTAgYW5kIEFnZUluWWVhcnMgPCA5NSB0aGVuICc5MC05NCcKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA5NSB0aGVuICc5NSsnCiAgICBlbHNlIG51bGwKICBlbmQKCi8vIEFsdGVybmF0aXZlIHNob3J0ZXIgZXhwcmVzc2lvbiB1c2luZyBtYXRoZW1hdGljYWwgYXBwcm9hY2gKZGVmaW5lIEFnZUZpdmVZZWFyR3JvdXBzTWF0aDoKICBjYXNlCiAgICB3aGVuIEFnZUluWWVhcnMgaXMgbnVsbCB0aGVuIG51bGwKICAgIHdoZW4gQWdlSW5ZZWFycyA+PSA5NSB0aGVuICc5NSsnCiAgICBlbHNlIFRvU3RyaW5nKChBZ2VJblllYXJzIGRpdiA1KSAqIDUpICsgJy0nICsgVG9TdHJpbmcoKChBZ2VJblllYXJzIGRpdiA1KSAqIDUpICsgNCkKICBlbmQKCi8vIENoZWNrIGlmIHBhdGllbnQgaXMgYW4gYWR1bHQgKDE4IG9yIG9sZGVyKQpkZWZpbmUgSXNBZHVsdDoKICBBZ2VJblllYXJzID49IDE4CgovLyBDaGVjayBpZiBwYXRpZW50IGlzIGEgbWlub3IgKHVuZGVyIDE4KQpkZWZpbmUgSXNNaW5vcjoKICBBZ2VJblllYXJzIDwgMTgKCi8vIENoZWNrIGlmIHBhdGllbnQgaXMgZWxkZXJseSAoNjUgb3Igb2xkZXIpCmRlZmluZSBJc0VsZGVybHk6CiAgQWdlSW5ZZWFycyA+PSA2NQoKLy8gR2VuZGVyIGZvciBzdHJhdGlmaWNhdGlvbgpkZWZpbmUgR2VuZGVyOgogIFBhdGllbnQuZ2VuZGVyCg=="/>
         </content>
       </Library>
     </resource>
@@ -301,6 +336,9 @@ define Gender:
     <resource>
       <Measure>
         <id value="mii-msr-summary-report-age-gender-cql"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"/>
+        </meta>
         <text>
           <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Measure_mii-msr-summary-report-age-gender-cql"> </a>
   <table class="narrative-table">
@@ -348,7 +386,7 @@ define Gender:
 
 <th scope="row" class="row-header">Description</th>
 
-<td class="content-container"><div><p>Summary Report with gender and age decade stratification using CQL</p>
+<td class="content-container"><div><p>Summary Report with gender and 5-year age group stratification using CQL matching German census data structure</p>
 </div></td>
 </tr>
 
@@ -427,7 +465,7 @@ define Gender:
 
 <th scope="row" class="row-header">Summary</th>
 
-<td class="content-container">Patient stratification by gender and age decade</td>
+<td class="content-container">Patient stratification by gender and 5-year age groups</td>
 </tr>
 
   
@@ -476,14 +514,14 @@ define Gender:
 
   <td class="content-container">
     
-      <em>ID</em>: strat-gender
+      <em>ID</em>: stratifier-gender
       
         <br/>
       
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender}">gender</span>
+        <em>Code</em>: Administrative gender
       
       
     
@@ -497,14 +535,14 @@ define Gender:
 
   <td class="content-container">
     
-      <em>ID</em>: strat-age-decade
+      <em>ID</em>: stratifier-age-five-year-groups
       
         <br/>
       
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system age-decade}">age-decade</span>
+        <em>Code</em>: Age group
       
       
     
@@ -555,12 +593,12 @@ define Gender:
         <title value="Summary Report Age Gender CQL"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-30"/>
+        <date value="2025-10-16"/>
         <publisher value="MII"/>
-        <description value="Summary Report with gender and age decade stratification using CQL"/>
+        <description value="Summary Report with gender and 5-year age group stratification using CQL matching German census data structure"/>
         <library value="https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender"/>
         <group>
-          <description value="Patient stratification by gender and age decade"/>
+          <description value="Patient stratification by gender and 5-year age groups"/>
           <population id="initial-population-identifier">
             <code>
               <coding>
@@ -573,11 +611,12 @@ define Gender:
               <expression value="InInitialPopulation"/>
             </criteria>
           </population>
-          <stratifier id="strat-gender">
+          <stratifier id="stratifier-gender">
             <code>
               <coding>
-                <system value="http://fhir-evaluator/strat/system"/>
-                <code value="gender"/>
+                <system value="http://loinc.org"/>
+                <code value="107454-1"/>
+                <display value="Administrative gender"/>
               </coding>
             </code>
             <criteria>
@@ -585,16 +624,17 @@ define Gender:
               <expression value="Gender"/>
             </criteria>
           </stratifier>
-          <stratifier id="strat-age-decade">
+          <stratifier id="stratifier-age-five-year-groups">
             <code>
               <coding>
-                <system value="http://fhir-evaluator/strat/system"/>
-                <code value="age-decade"/>
+                <system value="http://loinc.org"/>
+                <code value="46251-5"/>
+                <display value="Age group"/>
               </coding>
             </code>
             <criteria>
               <language value="text/cql-identifier"/>
-              <expression value="AgeDecade"/>
+              <expression value="AgeFiveYearGroups"/>
             </criteria>
           </stratifier>
         </group>
@@ -792,14 +832,14 @@ define Gender:
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender-age-composite}">gender-age-composite</span>
+        <em>Code</em>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes gender-age-composite}">gender-age-composite</span>
       
       
         <br/>
       
     
     
-      <em>Description</em>: Combined gender and age decade stratification
+      <em>Description</em>: Combined gender and age group stratification
     
   </td>
 </tr>
@@ -868,35 +908,37 @@ define Gender:
           <stratifier id="strat-gender-age">
             <code>
               <coding>
-                <system value="http://fhir-evaluator/strat/system"/>
+                <system value="https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"/>
                 <code value="gender-age-composite"/>
               </coding>
             </code>
-            <description value="Combined gender and age decade stratification"/>
+            <description value="Combined gender and age group stratification"/>
             <component>
               <code>
                 <coding>
-                  <system value="http://fhir-evaluator/strat/system"/>
-                  <code value="gender"/>
+                  <system value="http://loinc.org"/>
+                  <code value="46251-5"/>
+                  <display value="Age group"/>
+                </coding>
+              </code>
+              <description value="Patient age five year group"/>
+              <criteria>
+                <language value="text/cql-identifier"/>
+                <expression value="AgeFiveYearGroups"/>
+              </criteria>
+            </component>
+            <component>
+              <code>
+                <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="107454-1"/>
+                  <display value="Administrative gender"/>
                 </coding>
               </code>
               <description value="Patient gender"/>
               <criteria>
                 <language value="text/cql-identifier"/>
                 <expression value="Gender"/>
-              </criteria>
-            </component>
-            <component>
-              <code>
-                <coding>
-                  <system value="http://fhir-evaluator/strat/system"/>
-                  <code value="age-decade"/>
-                </coding>
-              </code>
-              <description value="Patient age decade"/>
-              <criteria>
-                <language value="text/cql-identifier"/>
-                <expression value="AgeDecade"/>
               </criteria>
             </component>
           </stratifier>

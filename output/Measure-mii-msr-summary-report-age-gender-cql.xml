@@ -2,6 +2,9 @@
 
 <Measure xmlns="http://hl7.org/fhir">
   <id value="mii-msr-summary-report-age-gender-cql"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"/>
+  </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">
   <table class="narrative-table">
@@ -49,7 +52,7 @@
 
 <th scope="row" class="row-header">Description</th>
 
-<td class="content-container"><div><p>Summary Report with gender and age decade stratification using CQL</p>
+<td class="content-container"><div><p>Summary Report with gender and 5-year age group stratification using CQL matching German census data structure</p>
 </div></td>
 </tr>
 
@@ -135,7 +138,7 @@
 
 <th scope="row" class="row-header">Summary</th>
 
-<td class="content-container">Patient stratification by gender and age decade</td>
+<td class="content-container">Patient stratification by gender and 5-year age groups</td>
 </tr>
 
   
@@ -184,14 +187,14 @@
 
   <td class="content-container">
     
-      <em>ID</em>: strat-gender
+      <em>ID</em>: stratifier-gender
       
         <br/>
       
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender}">gender</span>
+        <em>Code</em>: Administrative gender
       
       
     
@@ -205,14 +208,14 @@
 
   <td class="content-container">
     
-      <em>ID</em>: strat-age-decade
+      <em>ID</em>: stratifier-age-five-year-groups
       
         <br/>
       
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system age-decade}">age-decade</span>
+        <em>Code</em>: Age group
       
       
     
@@ -263,7 +266,7 @@
   <title value="Summary Report Age Gender CQL"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-30"/>
+  <date value="2025-10-16"/>
   <publisher value="Medizininformatik Initiative"/>
   <contact>
     <name value="Medizininformatik Initiative"/>
@@ -272,10 +275,10 @@
       <value value="https://www.medizininformatik-initiative.de/"/>
     </telecom>
   </contact>
-  <description value="Summary Report with gender and age decade stratification using CQL"/>
+  <description value="Summary Report with gender and 5-year age group stratification using CQL matching German census data structure"/>
   <library value="https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender"/>
   <group>
-    <description value="Patient stratification by gender and age decade"/>
+    <description value="Patient stratification by gender and 5-year age groups"/>
     <population id="initial-population-identifier">
       <code>
         <coding>
@@ -288,11 +291,12 @@
         <expression value="InInitialPopulation"/>
       </criteria>
     </population>
-    <stratifier id="strat-gender">
+    <stratifier id="stratifier-gender">
       <code>
         <coding>
-          <system value="http://fhir-evaluator/strat/system"/>
-          <code value="gender"/>
+          <system value="http://loinc.org"/>
+          <code value="107454-1"/>
+          <display value="Administrative gender"/>
         </coding>
       </code>
       <criteria>
@@ -300,16 +304,17 @@
         <expression value="Gender"/>
       </criteria>
     </stratifier>
-    <stratifier id="strat-age-decade">
+    <stratifier id="stratifier-age-five-year-groups">
       <code>
         <coding>
-          <system value="http://fhir-evaluator/strat/system"/>
-          <code value="age-decade"/>
+          <system value="http://loinc.org"/>
+          <code value="46251-5"/>
+          <display value="Age group"/>
         </coding>
       </code>
       <criteria>
         <language value="text/cql-identifier"/>
-        <expression value="AgeDecade"/>
+        <expression value="AgeFiveYearGroups"/>
       </criteria>
     </stratifier>
   </group>

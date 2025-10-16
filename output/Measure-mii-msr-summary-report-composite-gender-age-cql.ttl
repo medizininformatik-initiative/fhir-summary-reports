@@ -1,4 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,7 +12,7 @@
   fhir:id [ fhir:v "mii-msr-summary-report-composite-gender-age-cql"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <table class=\"narrative-table\">\n    <tbody>\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Knowledge Artifact Metadata</th>\n\n</tr>\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Name (machine-readable)</th>\n\n<td class=\"content-container\">SummaryReportCompositeAgeGenderCQL</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Title (human-readable)</th>\n\n<td class=\"content-container\">Summary Report Composite Age Gender CQL</td>\n</tr>\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Status</th>\n\n<td class=\"content-container\">Active</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Experimental</th>\n\n<td class=\"content-container\">false</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Description</th>\n\n<td class=\"content-container\"><div><p>Summary Report with gender and age decade stratification using CQL in a composite stratifier</p>\n</div></td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Measure Steward</th>\n\n<td class=\"content-container\">Medizininformatik Initiative</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Steward Contact Details</th>\n\n<td class=\"content-container\">Medizininformatik Initiative: <a href=\"https://www.medizininformatik-initiative.de/\">https://www.medizininformatik-initiative.de/</a></td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Metadata</th>\n\n</tr>\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Version Number</th>\n\n<td class=\"content-container\">0.1.0</td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    <tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Population Criteria</th>\n\n</tr>\n  \n  \n    \n<tr>\n\n<th scope=\"row\" class=\"row-header\">Summary</th>\n\n<td class=\"content-container\">Composite stratification by gender and age decade</td>\n</tr>\n\n  \n  \n  \n    <tr>\n      \n        \n          \n            \n<th scope=\"row\" class=\"row-header\">Initial Population</th>\n\n          \n          \n          \n          \n          \n          \n          \n          \n          \n        \n      \n      <td class=\"content-container\">\n        \n        <em>ID</em>: initial-population\n        <br/>\n        \n        \n          <em>Description</em>: No description provided\n        \n        \n          \n            \n            <em>Logic Definition</em>: <a href=\"#stratifieragegender-ininitialpopulation\">InInitialPopulation</a> \n          \n        \n      </td>\n    </tr>\n  \n\n  \n<tr>\n  \n<th scope=\"row\" class=\"row-header\">Stratifier</th>\n\n  <td class=\"content-container\">\n    \n      <em>ID</em>: strat-gender-age\n      \n        <br/>\n      \n    \n    \n      \n        <em>Code</em>: <span title=\"Codes:{http://fhir-evaluator/strat/system gender-age-composite}\">gender-age-composite</span>\n      \n      \n        <br/>\n      \n    \n    \n      <em>Description</em>: Combined gender and age decade stratification\n    \n  </td>\n</tr>\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Logic</th>\n\n</tr>\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Primary Library</th>\n\n<td class=\"content-container\"><a href=\"Bundle-mii-bdl-measure-library-transaction-bundle.html\">Patient Age and Gender Stratification Library</a></td>\n</tr>\n\n\n\n\n<tr>\n  <th colspan=\"2\" scope=\"row\" class=\"row-header\">Generated using version 0.4.6 of the sample-content-ig Liquid templates</th>\n</tr>\n    </tbody>\n  </table>\n</div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <table class=\"narrative-table\">\n    <tbody>\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Knowledge Artifact Metadata</th>\n\n</tr>\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Name (machine-readable)</th>\n\n<td class=\"content-container\">SummaryReportCompositeAgeGenderCQL</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Title (human-readable)</th>\n\n<td class=\"content-container\">Summary Report Composite Age Gender CQL</td>\n</tr>\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Status</th>\n\n<td class=\"content-container\">Active</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Experimental</th>\n\n<td class=\"content-container\">false</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Description</th>\n\n<td class=\"content-container\"><div><p>Summary Report with gender and age decade stratification using CQL in a composite stratifier</p>\n</div></td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Measure Steward</th>\n\n<td class=\"content-container\">Medizininformatik Initiative</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Steward Contact Details</th>\n\n<td class=\"content-container\">Medizininformatik Initiative: <a href=\"https://www.medizininformatik-initiative.de/\">https://www.medizininformatik-initiative.de/</a></td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Metadata</th>\n\n</tr>\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Version Number</th>\n\n<td class=\"content-container\">0.1.0</td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    <tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Population Criteria</th>\n\n</tr>\n  \n  \n    \n<tr>\n\n<th scope=\"row\" class=\"row-header\">Summary</th>\n\n<td class=\"content-container\">Composite stratification by gender and age decade</td>\n</tr>\n\n  \n  \n  \n    <tr>\n      \n        \n          \n            \n<th scope=\"row\" class=\"row-header\">Initial Population</th>\n\n          \n          \n          \n          \n          \n          \n          \n          \n          \n        \n      \n      <td class=\"content-container\">\n        \n        <em>ID</em>: initial-population\n        <br/>\n        \n        \n          <em>Description</em>: No description provided\n        \n        \n          \n            \n            <em>Logic Definition</em>: <a href=\"#stratifieragegender-ininitialpopulation\">InInitialPopulation</a> \n          \n        \n      </td>\n    </tr>\n  \n\n  \n<tr>\n  \n<th scope=\"row\" class=\"row-header\">Stratifier</th>\n\n  <td class=\"content-container\">\n    \n      <em>ID</em>: strat-gender-age\n      \n        <br/>\n      \n    \n    \n      \n        <em>Code</em>: <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes gender-age-composite}\">gender-age-composite</span>\n      \n      \n        <br/>\n      \n    \n    \n      <em>Description</em>: Combined gender and age group stratification\n    \n  </td>\n</tr>\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Logic</th>\n\n</tr>\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Primary Library</th>\n\n<td class=\"content-container\"><a href=\"Bundle-mii-bdl-measure-library-transaction-bundle.html\">Patient Age and Gender Stratification Library</a></td>\n</tr>\n\n\n\n\n<tr>\n  <th colspan=\"2\" scope=\"row\" class=\"row-header\">Generated using version 0.4.6 of the sample-content-ig Liquid templates</th>\n</tr>\n    </tbody>\n  </table>\n</div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -52,34 +53,38 @@
        fhir:id [ fhir:v "strat-gender-age" ] ;
        fhir:code [
          fhir:coding ( [
-           fhir:system [ fhir:v "http://fhir-evaluator/strat/system"^^xsd:anyURI ] ;
+           fhir:system [ fhir:v "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "gender-age-composite" ]
          ] )
        ] ;
-       fhir:description [ fhir:v "Combined gender and age decade stratification" ] ;
+       fhir:description [ fhir:v "Combined gender and age group stratification" ] ;
        fhir:component ( [
          fhir:code [
            fhir:coding ( [
-             fhir:system [ fhir:v "http://fhir-evaluator/strat/system"^^xsd:anyURI ] ;
-             fhir:code [ fhir:v "gender" ]
+             a loinc:46251-5 ;
+             fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "46251-5" ] ;
+             fhir:display [ fhir:v "Age group" ]
+           ] )
+         ] ;
+         fhir:description [ fhir:v "Patient age five year group" ] ;
+         fhir:criteria [
+           fhir:language [ fhir:v "text/cql-identifier" ] ;
+           fhir:expression [ fhir:v "AgeFiveYearGroups" ]
+         ]
+       ] [
+         fhir:code [
+           fhir:coding ( [
+             a loinc:107454-1 ;
+             fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "107454-1" ] ;
+             fhir:display [ fhir:v "Administrative gender" ]
            ] )
          ] ;
          fhir:description [ fhir:v "Patient gender" ] ;
          fhir:criteria [
            fhir:language [ fhir:v "text/cql-identifier" ] ;
            fhir:expression [ fhir:v "Gender" ]
-         ]
-       ] [
-         fhir:code [
-           fhir:coding ( [
-             fhir:system [ fhir:v "http://fhir-evaluator/strat/system"^^xsd:anyURI ] ;
-             fhir:code [ fhir:v "age-decade" ]
-           ] )
-         ] ;
-         fhir:description [ fhir:v "Patient age decade" ] ;
-         fhir:criteria [
-           fhir:language [ fhir:v "text/cql-identifier" ] ;
-           fhir:expression [ fhir:v "AgeDecade" ]
          ]
        ] )
      ] )

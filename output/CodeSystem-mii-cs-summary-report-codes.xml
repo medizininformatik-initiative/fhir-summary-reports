@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mii-cs-summary-report-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-summary-report-codes</b></p><a name="mii-cs-summary-report-codes"> </a><a name="hcmii-cs-summary-report-codes"> </a><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">summary-report<a name="mii-cs-summary-report-codes-summary-report"> </a></td></tr><tr><td style="white-space:nowrap">gender-age-composite<a name="mii-cs-summary-report-codes-gender-age-composite"> </a></td></tr><tr><td style="white-space:nowrap">geschlechterverteilung<a name="mii-cs-summary-report-codes-geschlechterverteilung"> </a></td></tr><tr><td style="white-space:nowrap">altersverteilung<a name="mii-cs-summary-report-codes-altersverteilung"> </a></td></tr><tr><td style="white-space:nowrap">diskreteVerteilung<a name="mii-cs-summary-report-codes-diskreteVerteilung"> </a></td></tr><tr><td style="white-space:nowrap">categorialVerteilung<a name="mii-cs-summary-report-codes-categorialVerteilung"> </a></td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes"/>
+  <version value="0.1.0"/>
+  <name value="MII_CS_Summary_Report_Codes"/>
+  <title value="Summary Report Codes"/>
+  <status value="draft"/>
+  <date value="2025-10-16T11:47:02+02:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Codes used in summary reports"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="summary-report"/>
+  </concept>
+  <concept>
+    <code value="gender-age-composite"/>
+  </concept>
+  <concept>
+    <code value="geschlechterverteilung"/>
+  </concept>
+  <concept>
+    <code value="altersverteilung"/>
+  </concept>
+  <concept>
+    <code value="diskreteVerteilung"/>
+  </concept>
+  <concept>
+    <code value="categorialVerteilung"/>
+  </concept>
+</CodeSystem>

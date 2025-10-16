@@ -1,0 +1,43 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mii-cs-summary-report-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-summary-report-codes</b></p><a name=\"mii-cs-summary-report-codes\"> </a><a name=\"hcmii-cs-summary-report-codes\"> </a><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">summary-report<a name=\"mii-cs-summary-report-codes-summary-report\"> </a></td></tr><tr><td style=\"white-space:nowrap\">gender-age-composite<a name=\"mii-cs-summary-report-codes-gender-age-composite\"> </a></td></tr><tr><td style=\"white-space:nowrap\">geschlechterverteilung<a name=\"mii-cs-summary-report-codes-geschlechterverteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">altersverteilung<a name=\"mii-cs-summary-report-codes-altersverteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">diskreteVerteilung<a name=\"mii-cs-summary-report-codes-diskreteVerteilung\"> </a></td></tr><tr><td style=\"white-space:nowrap\">categorialVerteilung<a name=\"mii-cs-summary-report-codes-categorialVerteilung\"> </a></td></tr></table></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes",
+  "version" : "0.1.0",
+  "name" : "MII_CS_Summary_Report_Codes",
+  "title" : "Summary Report Codes",
+  "status" : "draft",
+  "date" : "2025-10-16T11:47:02+02:00",
+  "publisher" : "Medizininformatik Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de/"
+    }]
+  }],
+  "description" : "Codes used in summary reports",
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "summary-report"
+  },
+  {
+    "code" : "gender-age-composite"
+  },
+  {
+    "code" : "geschlechterverteilung"
+  },
+  {
+    "code" : "altersverteilung"
+  },
+  {
+    "code" : "diskreteVerteilung"
+  },
+  {
+    "code" : "categorialVerteilung"
+  }]
+}

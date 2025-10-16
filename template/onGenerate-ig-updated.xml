@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="SummaryReports"/>
    <status value="draft"/>
-   <date value="2025-10-01T12:03:45+02:00"/>
+   <date value="2025-10-16T11:47:02+02:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -44,6 +44,16 @@
       <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
       <packageId value="hl7.fhir.uv.extensions.r4"/>
       <version value="5.2.0"/>
+   </dependsOn>
+   <dependsOn id="hl7_fhir_uv_cqm">
+      <uri value="http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm"/>
+      <packageId value="hl7.fhir.uv.cqm"/>
+      <version value="1.0.0"/>
+   </dependsOn>
+   <dependsOn id="hl7_fhir_uv_crmi">
+      <uri value="http://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi"/>
+      <packageId value="hl7.fhir.uv.crmi"/>
+      <version value="1.0.0"/>
    </dependsOn>
    <definition>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -249,10 +259,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
          <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
       </extension>
-      <grouping id="-str-extension">
-         <name value="Structures: Extension Definitions"/>
-         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide."/>
-      </grouping>
       <grouping id="-term-codesystem">
          <name value="Terminology: Code Systems"/>
          <description value="These define new code systems used by systems conforming to this implementation guide."/>
@@ -266,103 +272,13 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.linkId.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.linkId"/>
-         </reference>
-         <name value="Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4"/>
-         <description value="This cross-version extension represents MeasureReport.group.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.po.linkId.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.po.linkId"/>
-         </reference>
-         <name value="Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4"/>
-         <description value="This cross-version extension represents MeasureReport.group.population.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.st.linkId.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.st.linkId"/>
-         </reference>
-         <name value="Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4"/>
-         <description value="This cross-version extension represents MeasureReport.group.stratifier.linkId from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.st.st.co.value"/>
-         </reference>
-         <name value="Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4"/>
-         <description value="This cross-version extension represents MeasureReport.group.stratifier.stratum.component.value[x] from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/ext-R5-MeasureReport.gr.st.st.value"/>
-         </reference>
-         <name value="Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.value[x] for use in FHIR R4"/>
-         <description value="This cross-version extension represents MeasureReport.group.stratifier.stratum.value[x] from http://hl7.org/fhir/StructureDefinition/MeasureReport|5.0.0 for use in FHIR R4."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-summary-report-codes.html"/>
+            <valueUri value="CodeSystem-mii-cs-summary-report-codes.html"/>
          </extension>
          <reference>
-            <reference value="CodeSystem/summary-report-codes"/>
+            <reference value="CodeSystem/mii-cs-summary-report-codes"/>
          </reference>
          <name value="Summary Report Codes"/>
          <description value="Codes used in summary reports"/>
@@ -419,7 +335,7 @@
             <reference value="Measure/mii-msr-summary-report-age-gender-cql"/>
          </reference>
          <name value="Summary Report Age Gender CQL"/>
-         <description value="Summary Report with gender and age decade stratification using CQL"/>
+         <description value="Summary Report with gender and 5-year age group stratification using CQL matching German census data structure"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -478,32 +394,7 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
-               <nameUrl value="StructureDefinition-ext-R5-MeasureReport.gr.linkId.html"/>
-               <title value="Cross-version Extension for R5.MeasureReport.group.linkId for use in FHIR R4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-ext-R5-MeasureReport.gr.po.linkId.html"/>
-               <title value="Cross-version Extension for R5.MeasureReport.group.population.linkId for use in FHIR R4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-ext-R5-MeasureReport.gr.st.linkId.html"/>
-               <title value="Cross-version Extension for R5.MeasureReport.group.stratifier.linkId for use in FHIR R4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-ext-R5-MeasureReport.gr.st.st.co.value.html"/>
-               <title value="Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.component.value[x] for use in FHIR R4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-ext-R5-MeasureReport.gr.st.st.value.html"/>
-               <title value="Cross-version Extension for R5.MeasureReport.group.stratifier.stratum.value[x] for use in FHIR R4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="CodeSystem-summary-report-codes.html"/>
+               <nameUrl value="CodeSystem-mii-cs-summary-report-codes.html"/>
                <title value="Summary Report Codes"/>
                <generation value="generated"/>
             </page>

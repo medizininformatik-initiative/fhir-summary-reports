@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"2.7"}
-    h3,h4,h5,h6{--heading-prefix:"2.7"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.2"}
+    h3,h4,h5,h6{--heading-prefix:"2.2"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -238,7 +238,7 @@
         
         <tr>
             <th scope="row"><b>Date: </b></th>
-            <td style="padding-left: 4px;">2025-09-30</td>
+            <td style="padding-left: 4px;">2025-10-16</td>
         </tr>
         
 
@@ -390,6 +390,41 @@ define AgeDecade:
     else null
   end
 
+// 5-year age groups matching German census data structure
+define AgeFiveYearGroups:
+  case
+    when AgeInYears is null then null
+    when AgeInYears &gt;= 0 and AgeInYears &lt; 5 then '0-4'
+    when AgeInYears &gt;= 5 and AgeInYears &lt; 10 then '5-9'
+    when AgeInYears &gt;= 10 and AgeInYears &lt; 15 then '10-14'
+    when AgeInYears &gt;= 15 and AgeInYears &lt; 20 then '15-19'
+    when AgeInYears &gt;= 20 and AgeInYears &lt; 25 then '20-24'
+    when AgeInYears &gt;= 25 and AgeInYears &lt; 30 then '25-29'
+    when AgeInYears &gt;= 30 and AgeInYears &lt; 35 then '30-34'
+    when AgeInYears &gt;= 35 and AgeInYears &lt; 40 then '35-39'
+    when AgeInYears &gt;= 40 and AgeInYears &lt; 45 then '40-44'
+    when AgeInYears &gt;= 45 and AgeInYears &lt; 50 then '45-49'
+    when AgeInYears &gt;= 50 and AgeInYears &lt; 55 then '50-54'
+    when AgeInYears &gt;= 55 and AgeInYears &lt; 60 then '55-59'
+    when AgeInYears &gt;= 60 and AgeInYears &lt; 65 then '60-64'
+    when AgeInYears &gt;= 65 and AgeInYears &lt; 70 then '65-69'
+    when AgeInYears &gt;= 70 and AgeInYears &lt; 75 then '70-74'
+    when AgeInYears &gt;= 75 and AgeInYears &lt; 80 then '75-79'
+    when AgeInYears &gt;= 80 and AgeInYears &lt; 85 then '80-84'
+    when AgeInYears &gt;= 85 and AgeInYears &lt; 90 then '85-89'
+    when AgeInYears &gt;= 90 and AgeInYears &lt; 95 then '90-94'
+    when AgeInYears &gt;= 95 then '95+'
+    else null
+  end
+
+// Alternative shorter expression using mathematical approach
+define AgeFiveYearGroupsMath:
+  case
+    when AgeInYears is null then null
+    when AgeInYears &gt;= 95 then '95+'
+    else ToString((AgeInYears div 5) * 5) + '-' + ToString(((AgeInYears div 5) * 5) + 4)
+  end
+
 // Check if patient is an adult (18 or older)
 define IsAdult:
   AgeInYears &gt;= 18
@@ -461,7 +496,7 @@ define Gender:
 
 <th scope="row" class="row-header">Description</th>
 
-<td class="content-container"><div><p>Summary Report with gender and age decade stratification using CQL</p>
+<td class="content-container"><div><p>Summary Report with gender and 5-year age group stratification using CQL matching German census data structure</p>
 </div></td>
 </tr>
 
@@ -540,7 +575,7 @@ define Gender:
 
 <th scope="row" class="row-header">Summary</th>
 
-<td class="content-container"><div><p>Patient stratification by gender and age decade</p>
+<td class="content-container"><div><p>Patient stratification by gender and 5-year age groups</p>
 </div></td>
 </tr>
 
@@ -590,14 +625,14 @@ define Gender:
 
   <td class="content-container">
     
-      <em>ID</em>: strat-gender
+      <em>ID</em>: stratifier-gender
       
         <br/>
       
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender}">gender</span>
+        <em>Code</em>: Administrative gender
       
       
     
@@ -611,14 +646,14 @@ define Gender:
 
   <td class="content-container">
     
-      <em>ID</em>: strat-age-decade
+      <em>ID</em>: stratifier-age-five-year-groups
       
         <br/>
       
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system age-decade}">age-decade</span>
+        <em>Code</em>: Age group
       
       
     
@@ -812,7 +847,7 @@ define Gender:
           
         
       
-      <td class="content-container"><a name="l817">​</a>
+      <td class="content-container"><a name="l811">​</a>
         
         <em>ID</em>: initial-population
         <br/>
@@ -844,14 +879,14 @@ define Gender:
     
     
       
-        <em>Code</em>: <span title="Codes:{http://fhir-evaluator/strat/system gender-age-composite}">gender-age-composite</span>
+        <em>Code</em>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes gender-age-composite}">gender-age-composite</span>
       
       
         <br/>
       
     
     
-      <em>Description</em>: <div><p>Combined gender and age decade stratification</p>
+      <em>Description</em>: <div><p>Combined gender and age group stratification</p>
 </div>
     
   </td>
@@ -918,7 +953,7 @@ define Gender:
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 1, 2025 12:04+0200">2025-10-01</span>
+          IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 16, 2025 11:47+0200">2025-10-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
