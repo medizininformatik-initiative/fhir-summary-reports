@@ -1,0 +1,19 @@
+FROM ubuntu:22.04
+
+# Install required tools including network diagnostics
+RUN apt-get update && \
+    apt-get install -y curl jq iputils-ping dnsutils iproute2 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Create working directory
+WORKDIR /app
+
+# Copy the evaluation script
+COPY evaluate-measures-container.sh /app/evaluate-measures.sh
+
+# Make script executable
+RUN chmod +x /app/evaluate-measures.sh
+
+# Default command
+CMD ["./evaluate-measures.sh"]

@@ -28,6 +28,16 @@ docker-compose up -d
 
 ### 2. Evaluate Measures
 
+**Option 1: Containerized (Recommended - Cross-platform)**
+```bash
+# Run containerized evaluation (works on Windows, macOS, Linux)
+./evaluate-measures-docker.sh
+
+# On Windows, you can also use:
+# evaluate-measures-docker.bat
+```
+
+**Option 2: Direct shell script (Linux/macOS only)**
 ```bash
 # Make the script executable
 chmod +x evaluate-measures.sh
