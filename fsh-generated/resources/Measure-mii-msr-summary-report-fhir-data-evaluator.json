@@ -41,7 +41,7 @@
       "description": "Simple Stratifier concept"
     }
   ],
-  "version": "1.0",
+  "version": "0.1.0",
   "url": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReport",
   "status": "active",
   "experimental": false,

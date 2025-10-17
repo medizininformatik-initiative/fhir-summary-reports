@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports | *Version*:0.1.0 |
-| Draft as of 2025-10-16 | *Computable Name*:SummaryReports |
+| Draft as of 2025-10-17 | *Computable Name*:SummaryReports |
 
 # SummaryReports
 
@@ -26,7 +26,7 @@ Feel free to modify this index page with your own awesome content!
   "version" : "0.1.0",
   "name" : "SummaryReports",
   "status" : "draft",
-  "date" : "2025-10-16T15:00:46+02:00",
+  "date" : "2025-10-17T14:13:03+02:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {

@@ -2,7 +2,7 @@
 Instance: mii-msr-summary-report-composite-gender-age-cql
 InstanceOf: Measure
 Usage: #example
-* version = "1.0"
+* version = "0.1.0"
 * url = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"
 * status = #active
 * experimental = false

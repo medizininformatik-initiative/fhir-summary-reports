@@ -265,14 +265,14 @@ Usage: #example
 * group.stratifier.stratum[=].population.count = 1137755
 // Age group 90-94, Male
 * group.stratifier.stratum[+].component[0].code = $loinc#46251-5 "Age group"
-* group.stratifier.stratum[=].component[=].value.text = "90-94"
+* group.stratifier.stratum[=].component[=].value.text = "90+"
 * group.stratifier.stratum[=].component[+].code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier.stratum[=].component[=].value.text = "male"
 * group.stratifier.stratum[=].population.code = $measure-population#initial-population
 * group.stratifier.stratum[=].population.count = 236467
 // Age group 90-94, Female
 * group.stratifier.stratum[+].component[0].code = $loinc#46251-5 "Age group"
-* group.stratifier.stratum[=].component[=].value.text = "90-94"
+* group.stratifier.stratum[=].component[=].value.text = "90+"
 * group.stratifier.stratum[=].component[+].code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier.stratum[=].component[=].value.text = "female"
 * group.stratifier.stratum[=].population.code = $measure-population#initial-population

@@ -126,7 +126,7 @@
             "description": "Patient stratification by gender and 5-year age groups"
           }
         ],
-        "version": "1.0",
+        "version": "0.1.0",
         "url": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL",
         "status": "active",
         "experimental": false,
@@ -209,7 +209,7 @@
             "description": "Composite stratification by gender and age decade"
           }
         ],
-        "version": "1.0",
+        "version": "0.1.0",
         "url": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
         "status": "active",
         "experimental": false,

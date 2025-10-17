@@ -90,8 +90,7 @@ define AgeFiveYearGroups:
     when AgeInYears >= 75 and AgeInYears < 80 then '75-79'
     when AgeInYears >= 80 and AgeInYears < 85 then '80-84'
     when AgeInYears >= 85 and AgeInYears < 90 then '85-89'
-    when AgeInYears >= 90 and AgeInYears < 95 then '90-94'
-    when AgeInYears >= 95 then '95+'
+    when AgeInYears >= 90 then '90+' // make 90+ group open-ended
     else null
   end
 
@@ -99,7 +98,7 @@ define AgeFiveYearGroups:
 define AgeFiveYearGroupsMath:
   case
     when AgeInYears is null then null
-    when AgeInYears >= 95 then '95+'
+    when AgeInYears >= 90 then '90+'
     else ToString((AgeInYears div 5) * 5) + '-' + ToString(((AgeInYears div 5) * 5) + 4)
   end
 

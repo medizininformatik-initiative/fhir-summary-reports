@@ -10,7 +10,7 @@
 
 **type**: Summary
 
-**measure**: [Summary Report Composite Age Gender CQLversion: null1.0)](Bundle-mii-bdl-measure-library-transaction-bundle.md)
+**measure**: [Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
 
 **date**: 2025-10-16
 
@@ -23,7 +23,7 @@
 | | | |
 | :--- | :--- | :--- |
 | - | **Code** | **Count** |
-| * | Initial Population | 83237124 |
+| * | Initial Population | 82719518 |
 
 > **stratifier**
 > **stratum**
@@ -495,7 +495,7 @@
 
 
 > **stratum**
-> **component****code**:Age group**value**:90-94
+> **component****code**:Age group**value**:90+
 
 > **component****code**:Recorded sex or gender**value**:male
 
@@ -508,7 +508,7 @@
 
 
 > **stratum**
-> **component****code**:Age group**value**:90-94
+> **component****code**:Age group**value**:90+
 
 > **component****code**:Recorded sex or gender**value**:female
 
@@ -532,7 +532,7 @@
   "id" : "mii-msrpt-summary-report-zensus-2022",
   "status" : "complete",
   "type" : "summary",
-  "measure" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0",
+  "measure" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
   "date" : "2025-10-16",
   "period" : {
     "start" : "2022",
@@ -550,7 +550,7 @@
               }
             ]
           },
-          "count" : 83237124
+          "count" : 82719518
         }
       ],
       "stratifier" : [
@@ -2189,7 +2189,7 @@
                     ]
                   },
                   "value" : {
-                    "text" : "90-94"
+                    "text" : "90+"
                   }
                 },
                 {
@@ -2234,7 +2234,7 @@
                     ]
                   },
                   "value" : {
-                    "text" : "90-94"
+                    "text" : "90+"
                   }
                 },
                 {

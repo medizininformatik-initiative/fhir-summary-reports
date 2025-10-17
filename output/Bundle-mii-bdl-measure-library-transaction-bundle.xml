@@ -434,7 +434,7 @@ define Gender:
 
 <th scope="row" class="row-header">Version Number</th>
 
-<td class="content-container">1.0</td>
+<td class="content-container">0.1.0</td>
 </tr>
 
 
@@ -588,7 +588,7 @@ define Gender:
 </div>
         </text>
         <url value="https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL"/>
-        <version value="1.0"/>
+        <version value="0.1.0"/>
         <name value="SummaryReportAgeGenderCQL"/>
         <title value="Summary Report Age Gender CQL"/>
         <status value="active"/>
@@ -745,7 +745,7 @@ define Gender:
 
 <th scope="row" class="row-header">Version Number</th>
 
-<td class="content-container">1.0</td>
+<td class="content-container">0.1.0</td>
 </tr>
 
 
@@ -868,7 +868,7 @@ define Gender:
 </div>
         </text>
         <url value="https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"/>
-        <version value="1.0"/>
+        <version value="0.1.0"/>
         <name value="SummaryReportCompositeAgeGenderCQL"/>
         <title value="Summary Report Composite Age Gender CQL"/>
         <status value="active"/>

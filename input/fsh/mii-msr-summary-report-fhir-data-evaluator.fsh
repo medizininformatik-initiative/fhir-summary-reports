@@ -6,7 +6,7 @@ Instance: mii-msr-summary-report-fhir-data-evaluator
 InstanceOf: Measure
 Usage: #example
 //* meta.profile = "http://fhir-data-evaluator/StructureDefinition/FhirDataEvaluatorBasicMeasure"
-* version = "1.0"
+* version = "0.1.0"
 * url = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReport"
 * status = #active
 * experimental = false
