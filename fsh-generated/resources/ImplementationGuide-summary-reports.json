@@ -46,6 +46,13 @@
       },
       {
         "reference": {
+          "reference": "MeasureReport/mii-msrpt-summary-report-zensus-2011"
+        },
+        "name": "mii-msrpt-summary-report-zensus-2011",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "MeasureReport/mii-msrpt-summary-report-zensus-2022"
         },
         "name": "mii-msrpt-summary-report-zensus-2022",
