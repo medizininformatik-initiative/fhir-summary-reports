@@ -5,12 +5,12 @@ InstanceOf: MeasureReport
 Usage: #example
 * status = #complete
 * type = #summary
-* measure = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0"
+* measure = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"
 * date = "2025-10-16"
 * period.start = "2022"
 * period.end = "2022"
 * group.population.code = $measure-population#initial-population
-* group.population.count = 83237124
+* group.population.count = 82719518
 // Age group 0-4, Male
 * group.stratifier.stratum[0].component[0].code = $loinc#46251-5 "Age group"
 * group.stratifier.stratum[=].component[=].value.text = "0-4"

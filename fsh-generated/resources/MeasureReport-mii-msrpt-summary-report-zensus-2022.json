@@ -17,7 +17,7 @@
               }
             ]
           },
-          "count": 83237124
+          "count": 82719518
         }
       ],
       "stratifier": [
@@ -1740,6 +1740,6 @@
   ],
   "status": "complete",
   "type": "summary",
-  "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0",
+  "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
   "date": "2025-10-16"
 }
