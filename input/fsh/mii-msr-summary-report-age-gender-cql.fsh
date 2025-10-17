@@ -2,7 +2,7 @@ Instance: mii-msr-summary-report-age-gender-cql
 InstanceOf: Measure
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"
-* version = "1.0"
+* version = "0.1.0"
 * url = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL"
 * status = #active
 * experimental = false

@@ -5,12 +5,12 @@ InstanceOf: MeasureReport
 Usage: #example
 * status = #complete
 * type = #summary
-* measure = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0"
+* measure = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"
 * date = "2025-10-16"
 * period.start = "2022"
 * period.end = "2022"
 * group.population.code = $measure-population#initial-population
-* group.population.count = 83237124
+* group.population.count = 82719518
 // Age group 0-4, Male
 * group.stratifier.stratum[0].component[0].code = $loinc#46251-5 "Age group"
 * group.stratifier.stratum[=].component[=].value.text = "0-4"
@@ -265,14 +265,14 @@ Usage: #example
 * group.stratifier.stratum[=].population.count = 1137755
 // Age group 90-94, Male
 * group.stratifier.stratum[+].component[0].code = $loinc#46251-5 "Age group"
-* group.stratifier.stratum[=].component[=].value.text = "90-94"
+* group.stratifier.stratum[=].component[=].value.text = "90+"
 * group.stratifier.stratum[=].component[+].code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier.stratum[=].component[=].value.text = "male"
 * group.stratifier.stratum[=].population.code = $measure-population#initial-population
 * group.stratifier.stratum[=].population.count = 236467
 // Age group 90-94, Female
 * group.stratifier.stratum[+].component[0].code = $loinc#46251-5 "Age group"
-* group.stratifier.stratum[=].component[=].value.text = "90-94"
+* group.stratifier.stratum[=].component[=].value.text = "90+"
 * group.stratifier.stratum[=].component[+].code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier.stratum[=].component[=].value.text = "female"
 * group.stratifier.stratum[=].population.code = $measure-population#initial-population

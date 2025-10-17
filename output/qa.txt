@@ -3,7 +3,7 @@ SummaryReports : Validation Results
 
 err = 6, warn = 19, info = 6
 IG Publisher Version: 2.0.21
-Generated Thu Oct 16 15:01:27 CEST 2025. FHIR version 4.0.1 for summary-reports#0.1.0 (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
+Generated Fri Oct 17 14:13:53 CEST 2025. FHIR version 4.0.1 for summary-reports#0.1.0 (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
  Build Errors : 4 / 6 / 0
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Bundle-mii-bdl-measure-library-transaction-bundle : 2 / 6 / 5
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes : 0 / 2 / 2

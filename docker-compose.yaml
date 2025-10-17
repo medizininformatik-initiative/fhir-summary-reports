@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   blaze:
     image: "samply/blaze:latest"
@@ -47,6 +46,22 @@ services:
   #    - fhir-net
   #  stdin_open: true
   #  tty: true
+
+  measure-evaluator:
+    build:
+      context: .
+      dockerfile: Dockerfile.evaluate-measures
+    container_name: measure-evaluator
+    depends_on:
+      - blaze
+    environment:
+      - TZ=Europe/Berlin
+    volumes:
+      - ./resources:/app/output
+    networks:
+      - fhir-net
+    profiles:
+      - evaluation
 
 volumes:
   blaze-data:

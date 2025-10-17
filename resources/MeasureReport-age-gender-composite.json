@@ -4,7 +4,7 @@
     {
       "url": "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration",
       "valueQuantity": {
-        "value": 0.00368325,
+        "value": 0.004558625,
         "unit": "s",
         "system": "http://unitsofmeasure.org",
         "code": "s"
@@ -24,8 +24,8 @@
   ],
   "status": "complete",
   "type": "summary",
-  "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|1.0",
-  "date": "2025-10-16T13:01:19.510205507Z",
+  "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL|0.1.0",
+  "date": "2025-10-17T12:10:35.420758753Z",
   "period": {
     "start": "1900",
     "end": "2025"
@@ -69,8 +69,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -114,8 +114,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -159,8 +159,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -204,8 +204,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -249,8 +249,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -294,8 +294,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -339,8 +339,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -384,8 +384,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
@@ -429,8 +429,8 @@
                     "coding": [
                       {
                         "system": "http://loinc.org",
-                        "code": "107454-1",
-                        "display": "Administrative gender"
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
                       }
                     ]
                   },
