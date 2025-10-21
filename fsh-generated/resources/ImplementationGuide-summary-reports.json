@@ -119,6 +119,10 @@
       {
         "code": "releaselabel",
         "value": "ci-build"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/predefined-resources"
       }
     ]
   }

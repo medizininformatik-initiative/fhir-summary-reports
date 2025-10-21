@@ -2,5 +2,15 @@
 
 {"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/mii-bdl-measure-library-transaction-bundle.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[5]"]}
 ,
-{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msrpt-summary-report-zensus-2022.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[6]"]}
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msrpt-summary-report-zensus-2011.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[6]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msrpt-summary-report-zensus-2022.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[7]"]}
+,
+{"severity":"error","code":"required","details":{"text":"Unable to find ImplementationGuide.definition.resource.name for the resource MeasureReport/MeasureReport-age-gender-composite.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[8]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/MeasureReport-age-gender-composite.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[8]"]}
+,
+{"severity":"error","code":"required","details":{"text":"Unable to find ImplementationGuide.definition.resource.name for the resource MeasureReport/MeasureReport-age-gender-separate.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[9]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/MeasureReport-age-gender-separate.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[9]"]}
 ]}

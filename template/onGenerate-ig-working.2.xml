@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="SummaryReports"/>
    <status value="draft"/>
-   <date value="2025-10-17T14:13:03+02:00"/>
+   <date value="2025-10-21T12:33:38+02:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -396,6 +396,23 @@
             <valueString value="MeasureReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2011.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/mii-msrpt-summary-report-zensus-2011"/>
+         </reference>
+         <name value="mii-msrpt-summary-report-zensus-2011"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"/>
          </extension>
          <reference>
@@ -495,6 +512,36 @@
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-MeasureReport-age-gender-composite.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/MeasureReport-age-gender-composite"/>
+         </reference>
+         <groupingId value="-other"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-MeasureReport-age-gender-separate.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/MeasureReport-age-gender-separate"/>
+         </reference>
+         <groupingId value="-other"/>
+      </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
             <valueUrl value="toc.html"/>
@@ -511,6 +558,10 @@
             <generation value="markdown"/>
          </page>
       </page>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/predefined-resources"/>
+      </parameter>
       <parameter>
          <code value="path-resource"/>
          <value value="input/capabilities"/>
@@ -542,10 +593,6 @@
       <parameter>
          <code value="path-resource"/>
          <value value="input/vocabulary"/>
-      </parameter>
-      <parameter>
-         <code value="path-resource"/>
-         <value value="input/maps"/>
       </parameter>
       <parameter>
          <code value="path-resource"/>

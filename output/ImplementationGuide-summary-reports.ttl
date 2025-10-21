@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SummaryReports"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-17T14:13:03+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-21T12:33:38+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
@@ -860,6 +860,23 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-zensus-2011> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-zensus-2011" ]
+       ] ;
+       fhir:name [ fhir:v "mii-msrpt-summary-report-zensus-2011" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-zensus-2022> ;
          fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-zensus-2022" ]
        ] ;
@@ -958,6 +975,30 @@
          a fhir:boolean ;
          fhir:v true
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/MeasureReport-age-gender-composite> ;
+         fhir:reference [ fhir:v "MeasureReport/MeasureReport-age-gender-composite" ]
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/MeasureReport-age-gender-separate> ;
+         fhir:reference [ fhir:v "MeasureReport/MeasureReport-age-gender-separate" ]
+       ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -991,6 +1032,9 @@
      ] ;
      fhir:parameter ( [
        fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/predefined-resources" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/capabilities" ]
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
@@ -1013,9 +1057,6 @@
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/vocabulary" ]
-     ] [
-       fhir:code [ fhir:v "path-resource" ] ;
-       fhir:value [ fhir:v "input/maps" ]
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/testing" ]

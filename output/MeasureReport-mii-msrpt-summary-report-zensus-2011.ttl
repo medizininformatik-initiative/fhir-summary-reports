@@ -1,0 +1,1374 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-zensus-2011> a fhir:MeasureReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mii-msrpt-summary-report-zensus-2011"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MeasureReport mii-msrpt-summary-report-zensus-2011</b></p><a name=\"mii-msrpt-summary-report-zensus-2011\"> </a><a name=\"hcmii-msrpt-summary-report-zensus-2011\"> </a><p><b>status</b>: Complete</p><p><b>type</b>: Summary</p><p><b>measure</b>: <a href=\"Measure-mii-msr-summary-report-composite-gender-age-cql.html\">Summary Report Composite Age Gender CQL</a></p><p><b>date</b>: 2025-10-16</p><p><b>period</b>: 2011 --&gt; 2011</p><blockquote><p><b>group</b></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>85719686</td></tr></table><blockquote><p><b>stratifier</b></p><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">0-4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1714870</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">0-4</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1624027</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">5-9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1809032</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">5-9</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1716801</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">10-14</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2021306</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">10-14</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1919261</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">15-19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2057156</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">15-19</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1956722</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">20-24</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2463927</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">20-24</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2371711</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">25-29</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2455887</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">25-29</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2416647</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">30-34</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2385301</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">30-34</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2366611</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">35-39</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2378054</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">35-39</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2364839</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">40-44</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>3209481</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">40-44</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>3141707</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">45-49</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>3547255</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">45-49</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>3452420</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">50-54</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>3113461</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">50-54</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>3092834</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">55-59</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2668977</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">55-59</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2750470</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">60-64</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2298902</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">60-64</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2403917</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">65-69</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1999286</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">65-69</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2174064</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">70-74</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2247194</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">70-74</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>2614043</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">75-79</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1413884</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">75-79</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1856398</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">80-84</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>878797</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">80-84</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>1449285</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">85-89</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>369030</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">85-89</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>966045</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">90+</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">male</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>114135</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 46251-5}\">Age group</span></p><p><b>value</b>: <span title=\"Codes:\">90+</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 99502-7}\">Recorded sex or gender</span></p><p><b>value</b>: <span title=\"Codes:\">female</span></p></blockquote><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}\">Initial Population</span></td><td>435957</td></tr></table></blockquote></blockquote></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "complete"] ; # 
+  fhir:type [ fhir:v "summary"] ; # 
+  fhir:measure [
+     fhir:v "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"^^xsd:anyURI ;
+     fhir:link <https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL>
+  ] ; # 
+  fhir:date [ fhir:v "2025-10-16"^^xsd:date] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2011"^^xsd:gYear ] ;
+     fhir:end [ fhir:v "2011"^^xsd:gYear ]
+  ] ; # 
+  fhir:group ( [
+     fhir:population ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "initial-population" ]
+         ] )
+       ] ;
+       fhir:count [ fhir:v 85719686 ]
+     ] ) ;
+     fhir:stratifier ( [
+       fhir:stratum ( [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "0-4" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1714870 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "0-4" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1624027 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "5-9" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1809032 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "5-9" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1716801 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "10-14" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2021306 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "10-14" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1919261 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "15-19" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2057156 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "15-19" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1956722 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "20-24" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2463927 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "20-24" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2371711 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "25-29" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2455887 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "25-29" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2416647 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "30-34" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2385301 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "30-34" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2366611 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "35-39" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2378054 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "35-39" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2364839 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "40-44" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 3209481 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "40-44" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 3141707 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "45-49" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 3547255 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "45-49" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 3452420 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "50-54" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 3113461 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "50-54" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 3092834 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "55-59" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2668977 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "55-59" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2750470 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "60-64" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2298902 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "60-64" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2403917 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "65-69" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1999286 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "65-69" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2174064 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "70-74" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2247194 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "70-74" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 2614043 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "75-79" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1413884 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "75-79" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1856398 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "80-84" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 878797 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "80-84" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 1449285 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "85-89" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 369030 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "85-89" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 966045 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "90+" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "male" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 114135 ]
+         ] )
+       ] [
+         fhir:component ( [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:46251-5 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "46251-5" ] ;
+               fhir:display [ fhir:v "Age group" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "90+" ]
+           ]
+         ] [
+           fhir:code [
+             fhir:coding ( [
+               a loinc:99502-7 ;
+               fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "99502-7" ] ;
+               fhir:display [ fhir:v "Recorded sex or gender" ]
+             ] )
+           ] ;
+           fhir:value [
+             fhir:text [ fhir:v "female" ]
+           ]
+         ] ) ;
+         fhir:population ( [
+           fhir:code [
+             fhir:coding ( [
+               fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+               fhir:code [ fhir:v "initial-population" ]
+             ] )
+           ] ;
+           fhir:count [ fhir:v 435957 ]
+         ] )
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -26,5 +26,15 @@ These are example instances that show what data produced and consumed by systems
 | [Summary Report Age Gender CQL](Measure-mii-msr-summary-report-age-gender-cql.md) | Summary Report with gender and 5-year age group stratification using CQL matching German census data structure |
 | [Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md) | Summary Report with gender and age decade stratification using CQL in a composite stratifier |
 | [mii-bdl-measure-library-transaction-bundle](Bundle-mii-bdl-measure-library-transaction-bundle.md) |  |
+| [mii-msrpt-summary-report-zensus-2011](MeasureReport-mii-msrpt-summary-report-zensus-2011.md) |  |
 | [mii-msrpt-summary-report-zensus-2022](MeasureReport-mii-msrpt-summary-report-zensus-2022.md) |  |
+
+### Other 
+
+These are resources that are used within this implementation guide that do not fit into one of the other categories.
+
+| |
+| :--- |
+| [MeasureReport/MeasureReport-age-gender-composite](MeasureReport-MeasureReport-age-gender-composite.md) |
+| [MeasureReport/MeasureReport-age-gender-separate](MeasureReport-MeasureReport-age-gender-separate.md) |
 
