@@ -17,7 +17,7 @@
    <version value="0.1.0"/>
    <name value="SummaryReports"/>
    <status value="draft"/>
-   <date value="2025-10-17T14:13:03+02:00"/>
+   <date value="2025-10-21T12:33:38+02:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -267,6 +267,10 @@
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
+      <grouping id="-other">
+         <name value="Other"/>
+         <description value="These are resources that are used within this implementation guide that do not fit into one of the other categories."/>
+      </grouping>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
             <valueInteger value="999999999"/>
@@ -382,6 +386,23 @@
             <valueString value="MeasureReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2011.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/mii-msrpt-summary-report-zensus-2011"/>
+         </reference>
+         <name value="mii-msrpt-summary-report-zensus-2011"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"/>
          </extension>
          <reference>
@@ -390,6 +411,36 @@
          <name value="mii-msrpt-summary-report-zensus-2022"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-MeasureReport-age-gender-composite.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/MeasureReport-age-gender-composite"/>
+         </reference>
+         <groupingId value="-other"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-MeasureReport-age-gender-separate.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/MeasureReport-age-gender-separate"/>
+         </reference>
+         <groupingId value="-other"/>
       </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -421,6 +472,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-zensus-2011.html"/>
+               <title value="mii-msrpt-summary-report-zensus-2011"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"/>
                <title value="mii-msrpt-summary-report-zensus-2022"/>
                <generation value="generated"/>
@@ -445,8 +501,22 @@
                <title value="Summary Report Composite Age Gender CQL"/>
                <generation value="generated"/>
             </page>
+            <page>
+               <nameUrl value="MeasureReport-MeasureReport-age-gender-composite.html"/>
+               <title value=""/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="MeasureReport-MeasureReport-age-gender-separate.html"/>
+               <title value=""/>
+               <generation value="generated"/>
+            </page>
          </page>
       </page>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/predefined-resources"/>
+      </parameter>
       <parameter>
          <code value="path-resource"/>
          <value value="input/capabilities"/>
@@ -478,10 +548,6 @@
       <parameter>
          <code value="path-resource"/>
          <value value="input/vocabulary"/>
-      </parameter>
-      <parameter>
-         <code value="path-resource"/>
-         <value value="input/maps"/>
       </parameter>
       <parameter>
          <code value="path-resource"/>

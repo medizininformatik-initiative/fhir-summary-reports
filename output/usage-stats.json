@@ -20,6 +20,12 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://samply.github.io/blaze/fhir/StructureDefinition/bloom-filter-ratio": [
+      "MeasureReport"
+    ],
+    "https://samply.github.io/blaze/fhir/StructureDefinition/eval-duration": [
+      "MeasureReport"
     ]
   }
 }

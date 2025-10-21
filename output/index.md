@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports | *Version*:0.1.0 |
-| Draft as of 2025-10-17 | *Computable Name*:SummaryReports |
+| Draft as of 2025-10-21 | *Computable Name*:SummaryReports |
 
 # SummaryReports
 
@@ -26,7 +26,7 @@ Feel free to modify this index page with your own awesome content!
   "version" : "0.1.0",
   "name" : "SummaryReports",
   "status" : "draft",
-  "date" : "2025-10-17T14:13:03+02:00",
+  "date" : "2025-10-21T12:33:38+02:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {
@@ -759,6 +759,19 @@ Feel free to modify this index page with your own awesome content!
           }
         ],
         "reference" : {
+          "reference" : "MeasureReport/mii-msrpt-summary-report-zensus-2011"
+        },
+        "name" : "mii-msrpt-summary-report-zensus-2011",
+        "exampleBoolean" : true
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "MeasureReport"
+          }
+        ],
+        "reference" : {
           "reference" : "MeasureReport/mii-msrpt-summary-report-zensus-2022"
         },
         "name" : "mii-msrpt-summary-report-zensus-2022",
@@ -833,6 +846,28 @@ Feel free to modify this index page with your own awesome content!
         "name" : "Summary Report Composite Age Gender CQL",
         "description" : "Summary Report with gender and age decade stratification using CQL in a composite stratifier",
         "exampleBoolean" : true
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "MeasureReport"
+          }
+        ],
+        "reference" : {
+          "reference" : "MeasureReport/MeasureReport-age-gender-composite"
+        }
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "MeasureReport"
+          }
+        ],
+        "reference" : {
+          "reference" : "MeasureReport/MeasureReport-age-gender-separate"
+        }
       }
     ],
     "page" : {
@@ -860,6 +895,10 @@ Feel free to modify this index page with your own awesome content!
       ]
     },
     "parameter" : [
+      {
+        "code" : "path-resource",
+        "value" : "input/predefined-resources"
+      },
       {
         "code" : "path-resource",
         "value" : "input/capabilities"
@@ -891,10 +930,6 @@ Feel free to modify this index page with your own awesome content!
       {
         "code" : "path-resource",
         "value" : "input/vocabulary"
-      },
-      {
-        "code" : "path-resource",
-        "value" : "input/maps"
       },
       {
         "code" : "path-resource",
