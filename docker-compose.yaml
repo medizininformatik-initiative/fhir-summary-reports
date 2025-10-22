@@ -53,7 +53,9 @@ services:
       dockerfile: Dockerfile.evaluate-measures
     container_name: measure-evaluator
     depends_on:
-      - blaze
+      blaze:
+        condition: service_started
+    restart: "no"
     environment:
       - TZ=Europe/Berlin
     volumes:

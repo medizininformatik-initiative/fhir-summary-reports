@@ -4,7 +4,7 @@ Implementation Guide and examples for generating population-level summary statis
 
 ## Overview
 
-This repository provides a complete FHIR-based workflow for patient demographic analysis using:
+This repository provides a FHIR-based workflow for patient demographic analysis using:
 - **CQL (Clinical Quality Language)** for age calculations and demographic stratification
 - **FHIR Measure resources** with both separate and composite stratification approaches
 - **Docker Compose** environment with Blaze FHIR server for local testing
@@ -14,63 +14,87 @@ This repository provides a complete FHIR-based workflow for patient demographic 
 
 ### Prerequisites
 
-- Docker and Docker Compose
-- `jq` (for JSON formatting)
+- **Docker and Docker Compose** (required for all options)
 
-### 1. Start the FHIR Server
+### Option 1: Containerized Evaluation (Recommended - Cross-platform)
 
+**All-in-one automated setup:**
 ```bash
-# Start Blaze FHIR server with sample data
-docker-compose up -d
-
-# Wait for server to be ready (about 10-15 seconds)
-```
-
-### 2. Evaluate Measures
-
-**Option 1: Containerized (Recommended - Cross-platform)**
-```bash
-# Run containerized evaluation (works on Windows, macOS, Linux)
+# Unix-like systems (macOS, Linux, WSL)
 ./evaluate-measures-docker.sh
 
-# On Windows, you can also use:
-# evaluate-measures-docker.bat
+# Windows (Command Prompt or PowerShell)
+evaluate-measures-docker.bat
 ```
 
-**Option 2: Direct shell script (Linux/macOS only)**
-```bash
-# Make the script executable
-chmod +x evaluate-measures.sh
+These scripts automatically:
+1. 🧹 Clean up any existing containers
+2. 🚀 Start Blaze FHIR server with sample data
+3. 🔍 Verify network connectivity and server readiness
+4. 📊 Run containerized measure evaluation
+5. 📄 Display results and file locations
+6. 🛑 Provide cleanup instructions
 
-# Run measure evaluations
-./evaluate-measures.sh
+**Expected Output:**
+Upon completion, you'll see:
+- ✅ `MeasureReport-age-gender-separate.json` 
+- ✅ `MeasureReport-age-gender-composite.json`  
+- 📁 Files saved in `./resources/` directory
+
+### Option 2: Manual Setup with REST API Calls
+
+**Step 1: Start the FHIR Server with Data**
+```bash
+# Start Blaze FHIR server with sample data
+docker compose up -d blaze blaze-init
+
+# Wait for server to be ready (about 15-30 seconds)
+curl -f http://localhost:8080/fhir/metadata
 ```
 
-This will:
-- Check if the FHIR server is running
-- Evaluate both demographic measures
-- Save MeasureReport resources to `./resources/`
+**Step 2: Evaluate Measures via REST API**
 
-### 3. View Results
-
-Generated reports will be saved as:
-- `./resources/MeasureReport-age-gender-separate.json` - Independent gender and age stratification
-- `./resources/MeasureReport-age-gender-composite.json` - Cross-tabulated gender-age combinations
-
-### 4. Stop the Environment
-
+**Separate Stratifiers (Age and Gender independently):**
 ```bash
-docker-compose down
+# Evaluate age-gender measure with separate stratification
+curl -s "http://localhost:8080/fhir/Measure/mii-msr-summary-report-age-gender-cql/\$evaluate-measure?periodStart=1900&periodEnd=2025" \
+  -H "Accept: application/fhir+json"
+```
+
+**Composite Stratifiers (Cross-tabulated Age×Gender combinations):**
+```bash
+# Evaluate composite age-gender measure  
+curl -s "http://localhost:8080/fhir/Measure/mii-msr-summary-report-composite-gender-age-cql/\$evaluate-measure?periodStart=1900&periodEnd=2025" \
+  -H "Accept: application/fhir+json"
+```
+
+**Step 3: Stop the Environment**
+```bash
+docker compose down
+```
+
+## Cleanup
+
+To stop all services and clean up:
+```bash
+# Stop and remove containers
+docker compose down
+
+# Remove volumes (optional - removes all data)
+docker compose down -v
 ```
 
 ## Architecture
 
-### CQL Library (`stratifier-birth-year.cql`)
-Provides comprehensive patient age calculations:
+### CQL Library (`input/cql/stratifier-age-gender.cql`)
+Provides comprehensive patient age calculations and demographic stratification:
 - `AgeInYears`, `AgeInMonths`, `AgeInDays` - Age calculations with null safety
-- `AgeGroup` - Pediatric/Adult/Geriatric classification
+- `AgeGroup` - Pediatric/Adult/Geriatric classification  
 - `AgeDecade` - Age ranges (0-9, 10-19, 20-29, etc.)
+- `AgeFiveYearGroups` - 5-year age ranges (0-4, 5-9, ..., 85-89, 90+) matching German census structure
+- `AgeFiveYearGroupsMath` - Mathematical alternative for 5-year grouping
 - `Gender` - Gender stratification
+- Helper functions: `IsAdult`, `IsMinor`, `IsElderly`
 
 ### FHIR Measures
 
@@ -85,6 +109,7 @@ Provides comprehensive patient age calculations:
 ### Docker Environment
 - **Blaze FHIR Server**: R4-compliant server with `$evaluate-measure` support
 - **Sample Data**: Automatically loaded via blazectl
+- **Sample Data**: from https://github.com/medizininformatik-initiative/mii-testdata
 
 ## Key Differences: Separate vs Composite Stratification
 
@@ -98,10 +123,43 @@ Provides comprehensive patient age calculations:
 ## Files Structure
 
 ```
-├── stratifier-birth-year.cql           # CQL library for age calculations
+├── input/cql/stratifier-age-gender.cql # CQL library for 5-year age group calculations
 ├── input/fsh/                          # FSH source files for FHIR resources
 ├── resources/                          # Generated FHIR resources and reports
-├── docker-compose.yaml                 # Local FHIR server setup
-├── evaluate-measures.sh                # Automated evaluation script
-└── Bundle-mii-bdl-measure-library-transaction-bundle.json  # Complete FHIR bundle
+├── docker-compose.yaml                 # Container orchestration setup
+├── Dockerfile.evaluate-measures        # Container for measure evaluation
+├── evaluate-measures-docker.sh         # Cross-platform automated script (Unix)
+├── evaluate-measures-docker.bat        # Cross-platform automated script (Windows)
+└── evaluate-measures.sh                # Direct evaluation script (Linux/macOS)
+```
+
+## Troubleshooting
+
+### Docker Network Issues
+If you encounter "network not found" errors:
+```bash
+# Clean up Docker state
+docker compose down
+docker system prune -f
+docker network prune -f
+
+# Restart with containerized script (recommended)
+./evaluate-measures-docker.sh
+```
+
+### Windows-Specific Issues
+- **PowerShell Execution Policy**: If you get execution errors, run:
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  ```
+- **WSL Integration**: For best compatibility, enable Docker Desktop's WSL integration
+
+### Port Conflicts
+If port 8080 is already in use:
+```bash
+# Check what's using the port
+netstat -an | grep 8080   # Linux/macOS
+netstat -an | findstr 8080  # Windows
+
+# Stop conflicting services or modify docker-compose.yaml ports
 ```
