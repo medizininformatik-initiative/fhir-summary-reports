@@ -48,6 +48,22 @@
     "endLine": 26
   },
   {
+    "outputFile": "MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.json",
+    "fshName": "mii-msr-age-gender-separated-zensus-de-2011",
+    "fshType": "Instance",
+    "fshFile": "mii-msr-age-gender-separated-zensus-de-2011.fsh",
+    "startLine": 1,
+    "endLine": 77
+  },
+  {
+    "outputFile": "MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.json",
+    "fshName": "mii-msr-age-gender-separated-zensus-de-2022",
+    "fshType": "Instance",
+    "fshFile": "mii-msr-age-gender-separated-zensus-de-2022.fsh",
+    "startLine": 1,
+    "endLine": 77
+  },
+  {
     "outputFile": "MeasureReport-mii-msrpt-summary-report-zensus-2011.json",
     "fshName": "mii-msrpt-summary-report-zensus-2011",
     "fshType": "Instance",

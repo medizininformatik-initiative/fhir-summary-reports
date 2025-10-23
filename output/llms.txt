@@ -2,8 +2,6 @@
 
 ## Pages
 
-* [Home](index.md)
-* [Artifacts Summary](artifacts.md)
 
 ## Resources
 
@@ -27,5 +25,7 @@
 * [Summary Report Age Gender CQL (Measure)](Measure-mii-msr-summary-report-age-gender-cql.md)
 * [Summary Report Composite Age Gender CQL (Measure)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
 * [Summary Report (Measure)](Measure-mii-msr-summary-report-fhir-data-evaluator.md)
+* [mii-msr-age-gender-separated-zensus-de-2011 (MeasureReport)](MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.md)
+* [mii-msr-age-gender-separated-zensus-de-2022 (MeasureReport)](MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.md)
 * [mii-msrpt-summary-report-zensus-2011 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-zensus-2011.md)
 * [mii-msrpt-summary-report-zensus-2022 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-zensus-2022.md)
