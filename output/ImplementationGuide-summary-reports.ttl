@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SummaryReports"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-21T12:33:38+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-28T15:28:28+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
@@ -847,6 +847,40 @@
          fhir:reference [ fhir:v "Bundle/mii-bdl-measure-library-transaction-bundle" ]
        ] ;
        fhir:name [ fhir:v "mii-bdl-measure-library-transaction-bundle" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msr-age-gender-separated-zensus-de-2011> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msr-age-gender-separated-zensus-de-2011" ]
+       ] ;
+       fhir:name [ fhir:v "mii-msr-age-gender-separated-zensus-de-2011" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msr-age-gender-separated-zensus-de-2022> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msr-age-gender-separated-zensus-de-2022" ]
+       ] ;
+       fhir:name [ fhir:v "mii-msr-age-gender-separated-zensus-de-2022" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true

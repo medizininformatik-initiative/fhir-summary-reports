@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes | *Version*:0.1.0 |
-| Draft as of 2025-10-21 | *Computable Name*:MII_CS_Summary_Report_Codes |
+| Draft as of 2025-10-28 | *Computable Name*:MII_CS_Summary_Report_Codes |
 
  
 Codes used in summary reports 
@@ -31,7 +31,7 @@ Codes used in summary reports
   "name" : "MII_CS_Summary_Report_Codes",
   "title" : "Summary Report Codes",
   "status" : "draft",
-  "date" : "2025-10-21T12:33:38+02:00",
+  "date" : "2025-10-28T15:28:28+01:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {

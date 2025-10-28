@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports | *Version*:0.1.0 |
-| Draft as of 2025-10-21 | *Computable Name*:SummaryReports |
+| Draft as of 2025-10-28 | *Computable Name*:SummaryReports |
 
 # SummaryReports
 
@@ -26,7 +26,7 @@ Feel free to modify this index page with your own awesome content!
   "version" : "0.1.0",
   "name" : "SummaryReports",
   "status" : "draft",
-  "date" : "2025-10-21T12:33:38+02:00",
+  "date" : "2025-10-28T15:28:28+01:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [
     {
@@ -749,6 +749,32 @@ Feel free to modify this index page with your own awesome content!
           "reference" : "Bundle/mii-bdl-measure-library-transaction-bundle"
         },
         "name" : "mii-bdl-measure-library-transaction-bundle",
+        "exampleBoolean" : true
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "MeasureReport"
+          }
+        ],
+        "reference" : {
+          "reference" : "MeasureReport/mii-msr-age-gender-separated-zensus-de-2011"
+        },
+        "name" : "mii-msr-age-gender-separated-zensus-de-2011",
+        "exampleBoolean" : true
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "MeasureReport"
+          }
+        ],
+        "reference" : {
+          "reference" : "MeasureReport/mii-msr-age-gender-separated-zensus-de-2022"
+        },
+        "name" : "mii-msr-age-gender-separated-zensus-de-2022",
         "exampleBoolean" : true
       },
       {

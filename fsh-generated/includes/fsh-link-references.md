@@ -1,4 +1,6 @@
 [mii-bdl-measure-library-transaction-bundle]: Bundle-mii-bdl-measure-library-transaction-bundle.html
+[mii-msr-age-gender-separated-zensus-de-2011]: MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.html
+[mii-msr-age-gender-separated-zensus-de-2022]: MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.html
 [mii-msrpt-summary-report-zensus-2011]: MeasureReport-mii-msrpt-summary-report-zensus-2011.html
 [mii-msrpt-summary-report-zensus-2022]: MeasureReport-mii-msrpt-summary-report-zensus-2022.html
 [mii-lib-stratifier-age-gender]: Library-mii-lib-stratifier-age-gender.html
