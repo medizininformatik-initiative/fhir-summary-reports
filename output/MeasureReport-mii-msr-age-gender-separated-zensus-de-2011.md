@@ -1,4 +1,222 @@
-# Resource mii-msr-age-gender-separated-zensus-de-2011 (MeasureReport)
+# mii-msr-age-gender-separated-zensus-de-2011 - v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **mii-msr-age-gender-separated-zensus-de-2011**
+
+## Example MeasureReport: mii-msr-age-gender-separated-zensus-de-2011
+
+**status**: Complete
+
+**type**: Summary
+
+**measure**: [Summary Report Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-age-gender-cql.md)
+
+**date**: 2025-10-22 12:00:00+0000
+
+**period**: 2011 --> 2011
+
+> **group**
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 85719686 |
+
+> **stratifier****code**:Recorded sex or gender
+> **stratum****value**:0-4
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 3338895 |
+
+
+> **stratum****value**:5-9
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 3525830 |
+
+
+> **stratum****value**:10-14
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 3940566 |
+
+
+> **stratum****value**:15-19
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4013881 |
+
+
+> **stratum****value**:20-24
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4835639 |
+
+
+> **stratum****value**:25-29
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4872533 |
+
+
+> **stratum****value**:30-34
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4751909 |
+
+
+> **stratum****value**:34-39
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4742891 |
+
+
+> **stratum****value**:40-44
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 6351192 |
+
+
+> **stratum****value**:45-49
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 6999679 |
+
+
+> **stratum****value**:50-54
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 6206294 |
+
+
+> **stratum****value**:55-59
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 5419449 |
+
+
+> **stratum****value**:60-64
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4702815 |
+
+
+> **stratum****value**:65-69
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4173352 |
+
+
+> **stratum****value**:70-74
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 4861239 |
+
+
+> **stratum****value**:75-79
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 3270284 |
+
+
+> **stratum****value**:80-84
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 2328083 |
+
+
+> **stratum****value**:85-89
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 1335076 |
+
+
+> **stratum****value**:90+
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 550089 |
+
+
+
 
 
 

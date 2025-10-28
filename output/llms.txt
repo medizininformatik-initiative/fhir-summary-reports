@@ -2,6 +2,8 @@
 
 ## Pages
 
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 

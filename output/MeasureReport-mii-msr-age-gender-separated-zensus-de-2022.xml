@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MeasureReport xmlns="http://hl7.org/fhir">
+  <id value="mii-msr-age-gender-separated-zensus-de-2022"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MeasureReport mii-msr-age-gender-separated-zensus-de-2022</b></p><a name="mii-msr-age-gender-separated-zensus-de-2022"> </a><a name="hcmii-msr-age-gender-separated-zensus-de-2022"> </a><p><b>status</b>: Complete</p><p><b>type</b>: Summary</p><p><b>measure</b>: <a href="Measure-mii-msr-summary-report-age-gender-cql.html">Summary Report Age Gender CQLversion: null0.1.0)</a></p><p><b>date</b>: 2025-10-22 12:00:00+0000</p><p><b>period</b>: 2022 --&gt; 2022</p><blockquote><p><b>group</b></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>88212740</td></tr></table><blockquote><p><b>stratifier</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 99502-7}">Recorded sex or gender</span></p><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">0-4</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3877937</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">5-9</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3880730</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">10-14</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3777504</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">15-19</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3802662</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">20-24</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>4399638</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">25-29</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>4758696</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">30-34</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>5470694</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">34-39</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>5384817</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">40-44</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>5190461</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">45-49</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>4810038</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">50-54</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>6131189</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">55-59</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>6795249</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">60-64</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>6049720</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">65-69</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>5010077</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">70-74</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>4216705</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">75-79</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3122252</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">80-84</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>3395607</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">85-89</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>1804095</td></tr></table></blockquote><blockquote><p><b>stratum</b></p><p><b>value</b>: <span title="Codes:">90+</span></p><h3>Populations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/measure-population initial-population}">Initial Population</span></td><td>841469</td></tr></table></blockquote></blockquote></blockquote></div>
+  </text>
+  <status value="complete"/>
+  <type value="summary"/>
+  <measure value="https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL|0.1.0"/>
+  <date value="2025-10-22T12:00:00+00:00"/>
+  <period>
+    <start value="2022"/>
+    <end value="2022"/>
+  </period>
+  <group>
+    <population>
+      <code>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+          <code value="initial-population"/>
+        </coding>
+      </code>
+      <count value="88212740"/>
+    </population>
+    <stratifier>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="99502-7"/>
+          <display value="Recorded sex or gender"/>
+        </coding>
+      </code>
+      <stratum>
+        <value>
+          <text value="0-4"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="3877937"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="5-9"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="3880730"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="10-14"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="3777504"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="15-19"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="3802662"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="20-24"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="4399638"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="25-29"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="4758696"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="30-34"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="5470694"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="34-39"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="5384817"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="40-44"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="5190461"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="45-49"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="4810038"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="50-54"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="6131189"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="55-59"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="6795249"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="60-64"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="6049720"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="65-69"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="5010077"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="70-74"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="4216705"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="75-79"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="3122252"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="80-84"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="3395607"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="85-89"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="1804095"/>
+        </population>
+      </stratum>
+      <stratum>
+        <value>
+          <text value="90+"/>
+        </value>
+        <population>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+              <code value="initial-population"/>
+            </coding>
+          </code>
+          <count value="841469"/>
+        </population>
+      </stratum>
+    </stratifier>
+  </group>
+</MeasureReport>

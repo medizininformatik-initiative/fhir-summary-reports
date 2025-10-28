@@ -1,10 +1,10 @@
 SummaryReports : Validation Results
 =========================================
 
-err = 16, warn = 26, info = 9
-IG Publisher Version: 2.0.21
-Generated Tue Oct 21 12:34:25 CEST 2025. FHIR version 4.0.1 for summary-reports#0.1.0 (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
- Build Errors : 6 / 9 / 0
+err = 18, warn = 28, info = 11
+IG Publisher Version: 2.0.21 Out of date - current version is 2.0.22
+Generated Tue Oct 28 15:29:20 CET 2025. FHIR version 4.0.1 for summary-reports#0.1.0 (canonical = https://www.medizininformatik-initiative.de/fhir/summary-reports)
+ Build Errors : 6 / 11 / 0
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Bundle-mii-bdl-measure-library-transaction-bundle : 2 / 6 / 5
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes : 0 / 2 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/ImplementationGuide-summary-reports : 0 / 0 / 1
@@ -12,6 +12,8 @@ Generated Tue Oct 21 12:34:25 CEST 2025. FHIR version 4.0.1 for summary-reports#
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-age-gender-cql : 1 / 3 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-composite-gender-age-cql : 1 / 1 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator : 0 / 1 / 2
+ /Users/julian/git/fhir-summary-reports/fsh-generated/resources/MeasureReport-mii-msr-age-gender-separated-zensus-de-2011 : 1 / 0 / 2
+ /Users/julian/git/fhir-summary-reports/fsh-generated/resources/MeasureReport-mii-msr-age-gender-separated-zensus-de-2022 : 1 / 0 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2011 : 2 / 0 / 2
  /Users/julian/git/fhir-summary-reports/fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022 : 2 / 0 / 2
  /Users/julian/git/fhir-summary-reports/input/predefined-resources/MeasureReport-age-gender-composite : 4 / 2 / 2
@@ -19,6 +21,8 @@ Generated Tue Oct 21 12:34:25 CEST 2025. FHIR version 4.0.1 for summary-reports#
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/mii-bdl-measure-library-transaction-bundle.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msr-age-gender-separated-zensus-de-2011.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msr-age-gender-separated-zensus-de-2022.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msrpt-summary-report-zensus-2011.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MeasureReport/mii-msrpt-summary-report-zensus-2022.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource MeasureReport/MeasureReport-age-gender-composite.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
@@ -62,6 +66,12 @@ INFORMATION: Resource: The resource Measure/mii-msr-summary-report-composite-gen
 == fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator.json ==
 WARNING: Measure/mii-msr-summary-report-fhir-data-evaluator: Measure.group[0].stratifier[0].criteria: The expression language text/fhirpath is not supported, so can't be validated
 INFORMATION: Resource: The resource Measure/mii-msr-summary-report-fhir-data-evaluator could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.json ==
+INFORMATION: MeasureReport/mii-msr-age-gender-separated-zensus-de-2011: MeasureReport.measure: The scoring system in this measure is unknown, so the measureScore values cannot be checked
+ERROR: MeasureReport/mii-msr-age-gender-separated-zensus-de-2011: MeasureReport.group[0]: The MeasureReport does not include a stratifier for the stratifier with code 'http://loinc.org#46251-5' (id = '')
+== fsh-generated/resources/MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.json ==
+INFORMATION: MeasureReport/mii-msr-age-gender-separated-zensus-de-2022: MeasureReport.measure: The scoring system in this measure is unknown, so the measureScore values cannot be checked
+ERROR: MeasureReport/mii-msr-age-gender-separated-zensus-de-2022: MeasureReport.group[0]: The MeasureReport does not include a stratifier for the stratifier with code 'http://loinc.org#46251-5' (id = '')
 == fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2011.json ==
 INFORMATION: MeasureReport/mii-msrpt-summary-report-zensus-2011: MeasureReport.measure: The scoring system in this measure is unknown, so the measureScore values cannot be checked
 ERROR: MeasureReport/mii-msrpt-summary-report-zensus-2011: MeasureReport.group[0].stratifier[0]: Group should have a code that matches the group stratifier definition in the measure
