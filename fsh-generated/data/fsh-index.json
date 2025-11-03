@@ -5,15 +5,7 @@
     "fshType": "Instance",
     "fshFile": "mii-bdl-measure-library.fsh",
     "startLine": 7,
-    "endLine": 13
-  },
-  {
-    "outputFile": "CodeSystem-mii-cs-summary-report-codes.json",
-    "fshName": "MII_CS_Summary_Report_Codes",
-    "fshType": "CodeSystem",
-    "fshFile": "mii-cs-summary-report-codesystem.fsh",
-    "startLine": 1,
-    "endLine": 10
+    "endLine": 15
   },
   {
     "outputFile": "Library-mii-lib-stratifier-age-gender.json",
@@ -21,7 +13,7 @@
     "fshType": "Instance",
     "fshFile": "mii-lib-stratifier-age-gender.fsh",
     "startLine": 3,
-    "endLine": 24
+    "endLine": 26
   },
   {
     "outputFile": "Measure-mii-msr-summary-report-age-gender-cql.json",
@@ -37,46 +29,38 @@
     "fshType": "Instance",
     "fshFile": "mii-msr-summary-report-composite-gender-age-cql.fsh",
     "startLine": 2,
-    "endLine": 40
+    "endLine": 41
   },
   {
-    "outputFile": "Measure-mii-msr-summary-report-fhir-data-evaluator.json",
-    "fshName": "mii-msr-summary-report-fhir-data-evaluator",
+    "outputFile": "MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.json",
+    "fshName": "mii-msrpt-summary-report-age-gender-composite-zensus-2011",
     "fshType": "Instance",
-    "fshFile": "mii-msr-summary-report-fhir-data-evaluator.fsh",
-    "startLine": 5,
-    "endLine": 26
-  },
-  {
-    "outputFile": "MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.json",
-    "fshName": "mii-msr-age-gender-separated-zensus-de-2011",
-    "fshType": "Instance",
-    "fshFile": "mii-msr-age-gender-separated-zensus-de-2011.fsh",
-    "startLine": 1,
-    "endLine": 77
-  },
-  {
-    "outputFile": "MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.json",
-    "fshName": "mii-msr-age-gender-separated-zensus-de-2022",
-    "fshType": "Instance",
-    "fshFile": "mii-msr-age-gender-separated-zensus-de-2022.fsh",
-    "startLine": 1,
-    "endLine": 77
-  },
-  {
-    "outputFile": "MeasureReport-mii-msrpt-summary-report-zensus-2011.json",
-    "fshName": "mii-msrpt-summary-report-zensus-2011",
-    "fshType": "Instance",
-    "fshFile": "mii-msrpt-summary-report-zensus-de-2011.fsh",
+    "fshFile": "mii-msrpt-summary-report-age-gender-composite-zensus-2011.fsh",
     "startLine": 3,
-    "endLine": 279
+    "endLine": 281
   },
   {
-    "outputFile": "MeasureReport-mii-msrpt-summary-report-zensus-2022.json",
-    "fshName": "mii-msrpt-summary-report-zensus-2022",
+    "outputFile": "MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.json",
+    "fshName": "mii-msrpt-summary-report-age-gender-composite-zensus-2022",
     "fshType": "Instance",
-    "fshFile": "mii-msrpt-summary-report-zensus-de-2022.fsh",
+    "fshFile": "mii-msrpt-summary-report-age-gender-composite-zensus-2022.fsh",
     "startLine": 3,
-    "endLine": 279
+    "endLine": 281
+  },
+  {
+    "outputFile": "MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.json",
+    "fshName": "mii-msrpt-summary-report-age-gender-zensus-2011",
+    "fshType": "Instance",
+    "fshFile": "mii-msrpt-summary-report-age-gender-zensus-2011.fsh",
+    "startLine": 1,
+    "endLine": 79
+  },
+  {
+    "outputFile": "MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.json",
+    "fshName": "mii-msrpt-summary-report-age-gender-zensus-2022",
+    "fshType": "Instance",
+    "fshFile": "mii-msrpt-summary-report-age-gender-zensus-2022.fsh",
+    "startLine": 1,
+    "endLine": 79
   }
 ]

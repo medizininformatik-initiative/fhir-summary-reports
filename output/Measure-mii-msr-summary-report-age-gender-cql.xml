@@ -27,7 +27,7 @@
 
 <th scope="row" class="row-header">Title (human-readable)</th>
 
-<td class="content-container">Summary Report Age Gender CQL</td>
+<td class="content-container">Measure Summary Report Age Gender CQL</td>
 </tr>
 
 
@@ -263,7 +263,7 @@
   <url value="https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL"/>
   <version value="0.1.0"/>
   <name value="SummaryReportAgeGenderCQL"/>
-  <title value="Summary Report Age Gender CQL"/>
+  <title value="Measure Summary Report Age Gender CQL"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2025-10-16"/>

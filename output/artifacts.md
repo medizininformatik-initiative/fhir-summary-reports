@@ -1,4 +1,4 @@
-# Artifacts Summary - v0.1.0
+# Artifacts Summary - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -7,29 +7,20 @@
 
 This page provides a list of the FHIR artifacts defined as part of this implementation guide.
 
-### Terminology: Code Systems 
-
-These define new code systems used by systems conforming to this implementation guide.
-
-| | |
-| :--- | :--- |
-| [Summary Report Codes](CodeSystem-mii-cs-summary-report-codes.md) | Codes used in summary reports |
-
 ### Example: Example Instances 
 
 These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
 
 | | |
 | :--- | :--- |
-| [Patient Age and Gender Stratification Library](Library-mii-lib-stratifier-age-gender.md) | CQL library for calculating patient ages and gender-based stratifications |
-| [Summary Report](Measure-mii-msr-summary-report-fhir-data-evaluator.md) | Summary Report that uses FHIRPath and works with the FHIR Data Evaluator |
-| [Summary Report Age Gender CQL](Measure-mii-msr-summary-report-age-gender-cql.md) | Summary Report with gender and 5-year age group stratification using CQL matching German census data structure |
-| [Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md) | Summary Report with gender and age decade stratification using CQL in a composite stratifier |
-| [mii-bdl-measure-library-transaction-bundle](Bundle-mii-bdl-measure-library-transaction-bundle.md) |  |
-| [mii-msr-age-gender-separated-zensus-de-2011](MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.md) |  |
-| [mii-msr-age-gender-separated-zensus-de-2022](MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.md) |  |
-| [mii-msrpt-summary-report-zensus-2011](MeasureReport-mii-msrpt-summary-report-zensus-2011.md) |  |
-| [mii-msrpt-summary-report-zensus-2022](MeasureReport-mii-msrpt-summary-report-zensus-2022.md) |  |
+| [Bundle Measure and Library Resources](Bundle-mii-bdl-measure-library-transaction-bundle.md) | Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification |
+| [Library CQL age and gender stratifications](Library-mii-lib-stratifier-age-gender.md) | Library resources with CQL content for calculating patient age and gender stratifications |
+| [Measure Summary Report Age Gender CQL](Measure-mii-msr-summary-report-age-gender-cql.md) | Summary Report with gender and 5-year age group stratification using CQL matching German census data structure |
+| [Measure Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md) | Summary Report with gender and age decade stratification using CQL in a composite stratifier |
+| [MeasureReport Age Gender Zensus 2011](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.md) | MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2011 data |
+| [MeasureReport Age Gender Zensus 2022](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.md) | MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data |
+| [MeasureReport Composite Age Gender Zensus 2011](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.md) | MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data |
+| [MeasureReport Composite Age Gender Zensus 2022](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.md) | MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2022 data |
 
 ### Other 
 

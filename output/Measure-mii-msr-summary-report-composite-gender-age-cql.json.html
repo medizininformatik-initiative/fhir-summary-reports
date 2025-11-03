@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Summary Report Composite Age Gender CQL - JSON Representation -  v0.1.0</title>
+    <title>Measure Summary Report Composite Age Gender CQL - JSON Representation - FHIR Summary Reports v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"2.10"}
-    h3,h4,h5,h6{--heading-prefix:"2.10"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.4"}
+    h3,h4,h5,h6{--heading-prefix:"2.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -52,7 +52,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span>
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Summary Reports</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -99,7 +99,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Summary Report Composite Age Gender CQL</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Measure Summary Report Composite Age Gender CQL</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -112,7 +112,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">SummaryReports - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/summary-reports/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">FHIR Summary Reports - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/summary-reports/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -158,7 +158,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Summary Report Composite Age Gender CQL - JSON Representation</h2>
+<h2 id="root">: Measure Summary Report Composite Age Gender CQL - JSON Representation</h2>
 
   <table class="colsi">
     <tr>
@@ -186,14 +186,19 @@
   <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure">resourceType</a>" : "Measure",
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.id">id</a>" : "mii-msr-summary-report-composite-gender-age-cql",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablemeasure.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"
+    ]
+  },
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n  &lt;table class=\&quot;narrative-table\&quot;&gt;\n    &lt;tbody&gt;\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Knowledge Artifact Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Name (machine-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;SummaryReportCompositeAgeGenderCQL&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Title (human-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Summary Report Composite Age Gender CQL&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Status&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Active&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Experimental&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;false&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Description&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;div&gt;&lt;p&gt;Summary Report with gender and age decade stratification using CQL in a composite stratifier&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Steward&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Medizininformatik Initiative&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Steward Contact Details&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Medizininformatik Initiative: &lt;a href=\&quot;https://www.medizininformatik-initiative.de/\&quot;&gt;https://www.medizininformatik-initiative.de/&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Version Number&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;0.1.0&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    &lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Population Criteria&lt;/th&gt;\n\n&lt;/tr&gt;\n  \n  \n    \n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Summary&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Composite stratification by gender and age decade&lt;/td&gt;\n&lt;/tr&gt;\n\n  \n  \n  \n    &lt;tr&gt;\n      \n        \n          \n            \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Initial Population&lt;/th&gt;\n\n          \n          \n          \n          \n          \n          \n          \n          \n          \n        \n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: initial-population\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;: No description provided\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#stratifieragegender-ininitialpopulation\&quot;&gt;InInitialPopulation&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n&lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Stratifier&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    \n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Logic&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Primary Library&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;a href=\&quot;Bundle-mii-bdl-measure-library-transaction-bundle.html\&quot;&gt;Patient Age and Gender Stratification Library&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n&lt;tr&gt;\n  &lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Generated using version 0.4.6 of the sample-content-ig Liquid templates&lt;/th&gt;\n&lt;/tr&gt;\n    &lt;/tbody&gt;\n  &lt;/table&gt;\n&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n  &lt;table class=\&quot;narrative-table\&quot;&gt;\n    &lt;tbody&gt;\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Knowledge Artifact Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Name (machine-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;SummaryReportCompositeAgeGenderCQL&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Title (human-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Measure Summary Report Composite Age Gender CQL&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Status&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Active&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Experimental&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;false&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Description&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;div&gt;&lt;p&gt;Summary Report with gender and age decade stratification using CQL in a composite stratifier&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Steward&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Medizininformatik Initiative&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Steward Contact Details&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Medizininformatik Initiative: &lt;a href=\&quot;https://www.medizininformatik-initiative.de/\&quot;&gt;https://www.medizininformatik-initiative.de/&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Version Number&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;0.1.0&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    &lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Population Criteria&lt;/th&gt;\n\n&lt;/tr&gt;\n  \n  \n    \n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Summary&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Composite stratification by gender and age decade&lt;/td&gt;\n&lt;/tr&gt;\n\n  \n  \n  \n    &lt;tr&gt;\n      \n        \n          \n            \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Initial Population&lt;/th&gt;\n\n          \n          \n          \n          \n          \n          \n          \n          \n          \n        \n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: initial-population\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;: No description provided\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#stratifieragegender-ininitialpopulation\&quot;&gt;InInitialPopulation&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n&lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Stratifier&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    \n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Logic&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Primary Library&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;a href=\&quot;Bundle-mii-bdl-measure-library-transaction-bundle.html\&quot;&gt;Patient Age and Gender Stratification Library&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n&lt;tr&gt;\n  &lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Generated using version 0.4.6 of the sample-content-ig Liquid templates&lt;/th&gt;\n&lt;/tr&gt;\n    &lt;/tbody&gt;\n  &lt;/table&gt;\n&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.url">url</a>" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.version">version</a>" : "0.1.0",
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.name">name</a>" : "SummaryReportCompositeAgeGenderCQL",
-  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.title">title</a>" : "Summary Report Composite Age Gender CQL",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.title">title</a>" : "Measure Summary Report Composite Age Gender CQL",
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.status">status</a>" : "active",
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.experimental">experimental</a>" : false,
   "<a href="http://hl7.org/fhir/R4/measure.html#Measure.date">date</a>" : "2025-09-30",
@@ -297,7 +302,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 28, 2025 15:28+0100">2025-10-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 13:33+0100">2025-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

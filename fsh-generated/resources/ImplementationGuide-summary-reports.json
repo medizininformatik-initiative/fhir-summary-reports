@@ -4,6 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports",
   "version": "0.1.0",
   "name": "SummaryReports",
+  "title": "FHIR Summary Reports",
   "status": "draft",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -17,6 +18,7 @@
       ]
     }
   ],
+  "description": "FHIR Summary Reports Implementation Guide",
   "packageId": "summary-reports",
   "fhirVersion": [
     "4.0.1"
@@ -41,75 +43,64 @@
         "reference": {
           "reference": "Bundle/mii-bdl-measure-library-transaction-bundle"
         },
-        "name": "mii-bdl-measure-library-transaction-bundle",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MeasureReport/mii-msr-age-gender-separated-zensus-de-2011"
-        },
-        "name": "mii-msr-age-gender-separated-zensus-de-2011",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MeasureReport/mii-msr-age-gender-separated-zensus-de-2022"
-        },
-        "name": "mii-msr-age-gender-separated-zensus-de-2022",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MeasureReport/mii-msrpt-summary-report-zensus-2011"
-        },
-        "name": "mii-msrpt-summary-report-zensus-2011",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MeasureReport/mii-msrpt-summary-report-zensus-2022"
-        },
-        "name": "mii-msrpt-summary-report-zensus-2022",
+        "name": "Bundle Measure and Library Resources",
+        "description": "Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification",
         "exampleBoolean": true
       },
       {
         "reference": {
           "reference": "Library/mii-lib-stratifier-age-gender"
         },
-        "name": "Patient Age and Gender Stratification Library",
-        "description": "CQL library for calculating patient ages and gender-based stratifications",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Measure/mii-msr-summary-report-fhir-data-evaluator"
-        },
-        "name": "Summary Report",
-        "description": "Summary Report that uses FHIRPath and works with the FHIR Data Evaluator",
+        "name": "Library CQL age and gender stratifications",
+        "description": "Library resources with CQL content for calculating patient age and gender stratifications",
         "exampleBoolean": true
       },
       {
         "reference": {
           "reference": "Measure/mii-msr-summary-report-age-gender-cql"
         },
-        "name": "Summary Report Age Gender CQL",
+        "name": "Measure Summary Report Age Gender CQL",
         "description": "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure",
         "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-summary-report-codes"
+          "reference": "Measure/mii-msr-summary-report-composite-gender-age-cql"
         },
-        "name": "Summary Report Codes",
-        "description": "Codes used in summary reports",
-        "exampleBoolean": false
+        "name": "Measure Summary Report Composite Age Gender CQL",
+        "description": "Summary Report with gender and age decade stratification using CQL in a composite stratifier",
+        "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "Measure/mii-msr-summary-report-composite-gender-age-cql"
+          "reference": "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011"
         },
-        "name": "Summary Report Composite Age Gender CQL",
-        "description": "Summary Report with gender and age decade stratification using CQL in a composite stratifier",
+        "name": "MeasureReport Age Gender Zensus 2011",
+        "description": "MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2011 data",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022"
+        },
+        "name": "MeasureReport Age Gender Zensus 2022",
+        "description": "MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011"
+        },
+        "name": "MeasureReport Composite Age Gender Zensus 2011",
+        "description": "MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022"
+        },
+        "name": "MeasureReport Composite Age Gender Zensus 2022",
+        "description": "MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2022 data",
         "exampleBoolean": true
       }
     ],

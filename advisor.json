@@ -13,6 +13,8 @@
     "UNABLE_TO_INFER_CODESYSTEM@Library.*",
     "Terminology_TX_NoValid_11@Library.*",
     "Terminology_TX_NoValid_16@Library.*",
-    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.*"
+    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.*",
+    "MEASURE_MR_GRP_STRAT_NO_CODE@MeasureReport.group.stratifier",
+    "MEASURE_MR_GRP_STRAT_MISSING_BY_CODE@MeasureReport.group"
   ]
 }

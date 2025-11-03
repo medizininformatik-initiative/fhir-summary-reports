@@ -2,6 +2,9 @@
 
 <Measure xmlns="http://hl7.org/fhir">
   <id value="mii-msr-summary-report-composite-gender-age-cql"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"/>
+  </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">
   <table class="narrative-table">
@@ -24,7 +27,7 @@
 
 <th scope="row" class="row-header">Title (human-readable)</th>
 
-<td class="content-container">Summary Report Composite Age Gender CQL</td>
+<td class="content-container">Measure Summary Report Composite Age Gender CQL</td>
 </tr>
 
 
@@ -229,7 +232,7 @@
   <url value="https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"/>
   <version value="0.1.0"/>
   <name value="SummaryReportCompositeAgeGenderCQL"/>
-  <title value="Summary Report Composite Age Gender CQL"/>
+  <title value="Measure Summary Report Composite Age Gender CQL"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2025-09-30"/>

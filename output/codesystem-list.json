@@ -1,12 +1,3 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "MII_CS_Summary_Report_Codes",
-      "title" : "Summary Report Codes",
-      "description" : "Codes used in summary reports"
-    }
-  ]
+  "codeSystems" : []
 }

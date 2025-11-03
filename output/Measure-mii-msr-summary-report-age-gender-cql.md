@@ -1,10 +1,10 @@
-# Summary Report Age Gender CQL - v0.1.0
+# Measure Summary Report Age Gender CQL - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Summary Report Age Gender CQL**
+* **Measure Summary Report Age Gender CQL**
 
-## Measure: Summary Report Age Gender CQL 
+## Measure: Measure Summary Report Age Gender CQL 
 
 | | |
 | :--- | :--- |
@@ -17,7 +17,7 @@ Summary Report with gender and 5-year age group stratification using CQL matchin
 * Knowledge Artifact Metadata: Name (machine-readable)
   * ?: SummaryReportAgeGenderCQL
 * Knowledge Artifact Metadata: Title (human-readable)
-  * ?: Summary Report Age Gender CQL
+  * ?: Measure Summary Report Age Gender CQL
 * Knowledge Artifact Metadata: Status
   * ?: Active
 * Knowledge Artifact Metadata: Experimental
@@ -61,7 +61,7 @@ Summary Report with gender and 5-year age group stratification using CQL matchin
   "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL",
   "version" : "0.1.0",
   "name" : "SummaryReportAgeGenderCQL",
-  "title" : "Summary Report Age Gender CQL",
+  "title" : "Measure Summary Report Age Gender CQL",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-10-16",

@@ -1,4 +1,4 @@
-#  - v0.1.0
+#  - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -14,7 +14,7 @@
 
 **type**: Summary
 
-**measure**: [Summary Report Composite Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
+**measure**: [Measure Summary Report Composite Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
 
 **date**: 2025-10-17 12:10:35+0000
 

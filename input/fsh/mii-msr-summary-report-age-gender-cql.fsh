@@ -8,7 +8,7 @@ Usage: #example
 * experimental = false
 * publisher = "MII"
 * name = "SummaryReportAgeGenderCQL"
-* title = "Summary Report Age Gender CQL"
+* title = "Measure Summary Report Age Gender CQL"
 * description = "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure"
 * date = "2025-10-16"
 

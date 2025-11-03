@@ -1,4 +1,4 @@
-# summary-reports#0.1.0: null
+# summary-reports#0.1.0: FHIR Summary Reports
 
 ## Pages
 
@@ -7,13 +7,9 @@
 
 ## Resources
 
-### CodeSystems
-
-* [Summary Report Codes](CodeSystem-mii-cs-summary-report-codes.md)
-
 ### ImplementationGuides
 
-* [SummaryReports](index.md)
+* [FHIR Summary Reports](index.md)
 
 ### MeasureReports
 
@@ -24,10 +20,9 @@
 
 * [mii-bdl-measure-library-transaction-bundle (Bundle)](Bundle-mii-bdl-measure-library-transaction-bundle.md)
 * [Patient Age and Gender Stratification Library (Library)](Library-mii-lib-stratifier-age-gender.md)
-* [Summary Report Age Gender CQL (Measure)](Measure-mii-msr-summary-report-age-gender-cql.md)
-* [Summary Report Composite Age Gender CQL (Measure)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
-* [Summary Report (Measure)](Measure-mii-msr-summary-report-fhir-data-evaluator.md)
-* [mii-msr-age-gender-separated-zensus-de-2011 (MeasureReport)](MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.md)
-* [mii-msr-age-gender-separated-zensus-de-2022 (MeasureReport)](MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.md)
-* [mii-msrpt-summary-report-zensus-2011 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-zensus-2011.md)
-* [mii-msrpt-summary-report-zensus-2022 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-zensus-2022.md)
+* [Measure Summary Report Age Gender CQL (Measure)](Measure-mii-msr-summary-report-age-gender-cql.md)
+* [Measure Summary Report Composite Age Gender CQL (Measure)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
+* [mii-msrpt-summary-report-age-gender-composite-zensus-2011 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.md)
+* [mii-msrpt-summary-report-age-gender-composite-zensus-2022 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.md)
+* [mii-msrpt-summary-report-age-gender-zensus-2011 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.md)
+* [mii-msrpt-summary-report-age-gender-zensus-2022 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.md)

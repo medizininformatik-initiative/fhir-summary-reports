@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary -  v0.1.0</title>
+    <title>Artifacts Summary - FHIR Summary Reports v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -50,7 +50,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span>
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Summary Reports</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -117,7 +117,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">SummaryReports - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/summary-reports/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Summary Reports - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/summary-reports/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -129,13 +129,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Terminology: Code Systems</a>
+         <a href="#1">Example: Example Instances</a>
       </li>
       <li>
-         <a href="#2">Example: Example Instances</a>
-      </li>
-      <li>
-         <a href="#3">Other</a>
+         <a href="#2">Other</a>
       </li>
    </ul>
 </div>
@@ -144,23 +141,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:html="http://www.w3.org/1999/xhtml">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>Terminology: Code Systems </h3>
-    <p>These define new code systems used by systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-mii-cs-summary-report-codes.html"
-                  title="CodeSystem/mii-cs-summary-report-codes">Summary Report Codes</a>
-            </td>
-            <td>
-<p>Codes used in summary reports</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="2"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -168,26 +148,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Library-mii-lib-stratifier-age-gender.html"
-                  title="Library/mii-lib-stratifier-age-gender">Patient Age and Gender Stratification Library</a>
+               <a href="Bundle-mii-bdl-measure-library-transaction-bundle.html"
+                  title="Bundle/mii-bdl-measure-library-transaction-bundle">Bundle Measure and Library Resources</a>
             </td>
             <td>
-<p>CQL library for calculating patient ages and gender-based stratifications</p>
+<p>Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Measure-mii-msr-summary-report-fhir-data-evaluator.html"
-                  title="Measure/mii-msr-summary-report-fhir-data-evaluator">Summary Report</a>
+               <a href="Library-mii-lib-stratifier-age-gender.html"
+                  title="Library/mii-lib-stratifier-age-gender">Library CQL age and gender stratifications</a>
             </td>
             <td>
-<p>Summary Report that uses FHIRPath and works with the FHIR Data Evaluator</p>
+<p>Library resources with CQL content for calculating patient age and gender stratifications</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Measure-mii-msr-summary-report-age-gender-cql.html"
-                  title="Measure/mii-msr-summary-report-age-gender-cql">Summary Report Age Gender CQL</a>
+                  title="Measure/mii-msr-summary-report-age-gender-cql">Measure Summary Report Age Gender CQL</a>
             </td>
             <td>
 <p>Summary Report with gender and 5-year age group stratification using CQL matching German census data structure</p>
@@ -196,7 +176,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tr>
             <td style="column-width:30%">
                <a href="Measure-mii-msr-summary-report-composite-gender-age-cql.html"
-                  title="Measure/mii-msr-summary-report-composite-gender-age-cql">Summary Report Composite Age Gender CQL</a>
+                  title="Measure/mii-msr-summary-report-composite-gender-age-cql">Measure Summary Report Composite Age Gender CQL</a>
             </td>
             <td>
 <p>Summary Report with gender and age decade stratification using CQL in a composite stratifier</p>
@@ -204,52 +184,43 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Bundle-mii-bdl-measure-library-transaction-bundle.html"
-                  title="Bundle/mii-bdl-measure-library-transaction-bundle">mii-bdl-measure-library-transaction-bundle</a>
+               <a href="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.html"
+                  title="MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011">MeasureReport Age Gender Zensus 2011</a>
             </td>
             <td>
-
+<p>MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2011 data</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.html"
-                  title="MeasureReport/mii-msr-age-gender-separated-zensus-de-2011">mii-msr-age-gender-separated-zensus-de-2011</a>
+               <a href="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.html"
+                  title="MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022">MeasureReport Age Gender Zensus 2022</a>
             </td>
             <td>
-
+<p>MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.html"
-                  title="MeasureReport/mii-msr-age-gender-separated-zensus-de-2022">mii-msr-age-gender-separated-zensus-de-2022</a>
+               <a href="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"
+                  title="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011">MeasureReport Composite Age Gender Zensus 2011</a>
             </td>
             <td>
-
+<p>MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="MeasureReport-mii-msrpt-summary-report-zensus-2011.html"
-                  title="MeasureReport/mii-msrpt-summary-report-zensus-2011">mii-msrpt-summary-report-zensus-2011</a>
+               <a href="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"
+                  title="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022">MeasureReport Composite Age Gender Zensus 2022</a>
             </td>
             <td>
-
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"
-                  title="MeasureReport/mii-msrpt-summary-report-zensus-2022">mii-msrpt-summary-report-zensus-2022</a>
-            </td>
-            <td>
-
+<p>MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2022 data</p>
 </td>
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="2"> </a>
    <h3>Other </h3>
     <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
 <table class="grid">
@@ -287,7 +258,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 28, 2025 15:28+0100">2025-10-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 13:33+0100">2025-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

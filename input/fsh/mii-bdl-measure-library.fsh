@@ -6,6 +6,8 @@ RuleSet: AddTransactionEntry(resourceType, resource)
 
 Instance: mii-bdl-measure-library-transaction-bundle
 InstanceOf: Bundle
+Title: "Bundle Measure and Library Resources"
+Description: "Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification"
 * type = #transaction
 * timestamp = "2025-09-30T17:24:00+02:00"
 * insert AddTransactionEntry(Library, mii-lib-stratifier-age-gender)

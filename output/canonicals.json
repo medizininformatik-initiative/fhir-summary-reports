@@ -1,12 +1,5 @@
 [
   {
-    "id" : "mii-msr-summary-report-fhir-data-evaluator",
-    "type" : "Measure",
-    "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReport",
-    "version" : "0.1.0",
-    "name" : "SummaryReport"
-  },
-  {
     "id" : "mii-msr-summary-report-age-gender-cql",
     "type" : "Measure",
     "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL",
@@ -26,13 +19,6 @@
     "url" : "https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender",
     "version" : "0.1.0",
     "name" : "StratifierAgeGender"
-  },
-  {
-    "id" : "mii-cs-summary-report-codes",
-    "type" : "CodeSystem",
-    "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/CodeSystem/mii-cs-summary-report-codes",
-    "version" : "0.1.0",
-    "name" : "MII_CS_Summary_Report_Codes"
   },
   {
     "id" : "summary-reports",

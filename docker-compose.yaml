@@ -3,12 +3,10 @@ services:
     image: "samply/blaze:latest"
     container_name: blaze
     environment:
-      DB_SEARCH_PARAM_BUNDLE: "/app/custom-search-parameters.json"
       LOG_LEVEL: "debug"
     ports:
       - "8080:8080"
     volumes:
-      - "./resources/Bundle-mii-meta-searchparam-collection-bundle.json:/app/custom-search-parameters.json:ro"
       - "blaze-data:/app/data"
     networks:
       - fhir-net
