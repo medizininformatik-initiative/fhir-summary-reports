@@ -6,8 +6,8 @@
 id: summary-reports
 canonical: https://www.medizininformatik-initiative.de/fhir/summary-reports
 name: SummaryReports
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: FHIR Summary Reports
+description: FHIR Summary Reports Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html

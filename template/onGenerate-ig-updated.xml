@@ -11,13 +11,17 @@
          <h2>SummaryReports</h2>
          <p>The official URL for this implementation guide is: </p>
          <pre>https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports</pre>
+         <div>
+            <p>FHIR Summary Reports Implementation Guide</p>
+         </div>
       </div>
    </text>
    <url value="https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports"/>
    <version value="0.1.0"/>
    <name value="SummaryReports"/>
+   <title value="FHIR Summary Reports"/>
    <status value="draft"/>
-   <date value="2025-10-28T15:28:28+01:00"/>
+   <date value="2025-11-03T12:10:32+01:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -26,6 +30,7 @@
          <value value="https://www.medizininformatik-initiative.de/"/>
       </telecom>
    </contact>
+   <description value="FHIR Summary Reports Implementation Guide"/>
    <packageId value="summary-reports"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
@@ -259,10 +264,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
          <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
       </extension>
-      <grouping id="-term-codesystem">
-         <name value="Terminology: Code Systems"/>
-         <description value="These define new code systems used by systems conforming to this implementation guide."/>
-      </grouping>
       <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
@@ -271,24 +272,6 @@
          <name value="Other"/>
          <description value="These are resources that are used within this implementation guide that do not fit into one of the other categories."/>
       </grouping>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-mii-cs-summary-report-codes.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/mii-cs-summary-report-codes"/>
-         </reference>
-         <name value="Summary Report Codes"/>
-         <description value="Codes used in summary reports"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
             <valueInteger value="999999999"/>
@@ -304,24 +287,6 @@
          </reference>
          <name value="Patient Age and Gender Stratification Library"/>
          <description value="CQL library for calculating patient ages and gender-based stratifications"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Measure"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Measure-mii-msr-summary-report-fhir-data-evaluator.html"/>
-         </extension>
-         <reference>
-            <reference value="Measure/mii-msr-summary-report-fhir-data-evaluator"/>
-         </reference>
-         <name value="Summary Report"/>
-         <description value="Summary Report that uses FHIRPath and works with the FHIR Data Evaluator"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -386,12 +351,12 @@
             <valueString value="MeasureReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.html"/>
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"/>
          </extension>
          <reference>
-            <reference value="MeasureReport/mii-msr-age-gender-separated-zensus-de-2011"/>
+            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
          </reference>
-         <name value="mii-msr-age-gender-separated-zensus-de-2011"/>
+         <name value="mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -403,12 +368,12 @@
             <valueString value="MeasureReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.html"/>
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"/>
          </extension>
          <reference>
-            <reference value="MeasureReport/mii-msr-age-gender-separated-zensus-de-2022"/>
+            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
          </reference>
-         <name value="mii-msr-age-gender-separated-zensus-de-2022"/>
+         <name value="mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -420,12 +385,12 @@
             <valueString value="MeasureReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2011.html"/>
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.html"/>
          </extension>
          <reference>
-            <reference value="MeasureReport/mii-msrpt-summary-report-zensus-2011"/>
+            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011"/>
          </reference>
-         <name value="mii-msrpt-summary-report-zensus-2011"/>
+         <name value="mii-msrpt-summary-report-age-gender-zensus-2011"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -437,12 +402,12 @@
             <valueString value="MeasureReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"/>
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.html"/>
          </extension>
          <reference>
-            <reference value="MeasureReport/mii-msrpt-summary-report-zensus-2022"/>
+            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022"/>
          </reference>
-         <name value="mii-msrpt-summary-report-zensus-2022"/>
+         <name value="mii-msrpt-summary-report-age-gender-zensus-2022"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -496,43 +461,33 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
-               <nameUrl value="CodeSystem-mii-cs-summary-report-codes.html"/>
-               <title value="Summary Report Codes"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Bundle-mii-bdl-measure-library-transaction-bundle.html"/>
                <title value="mii-bdl-measure-library-transaction-bundle"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.html"/>
-               <title value="mii-msr-age-gender-separated-zensus-de-2011"/>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"/>
+               <title value="mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.html"/>
-               <title value="mii-msr-age-gender-separated-zensus-de-2022"/>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"/>
+               <title value="mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="MeasureReport-mii-msrpt-summary-report-zensus-2011.html"/>
-               <title value="mii-msrpt-summary-report-zensus-2011"/>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.html"/>
+               <title value="mii-msrpt-summary-report-age-gender-zensus-2011"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="MeasureReport-mii-msrpt-summary-report-zensus-2022.html"/>
-               <title value="mii-msrpt-summary-report-zensus-2022"/>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.html"/>
+               <title value="mii-msrpt-summary-report-age-gender-zensus-2022"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Library-mii-lib-stratifier-age-gender.html"/>
                <title value="Patient Age and Gender Stratification Library"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Measure-mii-msr-summary-report-fhir-data-evaluator.html"/>
-               <title value="Summary Report"/>
                <generation value="generated"/>
             </page>
             <page>

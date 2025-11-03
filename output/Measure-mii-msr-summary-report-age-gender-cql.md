@@ -1,4 +1,4 @@
-# Summary Report Age Gender CQL - v0.1.0
+# Summary Report Age Gender CQL - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

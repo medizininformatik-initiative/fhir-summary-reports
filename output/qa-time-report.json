@@ -1,50 +1,45 @@
 {
-  "date" : "Tue, 28 Oct, 2025 15:28:50 +0100",
+  "date" : "Mon, 03 Nov, 2025 12:10:32 +0100",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-summary-reports.json",
-      "size" : 4188,
+      "size" : 3851,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 21,
+          "start" : 18,
           "length" : 8
         },
         {
-          "activity" : "loadDepInfo",
-          "start" : 22,
-          "length" : 1
-        },
-        {
           "activity" : "checkR4R4B",
-          "start" : 22,
-          "length" : 9
+          "start" : 18,
+          "length" : 10
         },
         {
           "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 47
+          "start" : 18,
+          "length" : 51
         },
         {
           "activity" : "validate",
-          "start" : 22,
-          "length" : 7725
+          "start" : 19,
+          "length" : 5824
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 58
+          "start" : 25,
+          "length" : 55
         },
         {
           "activity" : "generate2",
-          "start" : 35,
-          "length" : 39
+          "start" : 27,
+          "length" : 40
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 46,
-          "length" : 2
+          "start" : 37,
+          "length" : 4
         }
       ]
     },
@@ -54,79 +49,38 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
-          "length" : 7
+          "start" : 18,
+          "length" : 16
         },
         {
           "activity" : "load",
-          "start" : 21,
-          "length" : 64
+          "start" : 18,
+          "length" : 23
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 22,
+          "activity" : "load",
+          "start" : 18,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 47
-        },
-        {
-          "activity" : "validate",
-          "start" : 30,
-          "length" : 32
-        },
-        {
-          "activity" : "generate1",
-          "start" : 31,
-          "length" : 58
-        },
-        {
-          "activity" : "generate2",
-          "start" : 35,
+          "start" : 18,
           "length" : 45
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-mii-cs-summary-report-codes.json",
-      "size" : 685,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 21,
-          "length" : 4
-        },
-        {
-          "activity" : "load",
-          "start" : 21,
-          "length" : 7
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 22,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 12
         },
         {
           "activity" : "validate",
-          "start" : 22,
-          "length" : 19
+          "start" : 24,
+          "length" : 28
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 17
+          "start" : 26,
+          "length" : 56
         },
         {
           "activity" : "generate2",
-          "start" : 35,
-          "length" : 316
+          "start" : 28,
+          "length" : 51
         }
       ]
     },
@@ -136,37 +90,42 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
-          "length" : 4
+          "start" : 18,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 21,
+          "start" : 18,
           "length" : 8
         },
         {
+          "activity" : "load-configure",
+          "start" : 18,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 7
+          "start" : 18,
+          "length" : 11
         },
         {
           "activity" : "validate",
-          "start" : 30,
-          "length" : 15
+          "start" : 24,
+          "length" : 17
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 38
+          "start" : 26,
+          "length" : 37
         },
         {
           "activity" : "generate2",
-          "start" : 36,
+          "start" : 28,
           "length" : 14
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 46,
+          "start" : 37,
           "length" : 1
         }
       ]
@@ -177,33 +136,38 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
-          "length" : 4
-        },
-        {
-          "activity" : "load",
-          "start" : 21,
+          "start" : 18,
           "length" : 5
         },
         {
+          "activity" : "load",
+          "start" : 18,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 18,
+          "length" : 1
+        },
+        {
           "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 8
+          "start" : 18,
+          "length" : 7
         },
         {
           "activity" : "validate",
-          "start" : 30,
+          "start" : 24,
           "length" : 47
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 22
+          "start" : 26,
+          "length" : 19
         },
         {
           "activity" : "generate2",
-          "start" : 36,
-          "length" : 13
+          "start" : 28,
+          "length" : 14
         }
       ]
     },
@@ -213,228 +177,192 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
+          "start" : 18,
           "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 21,
-          "length" : 5
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 22,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 6
-        },
-        {
-          "activity" : "validate",
-          "start" : 30,
-          "length" : 5
-        },
-        {
-          "activity" : "generate1",
-          "start" : 31,
-          "length" : 21
-        },
-        {
-          "activity" : "generate2",
-          "start" : 36,
-          "length" : 15
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/Measure-mii-msr-summary-report-fhir-data-evaluator.json",
-      "size" : 1394,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 21,
+          "start" : 18,
           "length" : 4
         },
         {
-          "activity" : "load",
-          "start" : 22,
-          "length" : 5
-        },
-        {
           "activity" : "generateNarratives",
-          "start" : 22,
+          "start" : 18,
           "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 30,
-          "length" : 3
-        },
-        {
-          "activity" : "generate1",
-          "start" : 31,
-          "length" : 19
-        },
-        {
-          "activity" : "generate2",
-          "start" : 36,
-          "length" : 13
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.json",
-      "size" : 10876,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 21,
+          "start" : 24,
           "length" : 5
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 22,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 34
-        },
-        {
-          "activity" : "validate",
-          "start" : 30,
-          "length" : 27
-        },
-        {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 37
-        },
-        {
-          "activity" : "generate2",
-          "start" : 36,
-          "length" : 19
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/MeasureReport-mii-msr-age-gender-separated-zensus-de-2022.json",
-      "size" : 10876,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 21,
-          "length" : 5
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 22,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 6
-        },
-        {
-          "activity" : "validate",
-          "start" : 30,
+          "start" : 26,
           "length" : 18
         },
         {
-          "activity" : "generate1",
-          "start" : 31,
-          "length" : 36
+          "activity" : "generate2",
+          "start" : 28,
+          "length" : 12
         },
         {
-          "activity" : "generate2",
-          "start" : 36,
-          "length" : 15
+          "activity" : "generateLogicals",
+          "start" : 28,
+          "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2011.json",
-      "size" : 51495,
+      "name" : "fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.json",
+      "size" : 51516,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
+          "start" : 18,
           "length" : 7
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 22,
+          "start" : 18,
           "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 12
+          "start" : 18,
+          "length" : 45
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 30,
+          "start" : 24,
           "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 30,
-          "length" : 45
+          "start" : 24,
+          "length" : 50
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 95
+          "start" : 26,
+          "length" : 97
         },
         {
           "activity" : "generate2",
-          "start" : 36,
-          "length" : 29
+          "start" : 28,
+          "length" : 32
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 51,
+          "start" : 42,
           "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-zensus-2022.json",
-      "size" : 51497,
+      "name" : "fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.json",
+      "size" : 51518,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
-          "length" : 8
+          "start" : 18,
+          "length" : 7
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 22,
+          "start" : 18,
           "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 22,
-          "length" : 11
+          "start" : 19,
+          "length" : 14
         },
         {
           "activity" : "validate",
-          "start" : 30,
+          "start" : 25,
           "length" : 42
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 108
+          "start" : 26,
+          "length" : 95
         },
         {
           "activity" : "generate2",
-          "start" : 36,
-          "length" : 26
+          "start" : 28,
+          "length" : 27
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.json",
+      "size" : 10880,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 18,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 19,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 25,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 26,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 28,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.json",
+      "size" : 10880,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 18,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 19,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 25,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 26,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 28,
+          "length" : 14
         }
       ]
     },
@@ -444,33 +372,28 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
-          "length" : 10
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 22,
-          "length" : 1
+          "start" : 18,
+          "length" : 8
         },
         {
           "activity" : "generateNarratives",
-          "start" : 22,
+          "start" : 19,
           "length" : 4
         },
         {
           "activity" : "validate",
-          "start" : 30,
-          "length" : 659
+          "start" : 25,
+          "length" : 593
         },
         {
           "activity" : "generate1",
-          "start" : 32,
-          "length" : 36
+          "start" : 26,
+          "length" : 32
         },
         {
           "activity" : "generate2",
-          "start" : 36,
-          "length" : 18
+          "start" : 28,
+          "length" : 15
         }
       ]
     },
@@ -480,28 +403,71 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 21,
-          "length" : 8
+          "start" : 18,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 18,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 22,
+          "start" : 19,
           "length" : 3
         },
         {
           "activity" : "validate",
-          "start" : 31,
-          "length" : 18
+          "start" : 25,
+          "length" : 21
         },
         {
           "activity" : "generate1",
-          "start" : 32,
+          "start" : 26,
           "length" : 27
         },
         {
           "activity" : "generate2",
-          "start" : 36,
-          "length" : 16
+          "start" : 28,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/fsh-link-references.md",
+      "size" : 892,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 28,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 1043
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 3436
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 5422,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 28,
+          "length" : 1
         }
       ]
     }

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Home -  v0.1.0</title>
+    <title>Home - FHIR Summary Reports v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -50,7 +50,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span>
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Summary Reports</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -117,7 +117,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">SummaryReports - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/summary-reports/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Summary Reports - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/summary-reports/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -148,7 +148,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2025-10-28
+            as of 2025-11-03
           
         
       </td>
@@ -172,12 +172,187 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
-</div>
-<h1 id="summaryreports">SummaryReports</h1>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#fhir-summary-reports" id="markdown-toc-fhir-summary-reports">FHIR Summary Reports</a>    <ul>
+      <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
+      <li><a href="#features" id="markdown-toc-features">Features</a></li>
+      <li><a href="#fhir-artifacts" id="markdown-toc-fhir-artifacts">FHIR Artifacts</a>        <ul>
+          <li><a href="#libraries" id="markdown-toc-libraries">Libraries</a></li>
+          <li><a href="#measures" id="markdown-toc-measures">Measures</a></li>
+          <li><a href="#example-reports" id="markdown-toc-example-reports">Example Reports</a></li>
+          <li><a href="#bundle-resources" id="markdown-toc-bundle-resources">Bundle Resources</a></li>
+        </ul>
+      </li>
+      <li><a href="#stratification-approaches" id="markdown-toc-stratification-approaches">Stratification Approaches</a>        <ul>
+          <li><a href="#separate-stratifiers" id="markdown-toc-separate-stratifiers">Separate Stratifiers</a></li>
+          <li><a href="#composite-stratifiers" id="markdown-toc-composite-stratifiers">Composite Stratifiers</a></li>
+        </ul>
+      </li>
+      <li><a href="#age-group-classifications" id="markdown-toc-age-group-classifications">Age Group Classifications</a></li>
+      <li><a href="#technical-implementation" id="markdown-toc-technical-implementation">Technical Implementation</a>        <ul>
+          <li><a href="#cql-functions" id="markdown-toc-cql-functions">CQL Functions</a></li>
+          <li><a href="#fhir-resource-types" id="markdown-toc-fhir-resource-types">FHIR Resource Types</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
-<p>Feel free to modify this index page with your own awesome content!</p>
+</div>
+<h1 id="fhir-summary-reports">FHIR Summary Reports</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>This Implementation Guide provides a FHIR-based framework for generating basic population-level demographic summary statistics from patient data. It focuses on age distribution analysis and gender stratification using Clinical Quality Language (CQL) and FHIR Measure resources.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li><strong>Population Demographics</strong>: Calculate age distributions using 5-year age groups matching German census data structure</li>
+  <li><strong>Multiple Stratification Approaches</strong>: Support for both separate and composite demographic stratification</li>
+  <li><strong>CQL-Based Calculations</strong>: Age calculation logic</li>
+  <li><strong>Census Integration</strong>: Alignment with German Census 2011 and 2022 data structure for comparative analysis</li>
+</ul>
+
+<h2 id="fhir-artifacts">FHIR Artifacts</h2>
+
+<h3 id="libraries">Libraries</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Purpose</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="Library-mii-lib-stratifier-age-gender.html">Stratifier Age Gender</a></td>
+      <td>CQL logic for demographic calculations</td>
+      <td>Contains age calculation functions, 5-year age grouping and gender stratification</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="measures">Measures</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Approach</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="Measure-mii-msr-summary-report-age-gender-cql.html">Age Gender CQL</a></td>
+      <td>Separate Stratifiers</td>
+      <td>Independent age and gender demographic analysis</td>
+    </tr>
+    <tr>
+      <td><a href="Measure-mii-msr-summary-report-composite-gender-age-cql.html">Composite Gender Age CQL</a></td>
+      <td>Composite Stratifiers</td>
+      <td>Cross-tabulated age×gender combinations for detailed demographic intersections</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="example-reports">Example Reports</h3>
+
+<h4 id="german-census-data-2011-vs-2022">German Census Data (2011 vs 2022)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Census Year</th>
+      <th>Format</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.html">Zensus 2011 Report</a></td>
+      <td>2011</td>
+      <td>Separate stratifiers</td>
+    </tr>
+    <tr>
+      <td><a href="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.html">Zensus 2022 Report</a></td>
+      <td>2022</td>
+      <td>Separate stratifiers</td>
+    </tr>
+    <tr>
+      <td><a href="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html">Zensus 2011 Composite</a></td>
+      <td>2011</td>
+      <td>Composite format</td>
+    </tr>
+    <tr>
+      <td><a href="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html">Zensus 2022 Composite</a></td>
+      <td>2022</td>
+      <td>Composite format</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="bundle-resources">Bundle Resources</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="Bundle-mii-bdl-measure-library-transaction-bundle.html">Measure Library Transaction Bundle</a></td>
+      <td>Complete artifact deployment bundle</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="stratification-approaches">Stratification Approaches</h2>
+
+<h3 id="separate-stratifiers">Separate Stratifiers</h3>
+<ul>
+  <li><strong>Structure</strong>: Multiple independent stratifiers (age and gender analyzed separately)</li>
+  <li><strong>Use Case</strong>: Basic demographic summaries</li>
+  <li><strong>Output</strong>: Individual dimension counts (e.g., "6 males, 4 females" + "3 aged 40-44, 2 aged 45-49")</li>
+</ul>
+
+<h3 id="composite-stratifiers">Composite Stratifiers</h3>
+<ul>
+  <li><strong>Structure</strong>: Single stratifier with component dimensions</li>
+  <li><strong>Use Case</strong>: Detailed demographic intersection analysis</li>
+  <li><strong>Output</strong>: Cross-tabulated combinations (e.g., "2 males aged 40-44, 1 female aged 40-44")</li>
+</ul>
+
+<h2 id="age-group-classifications">Age Group Classifications</h2>
+
+<p>The implementation provides age classification scheme:</p>
+
+<ul>
+  <li><strong>5-Year Groups</strong>: 0-4, 5-9, 10-14, …, 85-89, 90+ (matches German census structure)</li>
+</ul>
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<h3 id="cql-functions">CQL Functions</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">AgeInYears</code>, <code class="language-plaintext highlighter-rouge">AgeInMonths</code>, <code class="language-plaintext highlighter-rouge">AgeInDays</code> - Age calculations</li>
+  <li><code class="language-plaintext highlighter-rouge">AgeFiveYearGroups</code> - German census-aligned age grouping</li>
+  <li><code class="language-plaintext highlighter-rouge">Gender</code> - Gender stratification</li>
+</ul>
+
+<h3 id="fhir-resource-types">FHIR Resource Types</h3>
+<ul>
+  <li><strong>Measure</strong>: Population measure definitions with CQL expressions</li>
+  <li><strong>Library</strong>: CQL logic packaging for reuse across measures</li>
+  <li><strong>MeasureReport</strong>: Example outputs demonstrating expected results</li>
+</ul>
+
 
 
 
@@ -197,7 +372,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 28, 2025 15:28+0100">2025-10-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  Package summary-reports#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 12:10+0100">2025-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

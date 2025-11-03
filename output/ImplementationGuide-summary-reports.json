@@ -3,13 +3,14 @@
   "id" : "summary-reports",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide summary-reports</b></p><a name=\"summary-reports\"> </a><a name=\"hcsummary-reports\"> </a><h2>SummaryReports</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide summary-reports</b></p><a name=\"summary-reports\"> </a><a name=\"hcsummary-reports\"> </a><h2>SummaryReports</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports</pre><div><p>FHIR Summary Reports Implementation Guide</p>\n</div></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/summary-reports/ImplementationGuide/summary-reports",
   "version" : "0.1.0",
   "name" : "SummaryReports",
+  "title" : "FHIR Summary Reports",
   "status" : "draft",
-  "date" : "2025-10-28T15:28:28+01:00",
+  "date" : "2025-11-03T12:10:32+01:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -18,6 +19,7 @@
       "value" : "https://www.medizininformatik-initiative.de/"
     }]
   }],
+  "description" : "FHIR Summary Reports Implementation Guide",
   "packageId" : "summary-reports",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
@@ -625,9 +627,9 @@
         "valueString" : "MeasureReport"
       }],
       "reference" : {
-        "reference" : "MeasureReport/mii-msr-age-gender-separated-zensus-de-2011"
+        "reference" : "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011"
       },
-      "name" : "mii-msr-age-gender-separated-zensus-de-2011",
+      "name" : "mii-msrpt-summary-report-age-gender-composite-zensus-2011",
       "exampleBoolean" : true
     },
     {
@@ -636,9 +638,9 @@
         "valueString" : "MeasureReport"
       }],
       "reference" : {
-        "reference" : "MeasureReport/mii-msr-age-gender-separated-zensus-de-2022"
+        "reference" : "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022"
       },
-      "name" : "mii-msr-age-gender-separated-zensus-de-2022",
+      "name" : "mii-msrpt-summary-report-age-gender-composite-zensus-2022",
       "exampleBoolean" : true
     },
     {
@@ -647,9 +649,9 @@
         "valueString" : "MeasureReport"
       }],
       "reference" : {
-        "reference" : "MeasureReport/mii-msrpt-summary-report-zensus-2011"
+        "reference" : "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011"
       },
-      "name" : "mii-msrpt-summary-report-zensus-2011",
+      "name" : "mii-msrpt-summary-report-age-gender-zensus-2011",
       "exampleBoolean" : true
     },
     {
@@ -658,9 +660,9 @@
         "valueString" : "MeasureReport"
       }],
       "reference" : {
-        "reference" : "MeasureReport/mii-msrpt-summary-report-zensus-2022"
+        "reference" : "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022"
       },
-      "name" : "mii-msrpt-summary-report-zensus-2022",
+      "name" : "mii-msrpt-summary-report-age-gender-zensus-2022",
       "exampleBoolean" : true
     },
     {
@@ -681,35 +683,11 @@
         "valueString" : "Measure"
       }],
       "reference" : {
-        "reference" : "Measure/mii-msr-summary-report-fhir-data-evaluator"
-      },
-      "name" : "Summary Report",
-      "description" : "Summary Report that uses FHIRPath and works with the FHIR Data Evaluator",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Measure"
-      }],
-      "reference" : {
         "reference" : "Measure/mii-msr-summary-report-age-gender-cql"
       },
       "name" : "Summary Report Age Gender CQL",
       "description" : "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/mii-cs-summary-report-codes"
-      },
-      "name" : "Summary Report Codes",
-      "description" : "Codes used in summary reports",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{

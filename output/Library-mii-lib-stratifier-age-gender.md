@@ -1,4 +1,4 @@
-# Patient Age and Gender Stratification Library - v0.1.0
+# Patient Age and Gender Stratification Library - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
