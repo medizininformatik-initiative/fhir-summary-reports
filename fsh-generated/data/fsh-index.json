@@ -29,7 +29,7 @@
     "fshType": "Instance",
     "fshFile": "mii-msr-summary-report-age-gender-cql.fsh",
     "startLine": 1,
-    "endLine": 35
+    "endLine": 54
   },
   {
     "outputFile": "Measure-mii-msr-summary-report-composite-gender-age-cql.json",

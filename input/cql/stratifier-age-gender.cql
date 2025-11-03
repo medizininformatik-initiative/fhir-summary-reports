@@ -117,3 +117,11 @@ define IsElderly:
 // Gender for stratification
 define Gender:
   Patient.gender
+
+// Numerator: Patients without age data
+define Numerator:
+  AgeInYears is null
+
+// Denominator: All patients in the initial population
+define Denominator:
+  InInitialPopulation

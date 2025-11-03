@@ -12,15 +12,34 @@ Usage: #example
 * description = "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure"
 * date = "2025-10-16"
 
+// Scoring type for proportion measure (numerator/denominator)
+* scoring = $measure-scoring#proportion
+* type = $measure-type#process
+* improvementNotation = $measure-improvement-notation#decrease
+
 // Reference to the CQL library for age calculations
 * library = "https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender"
 
-// Group definition
-* group.description = "Patient stratification by gender and 5-year age groups"
-* group.population.code = $measure-population#initial-population
-* group.population.criteria.language = #text/cql-identifier
-* group.population.criteria.expression = "InInitialPopulation"
-* group.population.id = "initial-population-identifier"
+// Single group with all populations defined correctly
+* group.description = "Patient stratification by gender and 5-year age groups with proportion scoring"
+
+// Initial population
+* group.population[0].code = $measure-population#initial-population
+* group.population[0].criteria.language = #text/cql-identifier
+* group.population[0].criteria.expression = "InInitialPopulation"
+* group.population[0].id = "initial-population-identifier"
+
+// Numerator population (patients without age)
+* group.population[1].code = $measure-population#numerator
+* group.population[1].criteria.language = #text/cql-identifier
+* group.population[1].criteria.expression = "Numerator"
+* group.population[1].id = "numerator-identifier"
+
+// Denominator population (all patients)
+* group.population[2].code = $measure-population#denominator
+* group.population[2].criteria.language = #text/cql-identifier
+* group.population[2].criteria.expression = "Denominator"
+* group.population[2].id = "denominator-identifier"
 
 // First stratifier: Gender
 * group.stratifier[0].criteria.language = #text/cql-identifier
