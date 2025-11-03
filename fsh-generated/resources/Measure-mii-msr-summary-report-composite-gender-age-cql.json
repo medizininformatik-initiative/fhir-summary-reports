@@ -1,6 +1,11 @@
 {
   "resourceType": "Measure",
   "id": "mii-msr-summary-report-composite-gender-age-cql",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"
+    ]
+  },
   "library": [
     "https://www.medizininformatik-initiative.de/fhir/Library/StratifierAgeGender"
   ],
@@ -70,7 +75,7 @@
   "experimental": false,
   "publisher": "MII",
   "name": "SummaryReportCompositeAgeGenderCQL",
-  "title": "Summary Report Composite Age Gender CQL",
+  "title": "Measure Summary Report Composite Age Gender CQL",
   "description": "Summary Report with gender and age decade stratification using CQL in a composite stratifier",
   "date": "2025-09-30"
 }

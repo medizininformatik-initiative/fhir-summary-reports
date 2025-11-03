@@ -36,6 +36,57 @@
           "stratum": [
             {
               "value": {
+                "text": "male"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "initial-population",
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population"
+                      }
+                    ]
+                  },
+                  "count": 41694020
+                }
+              ]
+            },
+            {
+              "value": {
+                "text": "female"
+              },
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "initial-population",
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population"
+                      }
+                    ]
+                  },
+                  "count": 44025138
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": [
+            {
+              "coding": [
+                {
+                  "code": "46251-5",
+                  "system": "http://loinc.org",
+                  "display": "Age group"
+                }
+              ]
+            }
+          ],
+          "stratum": [
+            {
+              "value": {
                 "text": "0-4"
               },
               "population": [

@@ -1,16 +1,16 @@
-# mii-msrpt-summary-report-age-gender-composite-zensus-2011 - FHIR Summary Reports v0.1.0
+# MeasureReport Composite Age Gender Zensus 2011 - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **mii-msrpt-summary-report-age-gender-composite-zensus-2011**
+* **MeasureReport Composite Age Gender Zensus 2011**
 
-## Example MeasureReport: mii-msrpt-summary-report-age-gender-composite-zensus-2011
+## Example MeasureReport: MeasureReport Composite Age Gender Zensus 2011
 
 **status**: Complete
 
 **type**: Summary
 
-**measure**: [Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
+**measure**: [Measure Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
 
 **date**: 2025-10-16
 

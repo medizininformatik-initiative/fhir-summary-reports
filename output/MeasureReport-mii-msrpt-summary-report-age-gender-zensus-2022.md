@@ -1,16 +1,16 @@
-# mii-msrpt-summary-report-age-gender-zensus-2022 - FHIR Summary Reports v0.1.0
+# MeasureReport Age Gender Zensus 2022 - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **mii-msrpt-summary-report-age-gender-zensus-2022**
+* **MeasureReport Age Gender Zensus 2022**
 
-## Example MeasureReport: mii-msrpt-summary-report-age-gender-zensus-2022
+## Example MeasureReport: MeasureReport Age Gender Zensus 2022
 
 **status**: Complete
 
 **type**: Summary
 
-**measure**: [Summary Report Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-age-gender-cql.md)
+**measure**: [Measure Summary Report Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-age-gender-cql.md)
 
 **date**: 2025-10-22 12:00:00+0000
 
@@ -26,6 +26,28 @@
 | * | Initial Population | 88212740 |
 
 > **stratifier****code**:Recorded sex or gender
+> **stratum****value**:male
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 42755931 |
+
+
+> **stratum****value**:female
+
+### Populations
+
+| | | |
+| :--- | :--- | :--- |
+| - | **Code** | **Count** |
+| * | Initial Population | 45456433 |
+
+
+
+> **stratifier****code**:Age group
 > **stratum****value**:0-4
 
 ### Populations
@@ -258,6 +280,57 @@
                   "system" : "http://loinc.org",
                   "code" : "99502-7",
                   "display" : "Recorded sex or gender"
+                }
+              ]
+            }
+          ],
+          "stratum" : [
+            {
+              "value" : {
+                "text" : "male"
+              },
+              "population" : [
+                {
+                  "code" : {
+                    "coding" : [
+                      {
+                        "system" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code" : "initial-population"
+                      }
+                    ]
+                  },
+                  "count" : 42755931
+                }
+              ]
+            },
+            {
+              "value" : {
+                "text" : "female"
+              },
+              "population" : [
+                {
+                  "code" : {
+                    "coding" : [
+                      {
+                        "system" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code" : "initial-population"
+                      }
+                    ]
+                  },
+                  "count" : 45456433
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code" : [
+            {
+              "coding" : [
+                {
+                  "system" : "http://loinc.org",
+                  "code" : "46251-5",
+                  "display" : "Age group"
                 }
               ]
             }

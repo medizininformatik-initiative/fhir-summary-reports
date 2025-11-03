@@ -13,14 +13,14 @@ These are example instances that show what data produced and consumed by systems
 
 | | |
 | :--- | :--- |
-| [Patient Age and Gender Stratification Library](Library-mii-lib-stratifier-age-gender.md) | CQL library for calculating patient ages and gender-based stratifications |
-| [Summary Report Age Gender CQL](Measure-mii-msr-summary-report-age-gender-cql.md) | Summary Report with gender and 5-year age group stratification using CQL matching German census data structure |
-| [Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md) | Summary Report with gender and age decade stratification using CQL in a composite stratifier |
-| [mii-bdl-measure-library-transaction-bundle](Bundle-mii-bdl-measure-library-transaction-bundle.md) |  |
-| [mii-msrpt-summary-report-age-gender-composite-zensus-2011](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.md) |  |
-| [mii-msrpt-summary-report-age-gender-composite-zensus-2022](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.md) |  |
-| [mii-msrpt-summary-report-age-gender-zensus-2011](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.md) |  |
-| [mii-msrpt-summary-report-age-gender-zensus-2022](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.md) |  |
+| [Bundle Measure and Library Resources](Bundle-mii-bdl-measure-library-transaction-bundle.md) | Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification |
+| [Library CQL age and gender stratifications](Library-mii-lib-stratifier-age-gender.md) | Library resources with CQL content for calculating patient age and gender stratifications |
+| [Measure Summary Report Age Gender CQL](Measure-mii-msr-summary-report-age-gender-cql.md) | Summary Report with gender and 5-year age group stratification using CQL matching German census data structure |
+| [Measure Summary Report Composite Age Gender CQL](Measure-mii-msr-summary-report-composite-gender-age-cql.md) | Summary Report with gender and age decade stratification using CQL in a composite stratifier |
+| [MeasureReport Age Gender Zensus 2011](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.md) | MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2011 data |
+| [MeasureReport Age Gender Zensus 2022](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.md) | MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data |
+| [MeasureReport Composite Age Gender Zensus 2011](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.md) | MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data |
+| [MeasureReport Composite Age Gender Zensus 2022](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.md) | MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2022 data |
 
 ### Other 
 

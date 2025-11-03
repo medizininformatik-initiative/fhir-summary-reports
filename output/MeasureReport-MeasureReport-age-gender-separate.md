@@ -14,7 +14,7 @@
 
 **type**: Summary
 
-**measure**: [Summary Report Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-age-gender-cql.md)
+**measure**: [Measure Summary Report Age Gender CQLversion: null0.1.0)](Measure-mii-msr-summary-report-age-gender-cql.md)
 
 **date**: 2025-10-17 12:10:34+0000
 

@@ -2,13 +2,14 @@
 Instance: mii-msr-summary-report-composite-gender-age-cql
 InstanceOf: Measure
 Usage: #example
+* meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"
 * version = "0.1.0"
 * url = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"
 * status = #active
 * experimental = false
 * publisher = "MII"
 * name = "SummaryReportCompositeAgeGenderCQL"
-* title = "Summary Report Composite Age Gender CQL"
+* title = "Measure Summary Report Composite Age Gender CQL"
 * description = "Summary Report with gender and age decade stratification using CQL in a composite stratifier"
 * date = "2025-09-30"
 

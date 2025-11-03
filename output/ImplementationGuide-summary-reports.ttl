@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "SummaryReports"] ; # 
   fhir:title [ fhir:v "FHIR Summary Reports"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-03T12:10:32+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-03T13:33:44+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Medizininformatik Initiative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Medizininformatik Initiative" ] ;
@@ -1313,87 +1313,8 @@
          fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/Bundle/mii-bdl-measure-library-transaction-bundle> ;
          fhir:reference [ fhir:v "Bundle/mii-bdl-measure-library-transaction-bundle" ]
        ] ;
-       fhir:name [ fhir:v "mii-bdl-measure-library-transaction-bundle" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "MeasureReport"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011> ;
-         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011" ]
-       ] ;
-       fhir:name [ fhir:v "mii-msrpt-summary-report-age-gender-composite-zensus-2011" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "MeasureReport"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022> ;
-         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022" ]
-       ] ;
-       fhir:name [ fhir:v "mii-msrpt-summary-report-age-gender-composite-zensus-2022" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "MeasureReport"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011> ;
-         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011" ]
-       ] ;
-       fhir:name [ fhir:v "mii-msrpt-summary-report-age-gender-zensus-2011" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "MeasureReport"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022> ;
-         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022" ]
-       ] ;
-       fhir:name [ fhir:v "mii-msrpt-summary-report-age-gender-zensus-2022" ] ;
+       fhir:name [ fhir:v "Bundle Measure and Library Resources" ] ;
+       fhir:description [ fhir:v "Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v true
@@ -1413,8 +1334,8 @@
          fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/Library/mii-lib-stratifier-age-gender> ;
          fhir:reference [ fhir:v "Library/mii-lib-stratifier-age-gender" ]
        ] ;
-       fhir:name [ fhir:v "Patient Age and Gender Stratification Library" ] ;
-       fhir:description [ fhir:v "CQL library for calculating patient ages and gender-based stratifications" ] ;
+       fhir:name [ fhir:v "Library CQL age and gender stratifications" ] ;
+       fhir:description [ fhir:v "Library resources with CQL content for calculating patient age and gender stratifications" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v true
@@ -1434,7 +1355,7 @@
          fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/Measure/mii-msr-summary-report-age-gender-cql> ;
          fhir:reference [ fhir:v "Measure/mii-msr-summary-report-age-gender-cql" ]
        ] ;
-       fhir:name [ fhir:v "Summary Report Age Gender CQL" ] ;
+       fhir:name [ fhir:v "Measure Summary Report Age Gender CQL" ] ;
        fhir:description [ fhir:v "Summary Report with gender and 5-year age group stratification using CQL matching German census data structure" ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -1455,8 +1376,92 @@
          fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/Measure/mii-msr-summary-report-composite-gender-age-cql> ;
          fhir:reference [ fhir:v "Measure/mii-msr-summary-report-composite-gender-age-cql" ]
        ] ;
-       fhir:name [ fhir:v "Summary Report Composite Age Gender CQL" ] ;
+       fhir:name [ fhir:v "Measure Summary Report Composite Age Gender CQL" ] ;
        fhir:description [ fhir:v "Summary Report with gender and age decade stratification using CQL in a composite stratifier" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011" ]
+       ] ;
+       fhir:name [ fhir:v "MeasureReport Age Gender Zensus 2011" ] ;
+       fhir:description [ fhir:v "MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2011 data" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022" ]
+       ] ;
+       fhir:name [ fhir:v "MeasureReport Age Gender Zensus 2022" ] ;
+       fhir:description [ fhir:v "MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011" ]
+       ] ;
+       fhir:name [ fhir:v "MeasureReport Composite Age Gender Zensus 2011" ] ;
+       fhir:description [ fhir:v "MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MeasureReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://www.medizininformatik-initiative.de/fhir/summary-reports/MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022> ;
+         fhir:reference [ fhir:v "MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022" ]
+       ] ;
+       fhir:name [ fhir:v "MeasureReport Composite Age Gender Zensus 2022" ] ;
+       fhir:description [ fhir:v "MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2022 data" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v true

@@ -20,8 +20,8 @@
 
 * [mii-bdl-measure-library-transaction-bundle (Bundle)](Bundle-mii-bdl-measure-library-transaction-bundle.md)
 * [Patient Age and Gender Stratification Library (Library)](Library-mii-lib-stratifier-age-gender.md)
-* [Summary Report Age Gender CQL (Measure)](Measure-mii-msr-summary-report-age-gender-cql.md)
-* [Summary Report Composite Age Gender CQL (Measure)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
+* [Measure Summary Report Age Gender CQL (Measure)](Measure-mii-msr-summary-report-age-gender-cql.md)
+* [Measure Summary Report Composite Age Gender CQL (Measure)](Measure-mii-msr-summary-report-composite-gender-age-cql.md)
 * [mii-msrpt-summary-report-age-gender-composite-zensus-2011 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.md)
 * [mii-msrpt-summary-report-age-gender-composite-zensus-2022 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.md)
 * [mii-msrpt-summary-report-age-gender-zensus-2011 (MeasureReport)](MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.md)

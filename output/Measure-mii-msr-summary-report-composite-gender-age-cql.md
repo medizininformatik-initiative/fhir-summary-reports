@@ -1,10 +1,10 @@
-# Summary Report Composite Age Gender CQL - FHIR Summary Reports v0.1.0
+# Measure Summary Report Composite Age Gender CQL - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Summary Report Composite Age Gender CQL**
+* **Measure Summary Report Composite Age Gender CQL**
 
-## Measure: Summary Report Composite Age Gender CQL 
+## Measure: Measure Summary Report Composite Age Gender CQL 
 
 | | |
 | :--- | :--- |
@@ -17,7 +17,7 @@ Summary Report with gender and age decade stratification using CQL in a composit
 * Knowledge Artifact Metadata: Name (machine-readable)
   * ?: SummaryReportCompositeAgeGenderCQL
 * Knowledge Artifact Metadata: Title (human-readable)
-  * ?: Summary Report Composite Age Gender CQL
+  * ?: Measure Summary Report Composite Age Gender CQL
 * Knowledge Artifact Metadata: Status
   * ?: Active
 * Knowledge Artifact Metadata: Experimental
@@ -51,10 +51,15 @@ Summary Report with gender and age decade stratification using CQL in a composit
 {
   "resourceType" : "Measure",
   "id" : "mii-msr-summary-report-composite-gender-age-cql",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"
+    ]
+  },
   "url" : "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
   "version" : "0.1.0",
   "name" : "SummaryReportCompositeAgeGenderCQL",
-  "title" : "Summary Report Composite Age Gender CQL",
+  "title" : "Measure Summary Report Composite Age Gender CQL",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-09-30",

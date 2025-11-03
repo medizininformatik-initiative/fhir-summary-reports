@@ -1,6 +1,8 @@
 Instance: mii-msrpt-summary-report-age-gender-zensus-2022
 InstanceOf: MeasureReport
 Usage: #example
+Title: "MeasureReport Age Gender Zensus 2022"
+Description: "MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data"
 * status = #complete
 * type = #summary
 * measure = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportAgeGenderCQL|0.1.0"
@@ -17,7 +19,7 @@ Usage: #example
 * group.stratifier[=].stratum[+].value.text = "female"
 * group.stratifier[=].stratum[=].population.code = $measure-population#initial-population
 * group.stratifier[=].stratum[=].population.count = 45456433
-
+* group.stratifier[+].code = $loinc#46251-5 "Age group"
 * group.stratifier[=].stratum[0].value.text = "0-4"
 * group.stratifier[=].stratum[=].population.code = $measure-population#initial-population
 * group.stratifier[=].stratum[=].population.count = 3877937

@@ -21,7 +21,7 @@
    <name value="SummaryReports"/>
    <title value="FHIR Summary Reports"/>
    <status value="draft"/>
-   <date value="2025-11-03T12:10:32+01:00"/>
+   <date value="2025-11-03T13:33:44+01:00"/>
    <publisher value="Medizininformatik Initiative"/>
    <contact>
       <name value="Medizininformatik Initiative"/>
@@ -277,6 +277,24 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Bundle"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Bundle-mii-bdl-measure-library-transaction-bundle.html"/>
+         </extension>
+         <reference>
+            <reference value="Bundle/mii-bdl-measure-library-transaction-bundle"/>
+         </reference>
+         <name value="Bundle Measure and Library Resources"/>
+         <description value="Transaction Bundle including Measure and Library for Summary Reports with Age and Gender Stratification"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Library"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -285,8 +303,8 @@
          <reference>
             <reference value="Library/mii-lib-stratifier-age-gender"/>
          </reference>
-         <name value="Patient Age and Gender Stratification Library"/>
-         <description value="CQL library for calculating patient ages and gender-based stratifications"/>
+         <name value="Library CQL age and gender stratifications"/>
+         <description value="Library resources with CQL content for calculating patient age and gender stratifications"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -303,7 +321,7 @@
          <reference>
             <reference value="Measure/mii-msr-summary-report-age-gender-cql"/>
          </reference>
-         <name value="Summary Report Age Gender CQL"/>
+         <name value="Measure Summary Report Age Gender CQL"/>
          <description value="Summary Report with gender and 5-year age group stratification using CQL matching German census data structure"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
@@ -321,59 +339,8 @@
          <reference>
             <reference value="Measure/mii-msr-summary-report-composite-gender-age-cql"/>
          </reference>
-         <name value="Summary Report Composite Age Gender CQL"/>
+         <name value="Measure Summary Report Composite Age Gender CQL"/>
          <description value="Summary Report with gender and age decade stratification using CQL in a composite stratifier"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Bundle"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Bundle-mii-bdl-measure-library-transaction-bundle.html"/>
-         </extension>
-         <reference>
-            <reference value="Bundle/mii-bdl-measure-library-transaction-bundle"/>
-         </reference>
-         <name value="mii-bdl-measure-library-transaction-bundle"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="MeasureReport"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"/>
-         </extension>
-         <reference>
-            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
-         </reference>
-         <name value="mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="MeasureReport"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"/>
-         </extension>
-         <reference>
-            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
-         </reference>
-         <name value="mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -390,7 +357,8 @@
          <reference>
             <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2011"/>
          </reference>
-         <name value="mii-msrpt-summary-report-age-gender-zensus-2011"/>
+         <name value="MeasureReport Age Gender Zensus 2011"/>
+         <description value="MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2011 data"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -407,7 +375,44 @@
          <reference>
             <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-zensus-2022"/>
          </reference>
-         <name value="mii-msrpt-summary-report-age-gender-zensus-2022"/>
+         <name value="MeasureReport Age Gender Zensus 2022"/>
+         <description value="MeasureReport for summary report Measure with stratification by age and gender based on Zensus 2022 data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
+         </reference>
+         <name value="MeasureReport Composite Age Gender Zensus 2011"/>
+         <description value="MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MeasureReport"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"/>
+         </extension>
+         <reference>
+            <reference value="MeasureReport/mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
+         </reference>
+         <name value="MeasureReport Composite Age Gender Zensus 2022"/>
+         <description value="MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2022 data"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -462,42 +467,42 @@
             <generation value="html"/>
             <page>
                <nameUrl value="Bundle-mii-bdl-measure-library-transaction-bundle.html"/>
-               <title value="mii-bdl-measure-library-transaction-bundle"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"/>
-               <title value="mii-msrpt-summary-report-age-gender-composite-zensus-2011"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"/>
-               <title value="mii-msrpt-summary-report-age-gender-composite-zensus-2022"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.html"/>
-               <title value="mii-msrpt-summary-report-age-gender-zensus-2011"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.html"/>
-               <title value="mii-msrpt-summary-report-age-gender-zensus-2022"/>
+               <title value="Bundle Measure and Library Resources"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Library-mii-lib-stratifier-age-gender.html"/>
-               <title value="Patient Age and Gender Stratification Library"/>
+               <title value="Library CQL age and gender stratifications"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Measure-mii-msr-summary-report-age-gender-cql.html"/>
-               <title value="Summary Report Age Gender CQL"/>
+               <title value="Measure Summary Report Age Gender CQL"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Measure-mii-msr-summary-report-composite-gender-age-cql.html"/>
-               <title value="Summary Report Composite Age Gender CQL"/>
+               <title value="Measure Summary Report Composite Age Gender CQL"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2011.html"/>
+               <title value="MeasureReport Age Gender Zensus 2011"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-zensus-2022.html"/>
+               <title value="MeasureReport Age Gender Zensus 2022"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2011.html"/>
+               <title value="MeasureReport Composite Age Gender Zensus 2011"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="MeasureReport-mii-msrpt-summary-report-age-gender-composite-zensus-2022.html"/>
+               <title value="MeasureReport Composite Age Gender Zensus 2022"/>
                <generation value="generated"/>
             </page>
             <page>

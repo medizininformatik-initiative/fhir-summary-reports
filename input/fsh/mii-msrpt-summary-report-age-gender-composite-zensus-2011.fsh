@@ -3,6 +3,8 @@
 Instance: mii-msrpt-summary-report-age-gender-composite-zensus-2011
 InstanceOf: MeasureReport
 Usage: #example
+Title: "MeasureReport Composite Age Gender Zensus 2011"
+Description: "MeasureReport for summary report Measure with composite stratification by age and gender based on Zensus 2011 data"
 * status = #complete
 * type = #summary
 * measure = "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL"

@@ -1,10 +1,10 @@
-# Patient Age and Gender Stratification Library - FHIR Summary Reports v0.1.0
+# Library CQL age and gender stratifications - FHIR Summary Reports v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Patient Age and Gender Stratification Library**
+* **Library CQL age and gender stratifications**
 
-## Library: Patient Age and Gender Stratification Library 
+## Library: Library CQL age and gender stratifications 
 
 | | |
 | :--- | :--- |
