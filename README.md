@@ -41,18 +41,75 @@ Upon completion, you'll see:
 - ✅ `MeasureReport-age-gender-composite.json`  
 - 📁 Files saved in `./resources/` directory
 
-### Option 2: Manual Setup with REST API Calls
+### Option 2: Step-by-Step Container Management
 
-**Step 1: Start the FHIR Server with Data**
+**When the automated script has network issues, run containers individually:**
+
+**Step 1: Start Blaze FHIR Server**
 ```bash
-# Start Blaze FHIR server with sample data
-docker compose up -d blaze blaze-init
+# Start only the Blaze server first
+docker compose up -d blaze
+```
+
+**Step 2: Load Sample Data**
+```bash
+# Run the data initialization container
+# This loads: sample Patient data, Measure definitions, and Library resource containing CQL content
+docker compose up blaze-init
+```
+
+**Step 3: Run Measure Evaluation**
+```bash
+# Run the measure evaluation (builds automatically if needed)
+docker compose up measure-evaluator
+```
+
+**Step 4: View Results**
+```bash
+# Results are automatically saved to local directory via volume mount
+ls -la ./resources/MeasureReport-*.json
+
+# View the reports
+cat ./resources/MeasureReport-age-gender-separate.json
+cat ./resources/MeasureReport-age-gender-composite.json
+```
+
+**Debugging Commands:**
+```bash
+# Check container status
+docker compose ps
+
+# View logs for specific services
+docker compose logs blaze
+docker compose logs blaze-init
+docker compose logs measure-evaluator
+
+# Test network connectivity between containers
+docker compose exec blaze curl http://localhost:8080/fhir/metadata
+
+# Check if data was loaded
+curl -s "http://localhost:8080/fhir/Patient?_summary=count" | jq .total
+```
+
+### Option 3: Manual Setup with REST API Calls
+
+**Step 1: Start Blaze FHIR Server**
+```bash
+# Start only the Blaze server first
+docker compose up -d blaze
+```
+
+**Step 2: Load Sample Data**
+```bash
+# Run the data initialization container
+# This loads: sample Patient data, Measure definitions, and Library resource containing CQL content
+docker compose up blaze-init
 
 # Wait for server to be ready (about 15-30 seconds)
 curl -f http://localhost:8080/fhir/metadata
 ```
 
-**Step 2: Evaluate Measures via REST API**
+**Step 3: Evaluate Measures via REST API**
 
 **Separate Stratifiers (Age and Gender independently):**
 ```bash
@@ -68,7 +125,7 @@ curl -s "http://localhost:8080/fhir/Measure/mii-msr-summary-report-composite-gen
   -H "Accept: application/fhir+json"
 ```
 
-**Step 3: Stop the Environment**
+**Step 4: Stop the Environment**
 ```bash
 docker compose down
 ```
@@ -134,6 +191,44 @@ Provides comprehensive patient age calculations and demographic stratification:
 ```
 
 ## Troubleshooting
+
+### Container Network Issues
+If you encounter "network not found" errors with the automated script:
+
+**Option A: Use Step-by-Step Approach (Recommended)**
+```bash
+# Follow Option 2 or 3 above for manual container management
+# This avoids network timing issues
+```
+
+**Option B: Force Network Recreation**
+```bash
+# Clean up Docker state completely
+docker compose down -v
+docker system prune -f
+docker network prune -f
+
+# Restart with network recreation
+docker compose up --force-recreate -d blaze
+sleep 20
+docker compose up blaze-init
+docker compose up measure-evaluator
+```
+
+**Option C: Network Debugging**
+```bash
+# Check existing networks
+docker network ls
+
+# Inspect the project network
+docker network inspect fhir-summary-reports_default
+
+# Remove specific network if stuck
+docker network rm fhir-summary-reports_default
+
+# Restart services
+docker compose up -d blaze
+```
 
 ### Docker Network Issues
 If you encounter "network not found" errors:
