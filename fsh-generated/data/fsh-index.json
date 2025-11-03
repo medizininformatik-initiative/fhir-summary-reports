@@ -40,14 +40,6 @@
     "endLine": 40
   },
   {
-    "outputFile": "Measure-mii-msr-summary-report-fhir-data-evaluator.json",
-    "fshName": "mii-msr-summary-report-fhir-data-evaluator",
-    "fshType": "Instance",
-    "fshFile": "mii-msr-summary-report-fhir-data-evaluator.fsh",
-    "startLine": 5,
-    "endLine": 26
-  },
-  {
     "outputFile": "MeasureReport-mii-msr-age-gender-separated-zensus-de-2011.json",
     "fshName": "mii-msr-age-gender-separated-zensus-de-2011",
     "fshType": "Instance",

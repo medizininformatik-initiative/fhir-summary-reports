@@ -1,6 +1,6 @@
 /*
  * Stratifer uses FHIRPath and works with the FHIR Data Evaluator
- */
+
 
 Instance: mii-msr-summary-report-fhir-data-evaluator
 InstanceOf: Measure
@@ -25,3 +25,4 @@ Usage: #example
 * group.stratifier.code = $loinc#99502-7 "Recorded sex or gender"
 * group.stratifier.id = "strat-1"
 
+ */

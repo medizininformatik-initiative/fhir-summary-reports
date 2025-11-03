@@ -82,14 +82,6 @@
       },
       {
         "reference": {
-          "reference": "Measure/mii-msr-summary-report-fhir-data-evaluator"
-        },
-        "name": "Summary Report",
-        "description": "Summary Report that uses FHIRPath and works with the FHIR Data Evaluator",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Measure/mii-msr-summary-report-age-gender-cql"
         },
         "name": "Summary Report Age Gender CQL",
