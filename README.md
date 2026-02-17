@@ -1,6 +1,8 @@
 # fhir-summary-reports
 
-Implementation Guide and examples for generating population-level summary statistics (e.g., age distribution, gender distribution) from FHIR data.
+Implementation Guide (IG) and examples for generating population-level summary statistics (e.g., age distribution, gender distribution) from FHIR data.
+
+Main IG deployment: https://medizininformatik-initiative.github.io/fhir-summary-reports/
 
 ## Overview
 
