@@ -1,9 +1,9 @@
 {
   "resourceType": "MeasureReport",
-  "id": "mii-msrpt-age-gender-zensus-2011-deutschland",
+  "id": "mii-msrpt-age-gender-zensus-2011-13-mecklenburg-vorpommern",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Zensus 2011 - Deutschland<\/b>: population by age group and recorded sex or gender<\/p><p><b>status<\/b>: complete, <b>type<\/b>: summary, <b>period<\/b>: 2011<\/p><p><b>Initial population<\/b>: 80219694<\/p><table class=\"grid\"><tr><th>Age group<\/th><th>male<\/th><th>female<\/th><\/tr><tr><td>0-4<\/td><td>1714870<\/td><td>1624027<\/td><\/tr><tr><td>5-9<\/td><td>1809032<\/td><td>1716801<\/td><\/tr><tr><td>10-14<\/td><td>2021306<\/td><td>1919261<\/td><\/tr><tr><td>15-19<\/td><td>2057156<\/td><td>1956722<\/td><\/tr><tr><td>20-24<\/td><td>2463927<\/td><td>2371711<\/td><\/tr><tr><td>25-29<\/td><td>2455887<\/td><td>2416647<\/td><\/tr><tr><td>30-34<\/td><td>2385301<\/td><td>2366611<\/td><\/tr><tr><td>35-39<\/td><td>2378054<\/td><td>2364839<\/td><\/tr><tr><td>40-44<\/td><td>3209481<\/td><td>3141707<\/td><\/tr><tr><td>45-49<\/td><td>3547255<\/td><td>3452420<\/td><\/tr><tr><td>50-54<\/td><td>3113461<\/td><td>3092834<\/td><\/tr><tr><td>55-59<\/td><td>2668977<\/td><td>2750470<\/td><\/tr><tr><td>60-64<\/td><td>2298902<\/td><td>2403917<\/td><\/tr><tr><td>65-69<\/td><td>1999286<\/td><td>2174064<\/td><\/tr><tr><td>70-74<\/td><td>2247194<\/td><td>2614043<\/td><\/tr><tr><td>75-79<\/td><td>1413884<\/td><td>1856398<\/td><\/tr><tr><td>80-84<\/td><td>878797<\/td><td>1449285<\/td><\/tr><tr><td>85-89<\/td><td>369030<\/td><td>966045<\/td><\/tr><tr><td>90+<\/td><td>114135<\/td><td>435957<\/td><\/tr><\/table><\/div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Zensus 2011 - 13 Mecklenburg-Vorpommern<\/b>: population by age group and recorded sex or gender<\/p><p><b>status<\/b>: complete, <b>type<\/b>: summary, <b>period<\/b>: 2011<\/p><p><b>Initial population<\/b>: 1609982<\/p><table class=\"grid\"><tr><th>Age group<\/th><th>male<\/th><th>female<\/th><\/tr><tr><td>0-4<\/td><td>32283<\/td><td>31719<\/td><\/tr><tr><td>5-9<\/td><td>31678<\/td><td>30585<\/td><\/tr><tr><td>10-14<\/td><td>30815<\/td><td>29337<\/td><\/tr><tr><td>15-19<\/td><td>26415<\/td><td>24593<\/td><\/tr><tr><td>20-24<\/td><td>55147<\/td><td>49040<\/td><\/tr><tr><td>25-29<\/td><td>54209<\/td><td>47391<\/td><\/tr><tr><td>30-34<\/td><td>50052<\/td><td>43104<\/td><\/tr><tr><td>35-39<\/td><td>42990<\/td><td>37965<\/td><\/tr><tr><td>40-44<\/td><td>57349<\/td><td>54826<\/td><\/tr><tr><td>45-49<\/td><td>75897<\/td><td>72588<\/td><\/tr><tr><td>50-54<\/td><td>73119<\/td><td>71191<\/td><\/tr><tr><td>55-59<\/td><td>67939<\/td><td>68124<\/td><\/tr><tr><td>60-64<\/td><td>47004<\/td><td>48270<\/td><\/tr><tr><td>65-69<\/td><td>41511<\/td><td>46081<\/td><\/tr><tr><td>70-74<\/td><td>50411<\/td><td>61699<\/td><\/tr><tr><td>75-79<\/td><td>32370<\/td><td>44873<\/td><\/tr><tr><td>80-84<\/td><td>16844<\/td><td>30998<\/td><\/tr><tr><td>85-89<\/td><td>5564<\/td><td>17238<\/td><\/tr><tr><td>90+<\/td><td>1542<\/td><td>7221<\/td><\/tr><\/table><\/div>"
   },
   "status": "complete",
   "type": "summary",
@@ -25,7 +25,7 @@
               }
             ]
           },
-          "count": 80219694
+          "count": 1609982
         }
       ],
       "stratifier": [
@@ -72,7 +72,7 @@
                       }
                     ]
                   },
-                  "count": 1714870
+                  "count": 32283
                 }
               ]
             },
@@ -117,7 +117,7 @@
                       }
                     ]
                   },
-                  "count": 1624027
+                  "count": 31719
                 }
               ]
             },
@@ -162,7 +162,7 @@
                       }
                     ]
                   },
-                  "count": 1809032
+                  "count": 31678
                 }
               ]
             },
@@ -207,7 +207,7 @@
                       }
                     ]
                   },
-                  "count": 1716801
+                  "count": 30585
                 }
               ]
             },
@@ -252,7 +252,7 @@
                       }
                     ]
                   },
-                  "count": 2021306
+                  "count": 30815
                 }
               ]
             },
@@ -297,7 +297,7 @@
                       }
                     ]
                   },
-                  "count": 1919261
+                  "count": 29337
                 }
               ]
             },
@@ -342,7 +342,7 @@
                       }
                     ]
                   },
-                  "count": 2057156
+                  "count": 26415
                 }
               ]
             },
@@ -387,7 +387,7 @@
                       }
                     ]
                   },
-                  "count": 1956722
+                  "count": 24593
                 }
               ]
             },
@@ -432,7 +432,7 @@
                       }
                     ]
                   },
-                  "count": 2463927
+                  "count": 55147
                 }
               ]
             },
@@ -477,7 +477,7 @@
                       }
                     ]
                   },
-                  "count": 2371711
+                  "count": 49040
                 }
               ]
             },
@@ -522,7 +522,7 @@
                       }
                     ]
                   },
-                  "count": 2455887
+                  "count": 54209
                 }
               ]
             },
@@ -567,7 +567,7 @@
                       }
                     ]
                   },
-                  "count": 2416647
+                  "count": 47391
                 }
               ]
             },
@@ -612,7 +612,7 @@
                       }
                     ]
                   },
-                  "count": 2385301
+                  "count": 50052
                 }
               ]
             },
@@ -657,7 +657,7 @@
                       }
                     ]
                   },
-                  "count": 2366611
+                  "count": 43104
                 }
               ]
             },
@@ -702,7 +702,7 @@
                       }
                     ]
                   },
-                  "count": 2378054
+                  "count": 42990
                 }
               ]
             },
@@ -747,7 +747,7 @@
                       }
                     ]
                   },
-                  "count": 2364839
+                  "count": 37965
                 }
               ]
             },
@@ -792,7 +792,7 @@
                       }
                     ]
                   },
-                  "count": 3209481
+                  "count": 57349
                 }
               ]
             },
@@ -837,7 +837,7 @@
                       }
                     ]
                   },
-                  "count": 3141707
+                  "count": 54826
                 }
               ]
             },
@@ -882,7 +882,7 @@
                       }
                     ]
                   },
-                  "count": 3547255
+                  "count": 75897
                 }
               ]
             },
@@ -927,7 +927,7 @@
                       }
                     ]
                   },
-                  "count": 3452420
+                  "count": 72588
                 }
               ]
             },
@@ -972,7 +972,7 @@
                       }
                     ]
                   },
-                  "count": 3113461
+                  "count": 73119
                 }
               ]
             },
@@ -1017,7 +1017,7 @@
                       }
                     ]
                   },
-                  "count": 3092834
+                  "count": 71191
                 }
               ]
             },
@@ -1062,7 +1062,7 @@
                       }
                     ]
                   },
-                  "count": 2668977
+                  "count": 67939
                 }
               ]
             },
@@ -1107,7 +1107,7 @@
                       }
                     ]
                   },
-                  "count": 2750470
+                  "count": 68124
                 }
               ]
             },
@@ -1152,7 +1152,7 @@
                       }
                     ]
                   },
-                  "count": 2298902
+                  "count": 47004
                 }
               ]
             },
@@ -1197,7 +1197,7 @@
                       }
                     ]
                   },
-                  "count": 2403917
+                  "count": 48270
                 }
               ]
             },
@@ -1242,7 +1242,7 @@
                       }
                     ]
                   },
-                  "count": 1999286
+                  "count": 41511
                 }
               ]
             },
@@ -1287,7 +1287,7 @@
                       }
                     ]
                   },
-                  "count": 2174064
+                  "count": 46081
                 }
               ]
             },
@@ -1332,7 +1332,7 @@
                       }
                     ]
                   },
-                  "count": 2247194
+                  "count": 50411
                 }
               ]
             },
@@ -1377,7 +1377,7 @@
                       }
                     ]
                   },
-                  "count": 2614043
+                  "count": 61699
                 }
               ]
             },
@@ -1422,7 +1422,7 @@
                       }
                     ]
                   },
-                  "count": 1413884
+                  "count": 32370
                 }
               ]
             },
@@ -1467,7 +1467,7 @@
                       }
                     ]
                   },
-                  "count": 1856398
+                  "count": 44873
                 }
               ]
             },
@@ -1512,7 +1512,7 @@
                       }
                     ]
                   },
-                  "count": 878797
+                  "count": 16844
                 }
               ]
             },
@@ -1557,7 +1557,7 @@
                       }
                     ]
                   },
-                  "count": 1449285
+                  "count": 30998
                 }
               ]
             },
@@ -1602,7 +1602,7 @@
                       }
                     ]
                   },
-                  "count": 369030
+                  "count": 5564
                 }
               ]
             },
@@ -1647,7 +1647,7 @@
                       }
                     ]
                   },
-                  "count": 966045
+                  "count": 17238
                 }
               ]
             },
@@ -1692,7 +1692,7 @@
                       }
                     ]
                   },
-                  "count": 114135
+                  "count": 1542
                 }
               ]
             },
@@ -1737,7 +1737,7 @@
                       }
                     ]
                   },
-                  "count": 435957
+                  "count": 7221
                 }
               ]
             }
