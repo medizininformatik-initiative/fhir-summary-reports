@@ -1,0 +1,1749 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "mii-msrpt-age-gender-zensus-2011-02-hamburg",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Zensus 2011 - 02 Hamburg<\/b>: population by age group and recorded sex or gender<\/p><p><b>status<\/b>: complete, <b>type<\/b>: summary, <b>period<\/b>: 2011<\/p><p><b>Initial population<\/b>: 1706689<\/p><table class=\"grid\"><tr><th>Age group<\/th><th>male<\/th><th>female<\/th><\/tr><tr><td>0-4<\/td><td>40488<\/td><td>37981<\/td><\/tr><tr><td>5-9<\/td><td>37742<\/td><td>35679<\/td><\/tr><tr><td>10-14<\/td><td>38311<\/td><td>35612<\/td><\/tr><tr><td>15-19<\/td><td>37506<\/td><td>35906<\/td><\/tr><tr><td>20-24<\/td><td>50057<\/td><td>57097<\/td><\/tr><tr><td>25-29<\/td><td>64067<\/td><td>72240<\/td><\/tr><tr><td>30-34<\/td><td>68953<\/td><td>68075<\/td><\/tr><tr><td>35-39<\/td><td>62186<\/td><td>59028<\/td><\/tr><tr><td>40-44<\/td><td>72463<\/td><td>68480<\/td><\/tr><tr><td>45-49<\/td><td>71224<\/td><td>68506<\/td><\/tr><tr><td>50-54<\/td><td>56606<\/td><td>58193<\/td><\/tr><tr><td>55-59<\/td><td>45554<\/td><td>49339<\/td><\/tr><tr><td>60-64<\/td><td>44348<\/td><td>47144<\/td><\/tr><tr><td>65-69<\/td><td>41645<\/td><td>44388<\/td><\/tr><tr><td>70-74<\/td><td>42444<\/td><td>49989<\/td><\/tr><tr><td>75-79<\/td><td>25475<\/td><td>35191<\/td><\/tr><tr><td>80-84<\/td><td>15943<\/td><td>28066<\/td><\/tr><tr><td>85-89<\/td><td>7688<\/td><td>20102<\/td><\/tr><tr><td>90+<\/td><td>2750<\/td><td>10223<\/td><\/tr><\/table><\/div>"
+  },
+  "status": "complete",
+  "type": "summary",
+  "measure": "https://medizininformatik-initiative.de/fhir/Measure/SummaryReportCompositeAgeGenderCQL",
+  "date": "2026-10-05",
+  "period": {
+    "start": "2011",
+    "end": "2011"
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "initial-population"
+              }
+            ]
+          },
+          "count": 1706689
+        }
+      ],
+      "stratifier": [
+        {
+          "stratum": [
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "0-4"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 40488
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "0-4"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 37981
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "5-9"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 37742
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "5-9"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 35679
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "10-14"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 38311
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "10-14"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 35612
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "15-19"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 37506
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "15-19"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 35906
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "20-24"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 50057
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "20-24"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 57097
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "25-29"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 64067
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "25-29"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 72240
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "30-34"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 68953
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "30-34"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 68075
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "35-39"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 62186
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "35-39"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 59028
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "40-44"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 72463
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "40-44"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 68480
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "45-49"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 71224
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "45-49"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 68506
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "50-54"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 56606
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "50-54"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 58193
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "55-59"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 45554
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "55-59"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 49339
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "60-64"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 44348
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "60-64"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 47144
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "65-69"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 41645
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "65-69"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 44388
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "70-74"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 42444
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "70-74"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 49989
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "75-79"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 25475
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "75-79"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 35191
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "80-84"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 15943
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "80-84"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 28066
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "85-89"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 7688
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "85-89"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 20102
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "90+"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "male"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 2750
+                }
+              ]
+            },
+            {
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "46251-5",
+                        "display": "Age group"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "90+"
+                  }
+                },
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "99502-7",
+                        "display": "Recorded sex or gender"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "text": "female"
+                  }
+                }
+              ],
+              "population": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                        "code": "initial-population"
+                      }
+                    ]
+                  },
+                  "count": 10223
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
